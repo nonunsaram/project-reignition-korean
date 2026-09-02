@@ -1,0 +1,2414 @@
+id	ko
+Sonic & Shahra's lines must end in '_so' & '_sh' respectively.	Retail English Translation.
+secret_rings_title	소닉과 비밀의 링
+any_button	아무 버튼이나 누르세요
+system	
+load_level	미션 불러오는 중
+load_probes	라이트 프로브 불러오는 중
+sys_select	선택
+sys_cancel	취소
+sys_yes	예
+sys_no	아니요
+sys_delete	삭제
+sys_clear	지우기
+sys_delete_description	이 저장 데이터를 삭제하시겠습니까?
+sys_control_mode_description	조작 스타일을 선택해 주세요.
+sys_control_mode_reconfig	스킬 선택 메뉴에서 언제든 변경할 수 있습니다.
+sys_retail_control	원작
+sys_reignited_control	리이그니션
+sys_traditional_control	자유 조작
+sys_retail_description	Wii 원작의 자동 주행과 차지 점프를 재현합니다.\n원작의 조작을 선호하는 분께 권장합니다.
+sys_reignited_description	레일형 조작을 현대적인 컨트롤러에 맞게 개선합니다.\n대부분의 플레이어에게 권장합니다.
+sys_traditional_description	레일형 조작을 완전히 없앱니다.\n스테이지 설계와 어울리지 않을 수 있습니다.\n원하는 조작이 확실한 분께 권장합니다.
+sys_retry	재도전
+sys_next	다음
+sys_back	뒤로
+sys_return	돌아가기
+sys_skip	건너뛰기
+sys_quit	종료
+sys_quit_description	게임을 종료하시겠습니까?
+sys_presets	프리셋
+sys_save	저장
+sys_overwrite	덮어쓰기
+sys_load	불러오기
+sys_rename	이름 변경
+sys_skill	스킬 편집
+sys_skill_total	스킬 합계
+sys_skill_cost	스킬 비용
+sys_sort	정렬
+sys_sort_default	기본 순서
+sys_sort_name	이름
+sys_sort_cost	비용
+sys_sort_wind	바람
+sys_sort_fire	불꽃
+sys_sort_dark	어둠
+sys_reset	초기화
+sys_reset_description	이 프리셋을 초기화하시겠습니까?
+sys_new_preset	새 프리셋
+sys_delete_preset_description	이 프리셋을 삭제하시겠습니까?
+sys_bgm	BGM 변경
+sys_pause	일시정지
+pause_continue	계속하기
+pause_restart	다시 시작
+pause_status	상태
+pause_quit	나가기
+pause_mission	미션
+pause_skill	스킬
+pause_status_description	현재 소닉의 상태를 확인합니다.
+pause_mission_description	현재 플레이 중인 미션의\n정보를 확인합니다.
+pause_skill_description	현재 장착한 스킬의\n정보를 확인합니다.
+pause_lv	레벨
+pause_high_score	최고 점수
+pause_score	점수
+pause_best_time	최고 기록
+pause_time	시간
+pause_stage_exp	스테이지 경험치
+pause_total_exp	총 경험치
+pause_gauge	소울 게이지
+pause_fire_soul	파이어 소울
+pause_medal	메달
+pause_no_skill	현재 장착한 스킬이 없습니다.
+status_header	상태
+status_level	레벨
+status_ring	링 개수
+status_fire_soul	파이어 소울 개수
+status_skill_points	스킬 포인트
+status_soul_gauge	최대 소울 게이지
+status_total_exp	총 경험치
+status_next_exp	다음 레벨까지
+status_next_story	다음 스토리 미션
+sys_world_locked	아직 이 월드를 선택할 수 없습니다.
+sys_mode_adventure	사라져 가는 아라비안 나이트의\n세계를 모험합니다.
+sys_mode_party	1~4명이 함께 즐길 수 있는 미니게임이\n가득한 파티 모드입니다.
+sys_mode_book	지금까지 획득한 페이지를\n볼 수 있습니다.
+sys_mode_option	게임 설정을 변경할 수 있습니다.
+sys_mode_timeattack	최고 기록에 도전하세요!
+sys_mode_timeattack_locked	게임을 한 번 클리어하면 잠금이 해제됩니다.
+sys_save_select	플레이할 저장 데이터를\n선택해 주세요.
+sys_new	NEW
+sys_map	월드
+sys_mission	미션
+sys_music_selector	음악 선택
+sys_customtracks	사용자 음악
+sys_maintracks	기본 음악
+sys_refresh	새로고침
+ta_title	타임 어택
+ta_newrun	새 도전
+ta_mode_title	도전 유형 선택
+ta_mode_standard	스탠더드
+ta_mode_mainmissions	미니멀리스트
+ta_mode_bossrush	보스 러시
+ta_mode_leaderboard	순위표
+ta_mode_singlerun	단일 도전
+ta_start	시작!
+ta_levellist	스테이지 목록
+ta_newrun_desc	새 타임 어택을 시작합니다!
+ta_mode_singlerun_desc	개별 스테이지에 도전합니다.
+ta_mode_desc_anypercent	새 게임을 처음부터 진행합니다!\n알프 라일라 와 라일라를 쓰러뜨리면 기록이 종료됩니다.
+ta_mode_desc_goalpercent	모든 ‘골을 향해’ 스테이지에 도전합니다!\n나이트 팰리스를 완료하면 기록이 종료됩니다.
+ta_mode_desc_bossrush	모든 보스 스테이지에 도전합니다!\n알프 라일라 와 라일라를 쓰러뜨리면 기록이 종료됩니다.
+ta_start_desc	도전을 시작합니다!
+ta_levellist_desc	이번 도전에 포함된 스테이지를 표시합니다.
+ta_results_total	총 기록
+ta_results	결과
+ta_newrecord	신기록
+ta_continue	도전 계속하기
+ta_continue_desc	마지막으로 진행하던 도전을 계속합니다.
+ta_alert_overwrite	현재 도전 기록을 덮어쓰시겠습니까?
+ta_restartrun	도전 다시 시작
+ta_restarts	재시작 횟수
+spb_controls_random	무작위 재생
+spb_controls_zoom	확대/축소
+spb_controls_play	재생
+spb_controls_hide	메뉴 표시 전환
+spb_controls_move	이동
+spb_controls_scale	크기
+sys_options	옵션
+option_mute	음소거
+option_enable	켜기
+option_disable	끄기
+option_hold	길게 누르기
+option_toggle	전환
+option_both	둘 다
+option_attack	공격
+option_stomp	스톰프
+option_high	높음
+option_medium	중간
+option_low	낮음
+option_hard_shadows	하드 섀도
+option_retail	원작
+option_hud_e3	E3 2006
+option_reignited	리이그나이티드
+option_style1	스타일 1
+option_style2	스타일 2
+option_horizontal	가로
+option_vertical	세로
+option_video	화면
+option_audio	사운드
+option_lang	언어
+option_control	조작
+option_interface	인터페이스
+option_reset_settings	설정 초기화
+option_reset_controls	조작 설정 초기화
+option_target_display	대상 디스플레이
+option_display	디스플레이 0
+option_window_size	창 크기
+option_aspect	화면 비율
+option_fullscreen	전체 화면
+option_fullscreen_mode	전체 화면 모드
+option_custom	사용자 지정
+option_normal_fullscreen	테두리 없음
+option_exclusive_fullscreen	독점 전체 화면
+option_target_fps	목표 프레임률
+option_unlimited_fps	제한 없음
+option_fps	0 FPS
+option_vsync	수직 동기화
+option_render_scale	렌더링 배율
+option_resize_mode	크기 조정 모드
+option_antialiasing	안티앨리어싱
+option_post_processing	후처리
+option_bloom	블룸 품질
+option_shadow	그림자 품질
+option_reflection	반사 품질
+option_screen_shake	화면 흔들림
+option_motion_blur	모션 블러
+option_main_vol	전체 음량
+option_bgm_vol	음악 음량
+option_sfx_vol	효과음 음량
+option_voice_vol	음성 음량
+option_level_select_music	미션 선택 음악
+option_sub_toggle	자막
+option_dialog_toggle	게임 내 대사
+option_text_lang	텍스트 언어
+option_voice_lang	음성 언어
+option_controller_ui	버튼 유형
+option_deadzone	스틱 데드존
+option_break_mode	브레이크 스킬 방식
+option_jump_mode	점프 버튼 방식
+option_gyro	자이로 설정
+option_mouse	마우스 설정
+option_mapping	버튼 배치 변경
+option_party_mapping	파티 버튼 배치 변경
+option_mapping_test	조작 테스트
+option_controller_auto	자동 감지
+option_controller_ps	PlayStation
+option_controller_xbox	Xbox
+option_controller_nintendo	Nintendo
+option_controller_steam	Steam
+option_awaiting_input	입력을 기다리는 중…
+option_mouse_mode	마우스 모드
+option_mouse_positional	위치 기반
+option_mouse_motional	동작만
+option_mouse_vertical_tracking	세로 추적
+option_mouse_motion_sensitivity	동작 감도
+option_mouse_deadzone	위치 데드존
+option_mouse_horizontal_range	가로 범위
+option_mouse_vertical_range	세로 범위
+option_mouse_vertical_offset	세로 오프셋
+option_gyro_mode	자이로 모드
+option_gyro_deadzone	자이로 데드존
+option_gyro_sensitivity	자이로 감도
+option_hud_style	HUD 스타일
+option_button_style	버튼 스타일
+option_soul_style	소울 게이지 스타일
+option_action_prompts	액션 안내
+option_branding	브랜딩
+option_ingame_subtitle_opacity	게임 내 자막 불투명도
+option_cutscene_subtitle_opacity	컷신 자막 불투명도
+option_levelmods_enabled	레벨 MOD
+option_charamods_enabled	캐릭터 MOD
+option_langmods_enabled	언어 MOD
+option_mod_folder	MOD 폴더 열기
+option_player	플레이어
+option_device	컨트롤러
+option_player_number	플레이어 0
+option_device_number	컨트롤러 0
+option_reset_settings_description	옵션을 기본 설정으로 초기화하시겠습니까?
+option_reset_controls_description	버튼 배치를 기본 설정으로 초기화하시겠습니까?
+option_quick_load	빠른 로딩(실험 기능)
+option_quick_load_alert	빠른 로딩을 사용하시겠습니까?\n이 옵션은 로딩 시간을 줄이지만 일부 컴퓨터에서 드물게 게임이 종료될 수 있습니다.\n\n(옵션 메뉴에서 언제든 변경할 수 있습니다.)
+move_up	위
+move_down	아래
+move_left	왼쪽
+move_right	오른쪽
+button_jump	점프
+button_action	액션
+button_speedbreak	스피드 브레이크
+button_timebreak	타임 브레이크
+button_pause	일시정지
+button_attack	공격
+button_brake	브레이크
+button_light_dash	라이트 스피드 대시
+button_step_left	왼쪽 스텝
+button_step_right	오른쪽 스텝
+button_primary	주 액션
+button_secondary	보조 액션
+camera_up	위 보기
+camera_down	아래 보기
+camera_left	왼쪽 보기
+camera_right	오른쪽 보기
+lang_local	한국어
+lang_en	영어
+lang_ja	일본어
+lang_es	스페인어
+lang_fr	프랑스어
+lang_it	이탈리아어
+lang_de	독일어
+lang_pt_BR	브라질 포르투갈어
+lang_pl	폴란드어
+lang_zh	중국어
+lang_tr	튀르키예어
+lang_se	스웨덴어
+lang_es_US	스페인어(라틴 아메리카)
+lang_ru	러시아어
+action_jump	점프
+action_exit	나가기
+action_launch	발사
+action_ascend	상승
+action_shuffle	셔플
+action_grindstep	그라인드 스텝
+action_stomp	스톰프
+action_swing	스윙
+action_charge	차지
+action_attack	공격
+action_pull	당기기
+action_escape	탈출
+unlock_mission	새 미션이 스테이지 선택 목록에 추가되었습니다!
+unlock_mission_multiple	새 미션들이 스테이지 선택 목록에 추가되었습니다!
+unlock_skill	새 스킬을 사용할 수 있게 되었습니다!
+unlock_skill_multiple	새 스킬들을 사용할 수 있게 되었습니다!
+unlock_page	스페셜 북에\n새 페이지가 추가되었습니다!
+unlock_page_multiple	스페셜 북에\n새 페이지들이 추가되었습니다!
+unlock_world	[AREA]이(가) 추가되었습니다!\n월드 선택에서 고를 수 있습니다.
+unlock_ring_sand_oasis	기쁨의 링을 획득했습니다!
+unlock_ring_dinosaur_jungle	증오의 링을 획득했습니다!
+unlock_ring_evil_foundry	분노의 링을 획득했습니다!
+unlock_ring_levitated_ruin	기도의 링을 획득했습니다!
+unlock_ring_pirate_storm	즐거움의 링을 획득했습니다!
+unlock_ring_skeleton_dome	소원의 링을 획득했습니다!
+unlock_ring_night_palace	슬픔의 링을 획득했습니다!
+unlock_minigame	파티 모드에\n새 미니게임이 추가되었습니다!
+unlock_fire_soul	FIRE S@UL을 획득했습니다!
+unlock_time_attack	타임 어택 모드를 사용할 수 있게 되었습니다!\n메인 메뉴에서 선택할 수 있습니다.
+mission_tutorial01	제01절
+mission_tutorial02	제02절
+mission_tutorial03	제03절
+mission_tutorial04	제04절
+mission_tutorial05	제05절
+mission_tutorial06	제06절
+mission_tutorial07	제07절
+mission_tutorial08	제08절
+mission_tutorial09	제09절
+mission_tutorial10	제10절
+mission_tutorial11	제11절
+mission_tutorial12	제12절
+mission_tutorial13	제13절
+mission_tutorial14	제14절
+mission_tutorial15	제15절
+mission_tutorial16	제16절
+mission_tutorial17	제17절
+mission_tutorial18	제18절
+mission_tutorial19	제19절
+mission_tutorial20	제20절
+mission_tutorial21	제21절
+mission_locked	??????
+mission_goal	골을 향해
+mission_special	스페셜 챌린지
+mission_deathless	다이하드 챌린지
+mission_perfect	퍼펙트 챌린지
+mission_time	비트 더 클록
+mission_enemy	램페이지!
+mission_enemyless	스텔스 어택
+mission_race	헤드 투 헤드
+mission_ring	링 수집
+mission_ringless	핸즈 오프
+mission_ring_chain	링 체인
+mission_pearless	노 펄
+mission_boss	보스 격파
+mission_last	라스트 챕터
+mission_description_locked	이 미션은 아직 열리지 않았습니다.
+mission_description_goal	골을 향해 나아가라!
+mission_description_charge_jump	차지 점프를 사용해\n골을 향해 나아가라!
+mission_description_jump_dash	점프 대시를 사용해\n골을 향해 나아가라!
+mission_description_homing_attack	호밍 어택으로\n마신 10마리를 쓰러뜨려라!
+mission_description_brake	브레이크를 사용해\n골을 향해 나아가라!
+mission_description_backstep	백스텝을 사용해\n링 25개를 모아라!
+mission_description_accel_jump	숏 점프를 사용해\n골을 향해 나아가라!
+mission_description_grind	그라인드를 사용해\n골을 향해 나아가라!
+mission_description_speed_break	스피드 브레이크를 사용해\n골을 향해 나아가라!
+mission_description_time_break	타임 브레이크를 사용해\n골을 향해 나아가라!
+mission_description_volcano_slider	볼케이노 슬라이더로\n마신 3마리를 쓰러뜨려라!
+mission_description_perfect_homing_attack	퍼펙트 호밍 어택으로\n마신 3마리를 쓰러뜨려라!
+mission_description_fire_gaze	파이어 게이즈를 사용해\n나무 상자 20개를 부숴라!
+mission_description_down_cancel	다운 캔슬을 사용해\n골을 향해 나아가라!
+mission_description_backflip	백플립을 사용해\n링 25개를 모아라!
+mission_description_splash_jump	스플래시 점프를 사용해\n골을 향해 나아가라!
+mission_description_rocket_start	로켓 스타트를 사용해\n골을 향해 나아가라!
+mission_description_quick_step	퀵 스텝을 사용해\n골을 향해 나아가라!
+mission_description_quick_slide	퀵 슬라이드를 사용해\n골을 향해 나아가라!
+mission_description_time_attack1	타임 어택 1\n스테이지를 최대한 빠르게 돌파하라!
+mission_description_time_attack2	타임 어택 2\n스테이지를 최대한 빠르게 돌파하라!
+mission_description_deathless	한 번도 쓰러지지 말고 나아가라!
+mission_description_perfect	피해를 받지 말고 나아가라!
+mission_description_race	우후보다 먼저 골에 도착하라!
+mission_description_ringless	링을 하나도 갖지 않고 골에 도착하라!
+mission_description_pearless	펄을 하나도 얻지 말고 나아가라!
+mission_description_enemyless	마신을 쓰러뜨리지 말고 서둘러라!
+mission_description_enemy_1	마신 1마리를 쓰러뜨려라!
+mission_description_enemy_10	마신 10마리를 쓰러뜨려라!
+mission_description_enemy_15	마신 15마리를 쓰러뜨려라!
+mission_description_enemy_20	마신 20마리를 쓰러뜨려라!
+mission_description_enemy_40	마신 40마리를 쓰러뜨려라!
+mission_description_ring_10	링 10개를 모아라!
+mission_description_ring_25	링 25개를 모아라!
+mission_description_ring_50	링 50개를 모아라!
+mission_description_ring_80	링 80개를 모아라!
+mission_description_ring_99	링 99개를 모아라!
+mission_description_ring_100	링 100개를 모아라!
+mission_description_ring_chain_30	링 체인 30회를 달성하라!
+mission_description_ring_chain_50	링 체인 50회를 달성하라!
+mission_description_ring_chain_60	링 체인 60회를 달성하라!
+mission_description_ring_chain_100	링 체인 100회를 달성하라!
+mission_description_time_45	45초 안에 돌파하라!
+mission_description_time_90	90초 안에 돌파하라!
+mission_description_time_100	100초 안에 돌파하라!
+mission_description_time_120	120초 안에 돌파하라!
+mission_description_lp_main	이레이저 진을 찾아내라!
+mission_description_so_main	샤흐리야르 왕궁으로 서둘러라!
+mission_description_so_jar	항아리 5개를 부숴라!
+mission_description_so_jarless	항아리를 깨지 말고 나아가라!
+mission_description_so_boss	대결! 샌드 스코피온!
+mission_description_dj_main	서둘러 익룡을 쫓아라!
+mission_description_dj_genie_eggs	마신의 알 5개를 부숴라!
+mission_description_dj_dino_eggs	공룡의 둥지에 알을 옮겨라!
+mission_description_ef_main	최심부로 서둘러라!
+mission_description_ef_time	제한 시간 안에 출구로 서둘러라!
+mission_description_ef_boss	대결! 이프리트 골렘!
+mission_description_lr_main	신드바드를 찾아내라!
+mission_description_lr_cage	신드바드의 감옥을 열어라!
+mission_description_ps_main	폭풍우 치는 바다를 건너 해적단을 쫓아라!
+mission_description_ps_boss	대결! 캡틴 베모스!
+mission_description_sd_main	솔로몬 왕을 찾아라!
+mission_description_sd_bones	해골 왕의 뼈를 모아라!
+mission_description_np_main	궁전 최심부로 돌입하라!
+mission_description_np_boss	대결! 이레이저 진!
+mission_description_np_last	라스트 챕터!
+common_start_so	가자, 샤라!
+common_start2_so	좋아,\n시작해 볼까!
+common_start3_so	좋아,\n가자!
+common_start4_so	간다, 샤라!
+common_start_sh	조심해, 소닉!
+common_start2_sh	행운을 빌게, 소닉!
+common_start3_sh	재밌겠는걸!
+common_start4_sh	소닉, 천천히 가!
+common_advice_so	어떡하면 좋을까, 샤라?
+common_advice_sh	계속 가야지, 당연히!
+common_resolution_so	해 보자고!
+common_resolution_sh	소닉, 잠깐만!
+common_unknown_so	뭐야?
+common_unknown_sh	음... 저건 뭐지?
+common_confused_so	이봐! 무슨 일이야?
+common_confused_sh	여기서 할 수 있는 일이 있을 것 같아.
+common_concern_sh	괜찮아, 소닉?
+common_concern2_sh	무리하지 마.
+common_confident_so	나만 믿어!
+common_goal_so	골을 향해 가자!
+common_dizzy_so	와후!
+common_dizzy2_so	좋았어, 끝내주는데!
+common_dizzy3_so	야호!
+common_dizzy_sh	으아아아!\n어지러워!
+common_dizzy2_sh	꺄악!
+common_dizzy3_sh	우, 우와아!
+common_secret_so	좋아! 그럴 줄 알았어!
+common_secret_sh	운이 좋네, 소닉!
+common_collect_so	헤헤, 이건 내가 챙길게!
+common_collect_sh	잘했어!
+common_caution_so	샤라, 조심해!
+common_caution_sh	으악!
+common_caution2_so	여긴 조심해서 가자.
+common_caution2_sh	조심해서 가.
+common_jump_so	점프!
+common_jump2_so	야호!
+common_jump_sh	좋아!
+common_jump2_sh	얍!
+common_fall_so	우와!
+common_fall2_so	아래 조심해!
+common_fall_sh	떨어지고 있어!
+common_fall2_sh	으아아아!
+common_recovery_so	헤, 문제없어!
+common_recovery2_so	잠깐 걱정했잖아.
+common_recovery_sh	아슬아슬했어!
+common_recovery2_sh	정말 아슬아슬했네!
+common_worry_so	이봐, 걱정하지 마!
+common_worry_sh	소닉, 괜찮아?
+common_lap_sh	한 바퀴 돌았어!
+common_lap_so	하나 끝! 아직 더 남았어!
+common_end_so	좋아!
+common_end_sh	조금만 더 힘내, 소닉!
+common_halfway_so	알겠어!
+common_halfway_sh	거의 절반쯤 왔어!
+common_encourage_so	좋아, 알았다고!
+common_encourage_sh	계속 가, 소닉!
+common_up_so	위로 가자.
+common_up_sh	저쪽 위로 가 봐.
+common_up2_so	여기로 올라가 볼까.
+common_up2_sh	여기로 올라가 보자.
+common_down_so	아래로 가야겠어.
+common_down_sh	아래로 가 보자.
+common_down2_so	아래로 가 볼까.
+common_down2_sh	아래로 가 보자.
+common_feeling_so	왠지 불길한데.
+common_feeling_sh	불길한 예감이 들어.\n조심해.
+common_heights_so	우와. 여기선 떨어지면 안 되겠어.
+common_heights_sh	떨어지지 않게 조심해.
+common_enemy_so	이봐, 손님이 왔는데!
+common_enemy2_so	이야, 누가 왔나 했더니!
+common_enemy3_so	흥! 또 성가신 녀석들이군!
+common_enemy4_so	헤, 전부 상대해 주지!
+common_enemy5_so	우와, 여기도 있잖아?
+common_enemy6_so	손이 좀 바쁘겠는걸.
+common_enemy7_so	도대체 몇 마리야?!
+common_enemy8_so	아하! 내 길을 막겠다는 거지?
+common_enemy_sh	이레이저의 부하들이야!
+common_enemy2_sh	조심해, 소닉!
+common_enemy3_sh	해치워 버려, 소닉!
+common_enemy4_sh	너무 방심하지 마, 소닉.
+common_enemy5_sh	아, 소닉! 조심해!
+common_enemy6_sh	소닉, 우리 괜찮을까?
+common_enemy7_sh	끝이 없네!
+common_enemy8_sh	쓰러뜨려, 소닉!
+common_victory_so	하, 식은 죽 먹기였어!
+common_victory2_so	정령들이 할 수 있는 게 이게 다야?
+common_victory3_so	휴, 제법 거칠었는데!
+common_victory4_so	이봐, 저 정도는 아무것도 아니지!
+common_victory5_so	이봐, 문제없어.\n나만 믿어!
+common_victory_sh	대단해, 소닉!
+common_victory2_sh	방심하지 마, 소닉.\n아직 신경 쓸 일이 남았어.
+common_victory3_sh	소닉, 다친 데 없어?
+common_victory4_sh	잘했어, 소닉!
+common_victory5_sh	소닉, 이번 건 꽤 아슬아슬했어!
+common_red_majin_sh	조심해. 붉은 정령은 불을 뿜을 수 있어.
+common_enemy_pearl_sh	소닉, 저 정령들을 쓰러뜨리면\n진주를 얻을 수 있어!
+common_enemy_lock_sh	정령들을 쓰러뜨려야 해, 소닉.
+common_enemy_lock2_sh	먼저 정령들을 모두 쓰러뜨려, 소닉.
+common_hint_ring_sh	링이 하나라도 있으면\n맞아도 다치지 않아.
+common_hint_fire_soul_sh	이 빨간 링은 파이어 소울이야.
+common_hint_treasure_sh	저건 보물 상자야.\n열어서 안을 확인해 봐!
+common_hint_thorn_spring_sh	가시가 없는 공에는\n호밍 어택을 사용할 수 있어.
+common_hint_pot_sh	[button_action]을 눌러 위로 날아올라.
+common_hint_pot_exit_sh	[button_jump]을 눌러\n날으는 항아리에서 내릴 수 있어.
+common_hint_pot_tilt_sh	날아가는 동안 좌우로 기울이면\n이동할 수 있어.
+common_hint_catapult3_sh	이 투석기는 이전 것과\n각도가 다른 것 같아.
+common_hint_jump_carpet_sh	카펫을 타고 높이 날아오른 뒤\n호밍 어택을 하면,
+common_hint_jump_carpet2_sh	더 높이 올라갈 수 있어.
+common_hint_majin_stone_sh	이 돌에는 지니의 마력이 가득해.
+common_hint_spikes_sh	저 가시를 조심해, 소닉!
+common_hint_flames_sh	소닉, 불꽃을 조심해!
+common_hint_spikeball_sh	가시 달린 공을 조심해, 소닉!
+common_hint_ball_spin_sh	이것들이 너무 빨리 돌지 않게\n할 방법이 없을까?
+common_hint_ball_spin_so	좀 더 천천히 돈다면\n훨씬 쉬울 텐데.
+common_hint_murmur_sh	(소곤소곤...\n소닉, 이 소리를 들어 봐.)
+common_hint_uhu_sh	(이 빛의 구체는 빠르기로 유명한\n바람의 지니 우후야.)
+warning_nomods	설치된 모드 없음
+warning_nomods_description	설치된 레벨 모드가 없습니다.
+world_mods	MOD
+world_mods_description	MOD 스테이지를 플레이합니다.
+lost_prologue	로스트 프롤로그
+lost_prologue_description	사라져 가는 서장.
+lp_strafe_sh	좌우로 입력하면\n좌우로 이동할 수 있어.
+lp_jump_sh	[button_jump]을 누르면 점프해!
+lp_full_jump_sh	[button_jump]을 길게 누를수록\n더 높이 점프할 수 있어.
+lp_lockon_sh	점프 중 록온 마크가 나타나면\n호밍 어택을 쓸 수 있다는 신호야.
+lp_lockon2_sh	록온 마크가 녹색에서 빨간색으로\n바뀌면 [button_attack]을 눌러.
+lp_brake_sh	[button_brake] 버튼을 누르면 브레이크야!
+lp_backstep_sh	뒤로 입력하면 뒤로 이동할 수 있어.
+lp_grind_sh	각진 모서리가 있는 곳에 올라가면\n그라인드할 수 있을 때가 있어.
+lp_jumpdash_sh	점프 중 [button_attack]을 누르면\n점프 대시야.
+lp_enemychain_sh	적을 빠르게 연속으로 쓰러뜨리면\n적 체인이 시작돼.
+lp_enemychain2_sh	지면에 착지하면\n체인이 초기화돼.
+lp_ring_chain_sh	링을 모으면\n링 체인이 시작돼.
+lp_ring_chain2_sh	링 체인이 끝나면\n길이에 따라 점수 보너스를 받아.
+lp_adv_grind_sh	그라인드 중 [button_action]을 누르면\n속도를 유지할 수 있어.
+lp_adv_grind2_sh	[button_action]을 길게 눌렀다 떼면\n속도를 더 높일 수 있어.
+lp_adv_grindstep_sh	좌우로 입력하면서 [button_jump]을 누르면\n그라인드 스텝이야.
+lp_adv_grindstep2_sh	그라인드 스텝 중 [button_action]을 누르면\n근처 레일에 착지할 수 있어.
+lp_adv_grindstep3_sh	그라인드 스텝에 성공하면\n스텝 보너스를 받아.
+ 	(Vous obtiendrez un bonus de score\nsi vous réussissez un Grind Step.)
+lp_adv_accel_jump_sh	[button_jump]을 짧게 누르면\n숏 점프야.
+lp_adv_accel_jump2_sh	숏 점프를 쓰면 빠르게\n최고 속도에 도달할 수 있어.
+lp_pearls_sh	펄을 얻으면 소울 게이지가 차올라.
+lp_speedbreak_desc_sh	스피드 브레이크 중에는\n초고속으로 달릴 수 있어.
+lp_speedbreak_input_sh	소울 게이지가 차 있을 때\n[button_speedbreak]을 누르면 스피드 브레이크야.
+lp_timebreak_desc_sh	타임 브레이크 중에는 주위의 시간을\n느리게 만들 수 있어.
+lp_timebreak_input_sh	소울 게이지가 차 있을 때\n[button_timebreak]을 누르면 타임 브레이크야.
+lp_perfect_homing_attack_sh	녹색 마크가 빨간 원과 겹칠 때 [button_attack]을 누르면\n퍼펙트 호밍 어택이야.
+lp_perfect_homing_attack2_sh	퍼펙트 호밍 어택은 일반 호밍 어택보다\n이동 속도가 빠르고 공격력이 높아.
+lp_perfect_homing_attack3_sh	퍼펙트 호밍 어택 중에는\n방어력도 높아져.
+lp_volcano_slider_sh	[button_crouch]을 계속 누르면\n슬라이딩이야.
+lp_volcano_slider2_sh	슬라이딩 중에는 적에게 피해를 주거나\n장애물을 부술 수 있어.
+lp_fire_gaze_sh	점프 중 [button_action]을 누르면\n바로 아래를 공격할 수 있어!
+lp_down_cancel_sh	피해를 받아 날아가는 동안 [button_jump]을 누르면\n곧바로 자세를 바로잡을 수 있어.
+lp_backflip_sh	뒤로 이동하면서 [button_jump]을 짧게 누르면\n재빨리 뒤로 도약할 수 있어.
+lp_splash_jump_sh	점프 대시로 벽에 부딪히면\n그대로 벽을 뛰어넘을 수 있어.
+lp_quickstep_sh	전진하면서 [button_step_left]/[button_step_right]을 누르면\n좌우로 빠르게 스텝해.
+lp_quickslide_sh	전진하면서 [button_step_left]/[button_step_right]을 길게 누르면\n좌우로 슬라이드해.
+sand_oasis	샌드 오아시스
+sand_oasis_description	사막에 펼쳐진 유적군.
+oas_opening_so	우선 왕궁으로 가면 되는 거지?
+oas_opening_sh	응, 서두르자!
+oas_pillar_sh	마법으로 기둥이 움직이기 시작했어!\n조심해!
+oas_uturn_sh	잠깐, 이 앞은 벽이야!
+oas_uturn_so	살짝 유턴해야겠네.
+oas_interior_sh	안은 시원하네.
+oas_interior_so	그렇지도 않은 것 같은데.
+oas_sandfall_event_sh	뭐, 뭐야!?
+oas_sandfall_event_so	우와!
+oas_sandfall_event2_so	하!
+oas_sandfall_event3_so	휴! 큰일 날 뻔했네.
+oas_pier_sh	저 부두만 지나면 바로 마을이야.
+oas_town_so	정말? 이제 왕궁도 가까운 건가?
+oas_palace_so	보인다! 저거구나.
+oas_palace_sh	저기! 저게 왕궁이야.
+oas_return_sh	준비는 다 됐어?
+oas_return_so	샤라! 지금부터 내 스피드를 보여 줄게!
+oas_boss_intro_so	흐음, 강해 보이는데.\n덤벼!
+oas_boss_hint1_sh	꼬리 공격을 조심해!
+oas_boss_hint2_sh	등에 있는 커다란 눈이\n약점인 것 같아!
+oas_boss_hint3_sh	저 전갈 꼬리를 타고\n등의 눈까지 갈 수 있지 않을까?
+oas_boss_hint4_sh	역시 저 커다란 눈이\n약점 아닐까…?
+oas_boss_hit1_sh	굉장해!\n효과가 큰 것 같아!
+oas_boss_hit1_so	역시!\n저 눈이 약점이었군!
+oas_boss_hit2_so	큭, 끈질긴 녀석이네!
+oas_boss_hit3_so	슬슬 끝내 볼까!
+oas_boss_hit4_sh	이제 조금만 더!
+oas_boss_defeat_so	미안하지만\n갈 길이 바빠서 말이야!
+oas_idle_heat_so	뜨거워! 가시가 따끔거린다고!
+oas_idle_shoes_so	정말, 신발 속이 모래투성이잖아!
+oas_idle_beach_sh	해변이 이렇게…
+oas_idle_sandfall_so	모래 폭포?
+oas_idle_sandfall_sh	잠깐, 폭포 구경할 때가 아니잖아!
+dinosaur_jungle	다이너소어 정글
+dinosaur_jungle_description	공룡이 지배하는 숲.
+din_event_trio_so	우와! 뭔가 쫓아오는데!
+din_event_trio_sh	트리케라톱스야!\n몹시 화가 났어!
+din_event_trio2_so	내가 뭐 잘못했나?
+din_event_trio2_sh	모르겠어!\n지금은 일단 도망치자!!
+din_event_trio3_so	끈질긴 녀석들이네!
+din_event_trio3_sh	앞에 있는 다리까지만 도망치면\n분명 괜찮을 거야!
+din_event_river_so	우와아아!\n안 돼애애애!!
+din_event_river_sh	소닉!
+din_event_river2_so	휴! 큰일 날 뻔했네!
+din_event_river2_sh	소닉, 혹시 수영 못 해?
+din_split_sh	길이 갈라져 있어.
+din_split_so	어느 쪽이 나은지 알려 줘.
+din_flower_sh	꽃… 마신?
+din_flower_so	성가시게 생긴 녀석이네!
+din_event_apato_so	이런!
+din_event_apato2_so	이얏! 고마워!
+din_rex_sh	불길한 예감이 들어.
+din_rex_so	그래, 등골이 찌릿찌릿한데…
+din_rex_lower_so	우와!\n산 넘어 산이란 건가?
+din_rex_lower_sh	상당히 흥분한 모양이야!
+din_rex_tail_sh	꼬리를 잘 봐!
+din_rex_tail_so	알고 있다니까!
+din_rex_upper_so	엄청 배가 고픈 모양이네!
+din_rex_upper_sh	물리지 않게 조심해!
+din_flowers_so	그럼 꽃구경이라도 가 볼까?
+din_flowers_sh	정말! 태평하다니까!
+din_flowerbed_so	이야!\n대단한 꽃밭이잖아!
+din_flowerbed_sh	방심하지 마, 소닉!
+din_majin_egg_sh	마신의 알이야.\n부숴 둬, 소닉!
+din_egg_so	이건…
+din_egg_sh	공룡 알이네?\n내가 마법으로 들고 갈게.
+din_nest_so	여긴 공룡 알 둥지…인가?
+din_nest_sh	응. 같은 무늬의 알을 찾아서\n가져오자.
+din_trio_hint_so	저 녀석들, 가끔 돌진해 온다고!
+din_trio_hint_sh	머리를 흔들면 돌진해 올 거야!
+din_cacti_hint_so	선인장에 찔리면 아프겠는데!
+din_cacti_hint_sh	선인장을 조심해!
+din_boat_hint_so	좌우로 기울여서\n방향을 바꾸는 거야!
+din_boat_hint_sh	좌우로 기울여서\n방향을 바꾸는 거야!
+din_damage_hint_so	아야!
+din_damage_hint_sh	괜찮아, 소닉!?
+din_ball_hint_sh	철구에 맞으면 물에 빠지고 말 거야!
+din_ball_hint_so	철구에 맞으면 한 방에 끝나겠는데.
+din_positioning_hint_so	저 위치에서는 공격하기 까다롭겠어.
+din_positioning_hint_sh	적의 공격을 이용하는 거야, 소닉!
+din_attack_hint_so	녀석의 공격을 역으로 이용해 볼까!
+din_attack_hint_sh	저 녀석의 공격을 이용해서\n건너갈 수 있지 않을까?
+din_seed_hint_so	녀석이 뱉는 씨앗은\n호밍 어택으로 부술 수 있겠어!
+din_seed_hint_sh	저 녀석이 뱉는 씨앗은\n호밍 어택으로 부술 수 있는 것 같아!
+din_pot_hint_so	저걸 타고 건너가 볼까.
+din_pot_hint_sh	저 항아리를 타고\n건너갈 수 있지 않을까?
+din_boulder_hint_so	녀석한테 저 바위를 부숴 달라고 해 볼까!
+din_boulder_hint_sh	저 녀석을 유인해 바위를 물게 하면\n부술 수 있지 않을까?
+din_flower_hint_so	꽃이 닫혀 있을 때는\n공격이 안 통하는 것 같아.
+din_flower_hint_sh	꽃이 닫혀 있을 때는\n공격이 안 통해, 소닉!
+evil_foundry	이블 파운드리
+evil_foundry_description	침식된 작열의 성.
+evi_castle_sh	여긴 성인가?
+evi_castle_so	평범한 성은 아닌 것 같은데!
+evi_golem_so	저 덩치 큰 녀석은 뭐야!?
+evi_golem_sh	저렇게 큰 마신은 본 적이 없어!
+evi_elevator_sh	소닉, 위를 봐!
+evi_elevator_so	이대로 가자, 샤라!
+evi_factory_sh	공장의 중심부인 것 같아.
+evi_factory_so	저 마신들,\n여기서 만들어진 건가?
+evi_vape_sh	우와! 엄청난 열기야!
+evi_vape_so	샤라, 녹아 버리지 않게\n조심해!
+evi_timer_sh	어서 여기서 탈출해야 해!
+evi_timer_so	서두르자, 샤라!
+evi_exit_sh	조금만 더 가면 돼, 소닉!
+evi_exit_so	출구는 저쪽인가!
+evi_hint_furnace_so	저 빨간 거,\n닿으면 뜨겁겠는데.
+evi_hint_furnace_sh	저 빨간 탱크,\n만지면 위험해.
+evi_hint_golem_so	녀석의 약점은\n높은 곳에 있는 모양이네.
+evi_hint_golem_sh	저 마신은 머리가 약점인 것 같아!
+evi_hint_golem_height_so	높은 곳에 올라가면\n녀석의 약점을 노릴 수 있어!
+evi_hint_golem_height_sh	높은 곳에 올라가면\n마신의 약점을 노릴 수 있어!
+evi_hint_golem_deflect_so	녀석이 던지는 탱크,\n되받아칠 수 없을까?
+evi_hint_golem_deflect_sh	어떻게든 저 탱크를\n되받아칠 수 없을까?
+evi_hint_tank_so	저 탱크, 호밍 어택으로\n날려 버릴 수 없을까?
+evi_hint_tank_sh	저 탱크, 호밍 어택으로\n날려 버릴 수 없을까?
+evi_hint_door_so	이건 스피드 브레이크로\n부술 수 있겠어.
+evi_hint_door_sh	이 문은 스피드 브레이크로\n부술 수 있을 것 같아.
+evi_hint_propeller_so	이 프로펠러에는\n닿지 말아야겠어.
+evi_hint_propeller_sh	이 프로펠러에\n닿지 않게 조심해.
+evi_hint_levitate_so	이걸 타고 위로 올라갈 수 있어!
+evi_hint_levitate_sh	이걸 타고 위로 올라갈 수 있겠어!
+evi_hint_homing_attack_so	저 기계를 타고 건널 수 있겠어!
+evi_hint_homing_attack_sh	저 기계에 호밍 어택을\n쓸 수 있을 것 같아!
+evi_hint_hot_so	우와,\n이건 뜨겁겠는데.
+evi_hint_hot_sh	이건 만지면 뜨거울 것 같아.
+evi_boss_intro_so	제멋대로 날뛰고 말이야…\n따끔하게 혼내 줘야겠네!
+evi_boss_intro_sh	조심해, 소닉!\n이프리트는 어린애가 아니야!
+evi_boss_prepare_sh	이프리트!\n이제 포기해!
+evi_boss_hit_so	좋았어! 어떠냐, 괴물아?\n조금은 반성했어?
+evi_boss_hit_sh	해냈어!\n역시 여기가 약점이었구나!
+evi_boss_hit2_so	끈질긴 녀석이네.\n덩칫값은 하는군!
+evi_boss_hit3_so	제법 효과가 있나 보네.\n슬슬 잠들게 해 주지!
+evi_boss_defeat_so	불장난이 너무 지나쳤어!
+evi_hint_hand_sh	몸을 받치고 있는 저 손을 공격하면\n상당히 효과가 있지 않을까?
+evi_hint_head_sh	이프리트 머리의 빛나는 부분에서\n강한 힘이 느껴져… 분명 저기가 약점이야!
+evi_hint_head2_sh	어떻게 해야 이프리트가\n머리를 낮추게 할 수 있을까?
+evi_hint_laser_sh	이프리트의 눈에서 나오는 레이저 자체는\n닿아도 괜찮은 것 같아!
+evi_hint_water_sh	이프리트가 몸을 가라앉히면 용광로의\n수면이 올라가! 조심해!
+levitated_ruin	레비테이티드 루인
+levitated_ruin_description	천공을 떠도는 무덤.
+lev_sinbad_so	신드바드 한 명 때문에\n굉장히 요란하네.
+lev_sinbad_sh	이 세계에서는 영웅인걸!
+lev_end_so	저, 저 녀석이 신드바드!?
+lev_end_sh	아, 저기!
+lev_rescue_so	이런, 정말.
+lev_rescue_sh	신드바드 님,\n곧 구해 드릴게요.
+lev_rescue_kn	이봐,\n좀 빨리 부탁한다고.
+lev_seal_so	흐음,\n그럼 후딱 끝내 볼까.
+lev_seal_sh	이 탑의 옥상에 봉인을 푸는\n장치가 있을 거야.
+lev_directions_so	그래서, 어떻게 하면 돼?
+lev_directions_sh	그 레버를 기울여.
+lev_return_so	어라? 원래 있던 곳으로 돌아왔잖아.
+lev_return_sh	자, 다음 스위치로 가자.
+lev_fun_so	어쩔 수 없네.\n조금만 더 어울려 주지.
+lev_fun_sh	잠깐!\n설마 즐기고 있는 건 아니지?
+lev_eyes_so	그러고 보니\n그런 전설의 괴물이 있었지.
+lev_eyes_sh	조심해!\n눈이 빛나면 석화 공격이 올 거야.
+lev_shield_so	내 호밍 어택이 안 통한다고?
+lev_shield_sh	저 녀석, 바람으로 몸을 지키고 있어.
+lev_hint_wind_so	엄청난 바람이네.\n날아가 버리겠어!
+lev_hint_wind_sh	엄청난 풍압이야. 날아가지 않게\n조심해, 소닉!
+lev_hint_gargoyle_so	이봐! 저 석상이 움직였어!
+lev_hint_gargoyle_sh	저 석상, 방금 움직인 것 같아!
+lev_hint_petrify_sh	돌이 되면 [button_action]을 눌러!\n석화를 풀 수 있어!!
+lev_hint_chase_so	놓칠 줄 알고!
+lev_hint_chase_sh	쫓아가, 소닉!
+lev_hint_tag_so	술래잡기는 딴 데 가서 해.
+lev_hint_tag_sh	정말, 끝이 없잖아.
+lev_hint_ivy_so	덩굴을 타면 저쪽으로\n갈 수 있겠어.
+lev_hint_ivy_sh	덩굴을 타면 저쪽으로\n갈 수 있지 않을까?
+lev_sandflow_so	모래 흐름을 막으면\n발판으로 쓸 수 있겠어.
+lev_sandflow_sh	모래 흐름을 막으면\n발판으로 쓸 수 있을 텐데.
+lev_hint_spikes_so	나랑 공중전을 벌이자는 거야?
+lev_hint_spikes_sh	뭐야, 이 끈질긴 가시는!
+lev_hint_lever1_so	이 레버를 기울이면 되나?
+lev_hint_lever1_sh	그 레버를 기울여.
+lev_hint_lever2_so	두 개 남았어.
+lev_hint_lever2_sh	두 개 남았어.
+lev_hint_lever3_so	하나 남았어.
+lev_hint_lever3_sh	하나 남았어.
+lev_hint_lever4_so	끝!
+lev_hint_lever4_sh	이게 마지막이야!
+pirate_storm	파이러트 스톰
+pirate_storm_description	거친 바다의 성과 해적단.
+pir_opening_so	휴가는 물 건너간 모양이네.
+pir_opening_sh	바다가 거칠어졌어…
+pir_cannon_event_so	좋은 게 있네!
+pir_cannon_event_sh	잠깐, 소닉!
+pir_cannon_start_so	떨어지지 말라고.
+pir_cannonball_jump_so	야호!
+pir_cannonball_end_so	모처럼 바다에 왔으니\n신나게 즐겨 보자고!
+pir_cannonball_end_sh	정말, 무모하다니까!
+pir_grotto_so	휴우~
+pir_grotto_sh	우와, 예쁘다…
+pir_surf_so	좋아! 이걸 쓰자!
+pir_surf_sh	그건 너무 무모해!
+pir_surf_jump1_so	하!
+pir_surf_jump2_so	이야!
+pir_surf_jump3_so	야호!
+pir_plan_so	이 정도야 간단하지.
+pir_plan_sh	우와아! 어떻게 하려고, 소닉?
+pir_doubt_so	뭐, 한번 해 볼까.
+pir_doubt_sh	아무리 그래도 이건…
+pir_success_so	내가 말했지?\n간단하다고.
+pir_success_sh	굉장해, 소닉!
+pir_treasure_so	자, 보물을 찾으러 가 볼까.
+pir_hint_slip_so	이런, 여기서는 가장자리로\n가지 않는 게 좋겠어.
+pir_hint_slip_sh	여기서는 되도록 가장자리로\n가지 않는 게 좋겠어!
+pir_hint_barrel_so	저 통에 호밍 어택을\n쓸 수 있겠어.
+pir_hint_barrel_sh	저 통에 호밍 어택을\n쓸 수 있을 것 같아!
+pir_hint_sword_so	저기 박힌 검에\n호밍 어택을 쓸 수 있겠어.
+pir_hint_sword_sh	저기 박힌 검에\n호밍 어택을 쓸 수 있을 것 같아!
+pir_hint_horn_so	저 마신은 뿔이 약점인 모양이네.
+pir_hint_horn_sh	저 마신은 뿔이 약점인 것 같아.
+pir_hint_shock_so	몸에 전기를 두를 때는\n호밍 어택을 하지 않는 게 좋겠어.
+pir_hint_shock_sh	몸에 전기를 두를 때는\n호밍 어택을 하면 안 돼.
+pir_hint_blade_so	이 사이로 지나갈 수 있을까?
+pir_hint_blade_sh	사이를 빠져나갈 수 있지 않을까?
+pir_hint_cannonball_so	날아오는 포탄에 맞으면 위험하겠어.
+pir_hint_cannonball_sh	날아오는 포탄을 조심해!
+pir_hint_surf_speed_sh	파도가 와! 속도를 올려!
+pir_boss_intro_so	얌전히 있어! 네가 가진\n세계 링에 볼일이 있거든!
+pir_boss_intro_sh	정말! 이래서는 누가\n해적인지 모르겠잖아!
+pir_boss_hit_so	이야! 제대로 먹혔는데!
+pir_boss_hit_sh	해냈어! 계속 가자!
+pir_boss_hit2_sh	또 하나 뽑았어! …그런데\n조금 불쌍해지기도 하네.
+pir_boss_hit3_so	자, 이제 하나 남았어!\n낚시도 이걸로 끝인가?
+pir_boss_hit3_sh	저쪽도 필사적이야!\n방심하지 마, 소닉!
+pir_boss_defeat_so	기운 내! 뿔 정도야\n또 자라날 거야!
+pir_hint_damage_sh	저 뿔이 녀석의 힘의 근원인 것 같아!\n어떻게 할 수 없을까…?
+pir_hint_damage2_sh	저 뿔, 어쩌면 매달리면\n뽑아낼 수 있지 않을까?
+skeleton_dome	스켈레톤 돔
+skeleton_dome_description	지하에 숨겨진 왕가.
+ske_snow_so	뭔가 내려오고 있어.
+ske_snow_sh	눈? 아니, 달라…
+ske_bones_so	거추장스러운 뼈네!
+ske_bones_sh	튀어나온 뼈를 이용하면\n위로 올라갈 수 있겠어!
+ske_femur_so	너덜너덜하잖아.
+ske_femur_sh	호밍 어택으로 부술 수 있겠어!
+ske_top_so	올라가 볼까?
+ske_top_sh	우와… 엄청 크네…\n위에 뭐가 있으려나?
+ske_fall1_so	떨어지면 끝장이겠는데.
+ske_fall1_sh	조심해.
+ske_fall2_so	내가 그런 실수를 할 것 같아?
+ske_fall2_sh	떨어지면 위험해.\n신중하게 가자.
+ske_sword_so	그렇게 느린 공격에 맞겠냐!
+ske_sword_sh	양손의 검을 조심해!
+ske_eyes_so	친절하기도 하셔라.
+ske_eyes_sh	저 해골의 눈이\n힌트인 것 같아.
+ske_treasure1_so	이야, 원하는 만큼 가져가도 되겠네.
+ske_treasure2_so	조금 챙겨 볼까!
+ske_treasure1_sh	보물이 한가득이야!
+ske_treasure2_sh	이것 봐!\n보물이 잔뜩 있어!
+ske_tomb_so	여긴 무덤인가?
+ske_tomb_sh	투기장처럼 보이기도 하네…
+ske_king1_so	드디어 찾았군.
+ske_king2_so	뭘 이렇게 깊숙한 곳에 있는 거야.
+ske_king1_sh	어서 왕을 만나야 해!
+ske_king2_sh	분명 여기에 솔로몬 왕이 있을 거야!
+ske_rampage_so	마신 퇴치라… 재밌겠는데!
+ske_rampage_sh	너무 무리하지는 마!
+ske_switch_so	틀리지 않게 해야겠어.
+ske_switch_sh	정답인 것 같아!\n다음으로 가자!
+ske_switch2_so	좋아! 다음 스위치!
+ske_switch2_sh	다음, 다음!
+ske_switch_fail_so	젠장, 틀렸어.
+ske_switch_fail_sh	틀린 것 같네.
+ske_revive_so	죽은 자가 되살아난 건가?
+ske_revive_sh	악취미네.
+ske_lots_so	전부 날려 버리면 되는 거지?
+ske_lots_sh	엄청 많이 나왔네…
+ske_more_so	휴, 끊임없이 나오는군.
+ske_more_sh	내 팬들은 아닌 것 같네.
+ske_dome_so	과연.\n그래서 스켈레톤 돔인가…
+ske_dome_sh	엄청 크네…
+ske_body_so	몸을 찾으라고 해도 말이지.
+ske_body_sh	어디에 있으려나…
+ske_search_so	찾다 보면 나오겠지.
+ske_search_sh	어디부터 찾아야 할까?
+ske_hand_sh	소닉, 저걸 쫓아가!
+night_palace	나이트 팰리스
+night_palace_description	어두운 밤에 떠오른 궁전.
+nig_opening_sh	여기에 이레이저가…
+nig_opening_so	그래… 당장 붙잡아 주겠어!
+nig_footing_so	금방이라도 무너지겠는데!
+nig_footing_sh	서둘러!
+nig_footing2_sh	서두르지 않으면 무너질 거야!
+nig_footing2_so	알고 있다니까!
+nig_trap_sh	함정이야! 어떡하지…
+nig_trap_so	상관없어!
+nig_enemy_so	저쪽도 마지막 발악인가 보군!
+nig_enemy_sh	저쪽도 필사적인 것 같아!
+nig_carpet_sh	다음은 하늘 산책인가?
+nig_carpet_so	제법 멋진 걸 준비했잖아!
+nig_carpet2_so	절경이네!
+nig_carpet2_sh	느긋하게 구경할 시간은 없어!
+nig_entrance_so	이 앞에 있는 거지?
+nig_entrance_sh	분명…
+nig_stretch_event_so	뭐, 뭐야?
+nig_stretch_event_sh	방이 늘어났어!
+nig_warp_sh	뭔가 나타났어…
+nig_warp_so	여기로 뛰어들라는 건가…
+nig_spirit_world_sh	여긴 어디지?
+nig_spirit_world_so	정말 성 안이 맞아?
+nig_gate_sh	문이 원래대로 돌아오고 있어!
+nig_gate_so	정말 뭐든 다 되는군…
+nig_end_so	드디어 여기까지 왔어!
+nig_end_sh	마음을 단단히 먹고 가자!
+nig_rampage_start_so	후딱 끝내 버릴까!
+nig_rampage_start_sh	응!
+nig_lost_so	여긴 어디야?
+nig_lost_sh	이상한 느낌이 들어.
+nig_deja_vu_so	뭔가 이상한 느낌인데…
+nig_deja_vu_sh	소닉!\n여기 아까 그 방의 벽이야!
+nig_spinning_room_sh	방이 회전했어?
+nig_spinning_room_so	그런 것 같네!
+nig_boss_intro_so	이제 슬슬 결판을 내려고 했어.
+nig_boss_intro_er	덤벼라! 시궁쥐!\n네놈의 허튼소리도 이제 지겹다!
+nig_boss_grunt_er	흥!
+nig_boss_warn_er	받아라…!
+nig_boss_warn_sh	이레이저가 검을 휘두르는 움직임을 잘 봐!
+nig_boss_duel_er	덤벼라, 소닉! 승부다!
+nig_boss_duel2_er	덤벼라, 시궁쥐! 승부다!
+nig_boss_duel_sh	조심해, 소닉! 정면으로 달려들어서는 당할 뿐이야!
+nig_boss_duel_so	바라던 바다!
+nig_boss_duel_final_so	좋아! 슬슬 마무리해 주지!
+nig_boss_duel_hint1_sh	(달려들 때 타이밍을 맞춰\n카운터를 노려 봐.)
+nig_boss_duel_hint2_sh	(속도를 줄여!)
+nig_boss_duel_hint3_sh	(타이밍을 잘 봐… 순간이야.)
+nig_boss_duel_hint4_sh	(일대일 승부야! 점프할 준비를 해.)
+nig_boss_hint_sh	(타이밍을 맞춰\n카운터를 노릴 수 없을까…)
+nig_boss_hit1_so	흥! 효과가 있나 보네.\n아직 더 간다!
+nig_boss_hit1_er	흥, 하찮군.\n한 번 맞혔다고 우쭐대다니…!
+nig_boss_hit2_so	왜 그래, 이레이저?\n어디 몸이라도 안 좋아?
+nig_boss_hit2_er	기어오르지 마라, 시궁쥐!\n네놈의 움직임은 이미 간파했다!
+nig_boss_defeat_er	으… 여기까지 해낼 줄은…!
+nig_boss_defeat_so	거기까지다, 이레이저!\n네가 졌어!
+last_intro_er	나는… 창조주…
+last_intro2_er	세계를 이야기로… 엮어 내는 자…
+last_intro_so	뭐라고? 아무것도 없잖아.\n이런 세계는 사양하겠어!
+last_charge_sh	[button_attack]을 누르면 언제든\n소울 게이지를 채울 수 있어.
+last_charge_so	샤라!
+last_slash_er	후하하하!\n내게 따라붙지도 못하겠느냐?
+last_slash_so	녀석이 할퀴기 전에 나타나는 빛줄기를\n잘 보면 피할 수 있겠어.
+last_spirit_bomb_er	기적이라도 일어나지 않는 한\n나의 공격을 피할 수 없다!
+last_spirit_bomb_hint_so	‘타임 브레이크’와 ‘스피드 브레이크’를\n쓰면 어떻게든 될 것 같아…!
+last_spirit_bomb_hint2_so	저 커다란 빛의 구체…\n카운터로 되받아칠 수 있겠어.
+last_spirit_bomb_hint_sh	(저 빛의 구체를 되받아칠 수 없을까…)
+last_spirit_bomb_hint2_sh	(저 빛의 구체,\n속도가 조금만 더 있다면…)
+last_push_sh	굉장해! 소울 게이지가\n계속 줄어들고 있어.
+last_push2_sh	이대로는 밀리고 말 거야!
+last_push3_sh	[button_attack]을 눌러\n소울 게이지를 끌어올려!
+last_push4_sh	지금이야! [button_attack]을 눌러!
+last_kick_so	하! 이건 인사 대신이다!
+last_multipunch_sh	(연속으로 공격해!)
+last_gravity_so	저 소용돌이에 빨려 들어가면\n골치 아프겠어.
+last_phase2_er	크으으…! 네놈도\n이 힘을…!?
+last_defeat_er	크아아아아아악!
+last_defeat_so	허튼소리는 끝이다, 이레이저.\n네 이야기는 너무 어두워.
+nig_hint_spears_so	뭔가 날아오잖아!
+nig_hint_spears_sh	갈라진 길도 조심해!
+nig_hint_spears2_sh	뭔가 와! 조심해!
+nig_hint_spears2_so	이런 걸로 날 노린다는 거야?
+nig_hint_hourglass_sh	뭐지, 이 모래시계?
+nig_hint_hourglass_so	무슨 스위치일지도 몰라.
+nig_hint_gas_so	이 가스… 위험한데…
+nig_hint_gas_sh	체력이 계속 줄어들고 있어.
+nig_hint_catapult_so	타이밍을 잘 맞춰야겠어!
+nig_hint_catapult_sh	응!
+mods_description	커뮤니티에서 만든 스테이지 MOD입니다.
+result_score	Score
+result_time	Time
+result_ring	Ring Bonus
+result_technical	Technical Bonus
+result_total	Total
+exp_total	exp
+exp_score	Score Bonus
+exp_skill	Skill Bonus
+exp_mission	First Clear Bonus
+exp_accumulated	Replay Bonus
+exp_level	Level
+exp_sp	Skill Points
+exp_soul	Soul Gauge
+skill_select_level	LEVEL:0
+skill_sp_shortage	SP가 부족합니다.
+skill_element_requirement_wind	바람 스킬이 [AMOUNT]개 더 필요합니다.
+skill_element_requirement_wind_multiple	바람 스킬이 [AMOUNT]개 더 필요합니다.
+skill_element_requirement_fire	불꽃 스킬이 [AMOUNT]개 더 필요합니다.
+skill_element_requirement_fire_multiple	불꽃 스킬이 [AMOUNT]개 더 필요합니다.
+skill_element_requirement_dark	어둠 스킬이 [AMOUNT]개 더 필요합니다.
+skill_element_requirement_dark_multiple	어둠 스킬이 [AMOUNT]개 더 필요합니다.
+skill_equip_conflict	SKILL을 장착하면 CONFLICT 장착이 해제됩니다.\n\n계속하시겠습니까?
+skill_unequip_conflict	SKILL 장착을 해제하면 CONFLICT 장착도 해제됩니다.\n\n계속하시겠습니까?
+skill_autorun	오토 런
+skill_autorun_description	소닉이 자동으로 전진합니다.
+skill_charge_jump	차지 점프
+skill_charge_jump_description	원작 정식판의 차지 점프를 복원합니다.
+skill_variable_jump_height	가변 점프 높이
+skill_variable_jump_height_description	점프 버튼을 누르는 시간에 따라 점프 높이가 달라집니다.
+skill_free_roam	프리 로밍
+skill_free_roam_description	소닉이 뒤로 달릴 수 있게 됩니다.
+skill_quick_start	퀵 스타트
+skill_quick_start_description	미션 시작 전 카운트다운이 짧아집니다.
+skill_locked_soul_gauge	게이지 록
+skill_locked_soul_gauge_description	소울 게이지에 펄을 100개까지만 저장할 수 있습니다.
+skill_speed_up	스피드 업
+skill_speed_up1	슈퍼 스피드 업
+skill_speed_up2	하이퍼 스피드 업
+skill_speed_up3	서브 하이퍼 스피드 업
+skill_speed_up_description	최고 속도가 조금 증가합니다.
+skill_speed_up_description1	최고 속도가 제법 증가합니다.
+skill_speed_up_description2	최고 속도가 크게 증가합니다.
+skill_speed_up_description3	최고 속도가 크게 증가하지만\n방어력이 감소합니다.
+skill_slow_turn	슬로 턴
+skill_slow_turn1	슈퍼 슬로 턴
+skill_slow_turn2	하이퍼 슬로 턴
+skill_slow_turn_description	좌우 이동 감도가 조금 감소합니다.
+skill_slow_turn_description1	좌우 이동 감도가 제법 감소합니다.
+skill_slow_turn_description2	좌우 이동 감도가 크게 감소합니다.
+skill_quick_turn	퀵 턴
+skill_quick_turn1	슈퍼 퀵 턴
+skill_quick_turn2	하이퍼 퀵 턴
+skill_quick_turn_description	좌우 이동 감도가 조금 증가합니다.
+skill_quick_turn_description1	좌우 이동 감도가 제법 증가합니다.
+skill_quick_turn_description2	좌우 이동 감도가 크게 증가합니다.
+skill_traction_up	차저
+skill_traction_up1	터보 차저
+skill_traction_up2	로켓 차저
+skill_traction_up3	서브 로켓 차저
+skill_traction_up_description	가속력이 조금 증가합니다.
+skill_traction_up_description1	가속력이 제법 증가합니다.
+skill_traction_up_description2	가속력이 크게 증가합니다.
+skill_traction_up_description3	가속력이 크게 증가하지만\n방어력이 감소합니다.
+skill_turnaround_up	하드 브레이크
+skill_turnaround_up_description	브레이크 입력으로 급정지할 수 있습니다.
+skill_grind_up	퀵 그라인드
+skill_grind_up1	패스트 그라인드
+skill_grind_up2	마하 그라인드
+skill_grind_up3	서브 마하 그라인드
+skill_grind_up_description	그라인드 속도가 조금 증가합니다.
+skill_grind_up_description1	그라인드 속도가 제법 증가합니다.
+skill_grind_up_description2	그라인드 속도가 크게 증가합니다.
+skill_grind_up_description3	그라인드 셔플을 자동으로 사용하지만\n사용 중 링을 소모합니다.
+skill_all_rounder	올라운더
+skill_all_rounder_description	이동 속도가 느려지는 지형에서\n감속률이 줄어듭니다.
+skill_pearl_range	펄 컬렉터
+skill_pearl_range_description	근처에 있는 펄을 끌어당겨 회수합니다.
+skill_pearl_respawn	소울 리저렉션
+skill_pearl_respawn_description	소울 게이지를 소모하여\n쓰러졌을 때 부활할 수 있습니다.
+skill_pearl_damage	소울 아머
+skill_pearl_damage1	서브 소울 아머
+skill_pearl_damage_description	피해를 받을 때 잃는 소울 파워가 줄어듭니다.
+skill_pearl_damage_description1	피해를 받을 때 잃는 소울 파워가 크게 줄지만\n방어력이 감소합니다.
+skill_ring_loss_convert	소울 배리어
+skill_ring_loss_convert1	서브 소울 배리어
+skill_ring_loss_convert_description	링을 잃을 때\n소울 게이지가 증가합니다.
+skill_ring_loss_convert_description1	링을 잃을 때 소울 게이지가 크게 증가하지만\n방어력이 감소합니다.
+skill_ring_pearl_convert	링 익스체인지
+skill_ring_pearl_convert_description	얻은 링 하나를\n펄 2개로 환산합니다.
+skill_ring_range	링 컬렉터
+skill_ring_range_description	근처에 있는 링을 끌어당겨 회수합니다.
+skill_ring_spawn	링 보너스
+skill_ring_spawn_description	미션을 시작할 때\n보유 링이 증가합니다.
+skill_ring_respawn	파워 리스타트
+skill_ring_respawn_description	쓰러졌다가 부활할 때\n보유 링이 증가합니다.
+skill_ring_damage	링 세이버
+skill_ring_damage_description	피해를 받을 때 잃는\n링의 수가 줄어듭니다.
+skill_slide_attack	볼케이노 슬라이더
+skill_slide_attack_description	슬라이딩 중 공격력이 부여됩니다.
+skill_slide_defense	이지스 슬라이더
+skill_slide_defense_description	슬라이딩 중 피해를 받지 않습니다.
+skill_slide_exp	소울 슬라이더
+skill_slide_exp_description	슬라이딩 중 서서히\n경험치를 얻습니다.
+skill_slide_distance	스키머
+skill_slide_distance1	슈퍼 스키머
+skill_slide_distance2	하이퍼 스키머
+skill_slide_distance_description	슬라이딩 중 감속률이\n조금 줄어듭니다.
+skill_slide_distance_description1	슬라이딩 중 감속률이\n제법 줄어듭니다.
+skill_slide_distance_description2	슬라이딩 중 감속률이\n크게 줄어듭니다.
+skill_stomp_dash	캔슬 대시
+skill_stomp_dash_description	점프 캔슬 후 착지할 때\n초기 속도가 증가합니다.
+skill_stomp_exp	캔슬 업소버
+skill_stomp_exp_description	점프 캔슬 후 착지할 때\n경험치를 얻습니다.
+skill_stomp_attack	파이어 게이즈
+skill_stomp_attack_description	점프 캔슬 중\n공격력이 부여됩니다.
+skill_stomp_bounce	바운드 점프
+skill_stomp_bounce_description	지면에 착지할 때 액션 버튼을 길게 눌러\n다시 튀어 오릅니다.
+skill_accel_jump_attack	파이어 태클
+skill_accel_jump_attack1	서브 파이어 태클
+skill_accel_jump_attack_description	숏 점프 중 공격력이 부여됩니다.
+skill_accel_jump_attack_description1	숏 점프 중 공격력이 부여되지만\n방어력이 감소합니다.
+skill_spin_jump	스핀 점프
+skill_spin_jump_description	점프 중 적과 부딪힐 때\n공격력이 부여됩니다.
+skill_armor_jump	아머 점프
+skill_armor_jump_description	점프 중 적과 부딪힐 때\n방어력이 증가합니다.
+skill_double_jump	더블 점프
+skill_double_jump_description	공중에서 한 번 더 점프할 수 있습니다.
+skill_backstep_attack	파이어 스텝
+skill_backstep_attack_description	백플립에 공격력이 부여됩니다.
+skill_land_dash	랜딩 대시
+skill_land_dash_description	착지할 때 초기 속도가 증가합니다.
+skill_land_soul	소울 업소버
+skill_land_soul1	소울 어시밀레이터
+skill_land_soul2	소울 디바우러
+skill_land_soul3	서브 소울 디바우러
+skill_land_soul_description	착지할 때 소울 게이지가 조금 증가합니다.
+skill_land_soul_description1	착지할 때 소울 게이지가 제법 증가합니다.
+skill_land_soul_description2	착지할 때 소울 게이지가 크게 증가합니다.
+skill_land_soul_description3	착지할 때 소울 게이지가 크게 증가하지만\n링을 소모합니다.
+skill_rocket_start	로켓 스타트
+skill_rocket_start1	워프 대시
+skill_rocket_start_description	카운트다운이 끝날 때\n액션 버튼을 누르면 가속합니다.
+skill_rocket_start_description1	로켓 스타트에 성공하면\n소울 게이지가 증가합니다.
+skill_down_cancel	다운 캔슬
+skill_down_cancel_description	피해를 받는 중 점프 버튼을 눌러\n다운 상태를 취소합니다.
+skill_fire_soul_lockon	파이어 록온
+skill_fire_soul_lockon_description	파이어 소울을 록온하여\n호밍 어택할 수 있게 됩니다.
+skill_splash_jump	스플래시 점프
+skill_splash_jump_description	공중에서 점프 대시로 장애물과 충돌하면\n한 번 더 점프합니다.
+skill_drift_exp	엑스퍼트 드리프트
+skill_drift_exp_description	드리프트 중 경험치가 증가하지만\n액션 버튼을 정확한 타이밍에 눌러야 합니다.
+skill_rank_preview	랭크 미리 보기
+skill_rank_preview_description	게임 중 현재 랭크를 표시합니다.
+skill_perfect_homing_attack	퍼펙트 호밍 어택
+skill_perfect_homing_attack_description	정확한 타이밍에 호밍 어택을 사용하면\n공격력이 증가합니다.
+skill_grounded_homing_attack	그라운드 호밍 어택
+skill_grounded_homing_attack_description	지상에서도 호밍 어택을 시작할 수 있습니다.
+skill_air_boost	에어 부스트
+skill_air_boost_description	공중에서 스피드 브레이크를 사용할 수 있습니다.
+skill_instant_speed_break	인스타 브레이크
+skill_instant_speed_break_description	스피드 브레이크의\n발동 시간을 줄입니다.
+skill_quick_step	퀵 스텝
+skill_quick_step_description	달리는 중 스텝 버튼을 누르면\n옆으로 빠르게 이동합니다.
+skill_quick_step1	퀵 슬라이드
+skill_quick_step_description1	달리는 중 스텝 버튼을 길게 누르면\n옆으로 슬라이드합니다.
+skill_light_speed_dash	라이트 스피드 대시
+skill_light_speed_dash_description	링 근처에서 라이트 대시 버튼을 누르면\n링을 따라 이동합니다.
+skill_light_speed_attack	라이트 스피드 어택
+skill_light_speed_attack_description	호밍 어택 중 공격 버튼을 길게 눌러\n여러 적을 빠르게 공격합니다.
+skill_crest_wind	크레스트 오브 윈드
+skill_crest_wind_description	최고 속도로 달릴 때 링을 소모하여\n속도를 더욱 높입니다.
+skill_crest_fire	크레스트 오브 파이어
+skill_crest_fire_description	적에게 호밍 어택을 사용하면\n큰 폭발을 일으킵니다.
+skill_crest_dark	크레스트 오브 다크니스
+skill_crest_dark_description	최고 속도로 달릴 때 소울 게이지가 증가하며,\n게이지가 차 있으면 방어력이 증가합니다.
+skill_darkspine	다크스파인 소닉
+skill_darkspine_description	소울 게이지를 자유롭게 증가시킵니다.
+skill_character	MOD 캐릭터
+skill_character_description	커뮤니티에서 만든 캐릭터 MOD입니다.
+skill_custom_character_description	[CHARACTER](으)로 플레이합니다.
+bonus_ring	링 보너스
+bonus_enemy	마신 보너스
+bonus_drift	드리프트 보너스
+bonus_grindstep	그라인드 스텝 보너스
+bonus_grind_shuffle	그라인드 셔플 보너스
+bonus_exp	경험치 보너스
+spb_brackets	【DATA】
+spb_chapter	챕터
+spb_chapter_history	히스토리
+spb_chapter_illust	일러스트
+spb_chapter_movie	영상
+spb_chapter_dev	개발 자료
+spb_chapter_music	BGM
+spb_chapter_rank	도전 과제
+spb_chapter_diary	빅의 여행 일기
+spb_hint_complete	[AREA] 미션 [NUMBER] 클리어…
+spb_hint_silver	은메달 [NUMBER]개 획득…
+spb_hint_gold	[AREA] 미션 [NUMBER]를 금메달로 클리어…
+spb_hint_all_gold	[AREA]의 모든 미션을 금메달로 클리어…
+spb_hint_big	[AREA] 미션 [NUMBER] 어딘가에 숨겨져 있음…
+spb_bgm	BGM
+spb_title_ch1_1	소닉의 역사 1991년
+spb_title_ch1_2	소닉의 역사 1992년
+spb_title_ch1_3	소닉의 역사 1993년
+spb_title_ch1_4	소닉의 역사 1994년
+spb_title_ch1_5	소닉의 역사 1995년
+spb_title_ch1_6	소닉의 역사 1996년
+spb_title_ch1_7	소닉의 역사 1997년
+spb_title_ch1_8	소닉의 역사 1998년
+spb_title_ch1_9	소닉의 역사 1999년
+spb_title_ch1_10	소닉의 역사 2000년
+spb_title_ch1_11	소닉의 역사 2001년
+spb_title_ch1_12	소닉의 역사 2002년
+spb_title_ch1_13	소닉의 역사 2003년
+spb_title_ch1_14	소닉의 역사 2004년
+spb_title_ch1_15	소닉의 역사 2005~2006년
+spb_title_ch2_1	티저용 이미지 1
+spb_title_ch2_2	티저용 이미지 2
+spb_title_ch2_3	티저 이미지 일본어판
+spb_title_ch2_4	전시회용 팸플릿
+spb_title_ch2_5	티저 이미지 완성판
+spb_title_ch2_6	메인 비주얼 이미지
+spb_title_ch2_7	타이틀 로고 영어판
+spb_title_ch2_8	타이틀 로고 일본어판
+spb_title_ch2_9	타이틀 로고 독일어판
+spb_title_ch2_10	타이틀 로고 이탈리아어판
+spb_title_ch2_11	타이틀 로고 스페인어판
+spb_title_ch2_12	티저 초기 이미지
+spb_title_ch2_13	타이틀 로고 초기 이미지 1
+spb_title_ch2_14	타이틀 로고 초기 이미지 2
+spb_title_ch2_15	타이틀 로고 초기 이미지 3
+spb_title_ch3_1	샤라 초기 이미지 1
+spb_title_ch3_2	샤라 초기 색상 설정
+spb_title_ch3_3	샤라 삼면도
+spb_title_ch3_4	샤라 표정 모음 1
+spb_title_ch3_5	샤라 표정 모음 2
+spb_title_ch3_6	샤라 제작 중 CG 모델
+spb_title_ch3_7	샤라 초기 이미지 2
+spb_title_ch3_8	이레이저 초기 이미지 1
+spb_title_ch3_9	이레이저 초기 색상 설정 1
+spb_title_ch3_10	이레이저 초기 색상 설정 2
+spb_title_ch3_11	이레이저 삼면도
+spb_title_ch3_12	이레이저 표정 모음 1
+spb_title_ch3_13	이레이저 표정 모음 2
+spb_title_ch3_14	이레이저 제작 중 CG 모델
+spb_title_ch3_15	이레이저 초기 이미지 2
+spb_title_ch4_1	알리바바 이미지
+spb_title_ch4_2	신드바드 이미지
+spb_title_ch4_3	샤흐리야르 왕 이미지
+spb_title_ch4_4	솔로몬 왕 이미지
+spb_title_ch4_5	솔로몬 왕 초기 이미지
+spb_title_ch4_6	이레이저의 램프 이미지
+spb_title_ch4_7	이레이저의 램프 초기 이미지
+spb_title_ch4_8	샤라의 링 이미지
+spb_title_ch4_9	샤라의 링 초기 이미지
+spb_title_ch4_10	세계 링 이미지
+spb_title_ch4_11	세계 링 초기 이미지
+spb_title_ch4_12	나이트 팰리스 외관 초기 이미지
+spb_title_ch4_13	세계 링의 문 이미지
+spb_title_ch4_14	왕좌의 방 이미지
+spb_title_ch4_15	아라비안 나이트의 책 이미지
+spb_title_ch5_1	로스트 프롤로그
+spb_title_ch5_2	샌드 오아시스 이미지
+spb_title_ch5_3	샌드 오아시스 이미지
+spb_title_ch5_4	다이너소어 정글 이미지
+spb_title_ch5_5	다이너소어 정글 이미지
+spb_title_ch5_6	다이너소어 정글 이미지
+spb_title_ch5_7	다이너소어 정글 이미지
+spb_title_ch5_8	이블 파운드리 이미지
+spb_title_ch5_9	이블 파운드리 이미지
+spb_title_ch5_10	이블 파운드리 이미지
+spb_title_ch5_11	이블 파운드리 이미지
+spb_title_ch5_12	이블 파운드리 이미지
+spb_title_ch5_13	레비테이티드 루인 이미지
+spb_title_ch5_14	레비테이티드 루인 이미지
+spb_title_ch5_15	레비테이티드 루인 이미지
+spb_title_ch6_1	파이러트 스톰 이미지
+spb_title_ch6_2	파이러트 스톰 이미지
+spb_title_ch6_3	파이러트 스톰 이미지
+spb_title_ch6_4	스켈레톤 돔 이미지
+spb_title_ch6_5	스켈레톤 돔 이미지
+spb_title_ch6_6	스켈레톤 돔 이미지
+spb_title_ch6_7	스켈레톤 돔 이미지
+spb_title_ch6_8	스켈레톤 돔 이미지
+spb_title_ch6_9	스켈레톤 돔 이미지
+spb_title_ch6_10	나이트 팰리스 이미지
+spb_title_ch6_11	나이트 팰리스 이미지
+spb_title_ch6_12	나이트 팰리스 이미지
+spb_title_ch6_13	나이트 팰리스 이미지
+spb_title_ch6_14	나이트 팰리스 이미지
+spb_title_ch6_15	나이트 팰리스 이미지
+spb_title_ch7_1	샌드 스코피온
+spb_title_ch7_2	이프리트 골렘
+spb_title_ch7_3	캡틴 베모스
+spb_title_ch7_4	이레이저 진
+spb_title_ch7_5	알프 라일라 와 라일라
+spb_title_ch7_6	마신 1
+spb_title_ch7_7	마신 2
+spb_title_ch7_8	마신 3
+spb_title_ch7_9	마신 4
+spb_title_ch7_10	마신 5
+spb_title_ch7_11	마신 6
+spb_title_ch7_12	마신 7
+spb_title_ch7_13	마신 8
+spb_title_ch7_14	마신 9
+spb_title_ch7_15	마신 10
+spb_title_ch8_1	아라비안 나이트를 구할 전설의 시작
+spb_title_ch8_2	세계를 베어내는 자와 이야기에 쓰인 자
+spb_title_ch8_3	항아리 속 국왕과 파란 가시돌이
+spb_title_ch8_4	손재주 좋은 알리바바
+spb_title_ch8_5	샌드 스코피온 등장
+spb_title_ch8_6	노란 세계 링 획득!
+spb_title_ch8_7	왕을 구하긴 했지만…
+spb_title_ch8_8	초록 세계 링 획득!
+spb_title_ch8_9	강적, 불꽃의 마신 등장
+spb_title_ch8_10	알리바바의 조언, 새로운 모험
+spb_title_ch8_11	일곱 바다를 누빈 모험가!?
+spb_title_ch8_12	불꽃의 마신에는 물, 해적에게는 무엇을?
+spb_title_ch8_13	파란 세계 링 획득!
+spb_title_ch8_14	해적 선단 발견!
+spb_title_ch8_15	캡틴 베모스 등장
+spb_title_ch9_1	하늘색 세계 링 획득!
+spb_title_ch9_2	이프리트와의 재대결!
+spb_title_ch9_3	마신 공장에서 탈출
+spb_title_ch9_4	빨간 세계 링 획득!
+spb_title_ch9_5	썩은 왕좌의 해골바가지
+spb_title_ch9_6	흰 세계 링 획득!
+spb_title_ch9_7	달밤에 떠오른 공중 궁전
+spb_title_ch9_8	시간제한과 잊지 않을 약속
+spb_title_ch9_9	보라색 세계 링 획득!
+spb_title_ch9_10	언제나 베이는 것은 자존심
+spb_title_ch9_11	수수께끼의 문과 책의 장정
+spb_title_ch9_12	멸망해 가는 것은 야심
+spb_title_ch9_13	스태프 롤
+spb_title_ch9_14	개발팀 소개
+spb_title_ch9_15	
+spb_title_ch10_1	오프닝 스토리보드 영상
+spb_title_ch10_2	오프닝 제작 중 1
+spb_title_ch10_3	오프닝 제작 중 2
+spb_title_ch10_4	엔딩 스토리보드 영상
+spb_title_ch10_5	엔딩 제작 중 1
+spb_title_ch10_6	엔딩 제작 중 2
+spb_title_ch10_7	오프닝 완성판
+spb_title_ch10_8	엔딩 완성판
+spb_title_ch10_9	장치 메모
+spb_title_ch10_10	다이너소어 정글 메모
+spb_title_ch10_11	골렘 진 메모
+spb_title_ch10_12	이프리트 골렘 메모
+spb_title_ch10_13	레비테이티드 루인 메모 1
+spb_title_ch10_14	레비테이티드 루인 메모 2
+spb_title_ch10_15	스켈레톤 돔 메모
+spb_title_ch11_1	Sandstorm
+spb_title_ch11_2	Seven Rings In Hand
+spb_title_ch11_3	The Lost Prologue
+spb_title_ch11_4	Let The Speed Mend It
+spb_title_ch11_5	The Wicked Wild
+spb_title_ch11_6	The Palace That Was Found
+spb_title_ch11_7	High And Broken
+spb_title_ch11_8	No Way Through
+spb_title_ch11_9	The White of Sky
+spb_title_ch11_10	Unawakening Float
+spb_title_ch11_11	Poison Spear
+spb_title_ch11_12	How It Started
+spb_title_ch11_13	Blue On The Run
+spb_title_ch11_14	It Has Come To This
+spb_title_ch11_15	The Power of The Ring
+spb_title_ch12_1	The Legendary Blue Hedgehog
+spb_title_ch12_2	Judgement
+spb_title_ch12_3	King of Kings
+spb_title_ch12_4	His Fate
+spb_title_ch12_5	Shimmer of Hot Air
+spb_title_ch12_6	Misgiving
+spb_title_ch12_7	The Promise
+spb_title_ch12_8	Miss You
+spb_title_ch12_9	Worth a Chance
+spb_title_ch12_10	Ali Baba & Sinbad Rescued!
+spb_title_ch12_11	Revive
+spb_title_ch12_12	Shimmer of Hot Air - Heat
+spb_title_ch12_13	Shimmer of Hot Air - Rage
+spb_title_ch12_14	Seven Rings in Hand - Crush 40 Version
+spb_title_ch12_15	Seven Rings in Hand - Fairytales in Trance Version
+spb_title_ch13_1	Dune's Tempest
+spb_title_ch13_2	Desert Palace
+spb_title_ch13_3	The Wicked Wild - Metal Version
+spb_title_ch13_4	The Wicked Wild - Acoustic Version
+spb_title_ch13_5	The Palace That Was Found - Metal Version
+spb_title_ch13_6	Magma Foundry
+spb_title_ch13_7	High and Broken - Chorus Version
+spb_title_ch13_8	Sky Athletics
+spb_title_ch13_9	No Way Through - Metal Version
+spb_title_ch13_10	High Seas
+spb_title_ch13_11	40 Thieves and a Legend
+spb_title_ch13_12	Grim Winter
+spb_title_ch13_13	Glass Heart
+spb_title_ch13_14	Unawakening Float - Rock Version
+spb_title_ch13_15	Seven Rings in Hand - Credits Version
+spb_title_ch14_1	히어로
+spb_title_ch14_2	트루 히어로
+spb_title_ch14_3	월드 트래블러
+spb_title_ch14_4	그라인드 퍼포머
+spb_title_ch14_5	링 게터
+spb_title_ch14_6	마신 버스터
+spb_title_ch14_7	익스트림 스피드스터
+spb_title_ch14_8	타임 컨트롤러
+spb_title_ch14_9	체인 스트라이커
+spb_title_ch14_10	스킬 세이버
+spb_title_ch14_11	스킬 퀸티
+spb_title_ch14_12	플레임 마스터
+spb_title_ch14_13	윈드 마스터
+spb_title_ch14_14	다크 마스터
+spb_title_ch14_15	리벨리온
+spb_title_ch15_1	슈퍼 플레이어
+spb_title_ch15_2	스킬 컬렉터
+spb_title_ch15_3	소울 컬렉터
+spb_title_ch15_4	디 얼티밋
+spb_title_ch15_5	북웜
+spb_title_ch15_6	스타
+spb_title_ch15_7	셀러브리티
+spb_title_ch15_8	딜러
+spb_title_ch15_9	트라이어
+spb_title_ch15_10	파이러트
+spb_title_ch15_11	시프
+spb_title_ch15_12	익스플로러
+spb_title_ch15_13	챔피언
+spb_title_ch15_14	소닉 프리크
+spb_title_ch15_15	레코드 버스터
+spb_title_ch15b_1	
+spb_title_ch15b_2	
+spb_title_ch15b_3	
+spb_title_ch15b_4	
+spb_title_ch15b_5	
+spb_title_ch15b_6	
+spb_title_ch15b_7	
+spb_title_ch15b_8	
+spb_title_ch15b_9	
+spb_title_ch15b_10	
+spb_title_ch15b_11	
+spb_title_ch15b_12	
+spb_title_ch15b_13	
+spb_title_ch15b_14	
+spb_title_ch15b_15	
+spb_title_ch16_1	로스트 프롤로그에서
+spb_title_ch16_2	샌드 오아시스에서
+spb_title_ch16_3	샌드 오아시스에서
+spb_title_ch16_4	다이너소어 정글에서
+spb_title_ch16_5	다이너소어 정글에서
+spb_title_ch16_6	이블 파운드리에서
+spb_title_ch16_7	이블 파운드리에서
+spb_title_ch16_8	레비테이티드 루인에서
+spb_title_ch16_9	레비테이티드 루인에서
+spb_title_ch16_10	파이러트 스톰에서
+spb_title_ch16_11	파이러트 스톰에서
+spb_title_ch16_12	스켈레톤 돔에서
+spb_title_ch16_13	스켈레톤 돔에서
+spb_title_ch16_14	나이트 팰리스에서
+spb_title_ch16_15	나이트 팰리스에서
+spb_desc_ch1_1	1991년\n‘소닉 더 헤지혹’\n달리기라면 누구에게도 지지 않는 세계에서 가장 빠른 초음속 고슴도치가 멋지게 등장!
+spb_desc_ch1_2	1992년\n‘소닉 더 헤지혹 2’\n소닉을 동경하는 테일즈가 등장. 두 꼬리를 흔들며 있는 힘껏 달린다!
+spb_desc_ch1_3	1993년\n‘소닉 CD’\n언제나 활기차고 사랑을 꿈꾸는 소녀 에이미가 등장.
+spb_desc_ch1_4	1994년\n‘소닉 더 헤지혹 3’, ‘소닉 & 너클즈’\n고집 센 성격의 무술 달인 너클즈가 등장.
+spb_desc_ch1_5	1995년\n‘너클즈 카오틱스’\n너클즈와 동료들이 대활약!
+spb_desc_ch1_6	1996년\n‘소닉 3D 블래스트’\n소닉이 카오스 에메랄드가 잠든 ‘플리키 아일랜드’를 무대로 활약한다!
+spb_desc_ch1_7	1997년\n‘소닉 R’\n완전한 3D로 거듭난 소닉 일행이 레이스로 승부한다!
+spb_desc_ch1_8	1998년\n‘소닉 어드벤처’\n6명의 캐릭터로 6개의 모험을 공략하라! 일본에서만 발매.
+spb_desc_ch1_9	1999년\n‘소닉 어드벤처 인터내셔널’\n‘소닉 어드벤처’가 전 세계에 발매!
+spb_desc_ch1_10	2000년 ‘소닉 셔플’\n꿈과 빛의 세계 매지너리 월드를 지키기 위해 소닉과 동료들이 보이드와 맞선다!
+spb_desc_ch1_11	2001년 ‘소닉 어드벤처 2’, ‘소닉 어드밴스’\n검은 고슴도치 섀도우가 등장!
+spb_desc_ch1_12	2002년 ‘소닉 어드밴스 2’\n차오 치즈와 아주 친한 크림이 등장!
+spb_desc_ch1_13	2003년 ‘소닉 히어로즈’\n개성 넘치는 캐릭터 12명이 등장. 팀 액션으로 돌진하라!
+spb_desc_ch1_14	2004년 ‘소닉 어드밴스 3’\n좋아하는 동료와 함께 모험!\n이해에는 ‘소닉 히어로즈’가 북미와 유럽에서 발매됐다.
+spb_desc_ch1_15	2005~2006년 ‘섀도우 더 헤지혹’, ‘소닉 러시’, ‘소닉 라이더즈’\n모험은 계속된다!
+spb_desc_ch2_1	소닉의 가슴에서 불꽃이 나오는 설정은 초기 스토리 구상 단계부터 정해져 있었다.
+spb_desc_ch2_2	불꽃 속을 달린다!\n첫 이미지보다 더욱 강렬하게 발전했다.
+spb_desc_ch2_3	일본어판에 사용된 타이틀 로고.
+spb_desc_ch2_4	게임 내용을 상상할 수 있도록 서로 다른 분위기의 스크린샷 네 장을 배치했다.
+spb_desc_ch2_5	팸플릿과 포스터에는 이 버전을 사용했다.
+spb_desc_ch2_6	소닉의 자세와 손가락의 링을 얼마나 멋지게 보여 줄지 여러 시도를 거쳐 완성한 이미지.
+spb_desc_ch2_7	SONIC의 ‘O’에 주목.\n티저 이미지와 마찬가지로 불꽃을 모티브로 삼았다.
+spb_desc_ch2_8	문자가 달라도 영어판과 같은 분위기를 낼 수 있도록 글꼴을 제작했다.
+spb_desc_ch2_9	영어판과 이미지를 맞추기 위해 글자 위치를 조정했다.
+spb_desc_ch2_10	영어판과 이미지를 맞추기 위해 글자 위치를 조정했다.
+spb_desc_ch2_11	영어판과 이미지를 맞추기 위해 글자 위치를 조정했다.
+spb_desc_ch2_12	책 표지를 떠올리도록 제작한 디자인.
+spb_desc_ch2_13	타이틀 로고가 확정되기 전의 러프 디자인.
+spb_desc_ch2_14	자세히 보면 제목도 지금과 다르다.\n세계 각지의 의견을 참고하며 제목도 거듭 조정했다.
+spb_desc_ch2_15	2006년 5월 발표 당시의 타이틀 로고.\n이때는 아직 임시 제목이었다.
+spb_desc_ch3_1	의상도 여러 형태를 검토했다.\n움직임이 잘 드러나도록 허리에 부드러운 소재를 달았다.
+spb_desc_ch3_2	활기차면서도 어딘가 덧없는 인상을 주도록 조정했다.
+spb_desc_ch3_3	링을 모티브로 한 머리 장식이 특징이다.
+spb_desc_ch3_4	조금 어른스러워 보이지만 샤라의 다양한 표정을 그려 보았다.
+spb_desc_ch3_5	이야기 속 장면에 맞춰 몇 가지 그림을 제작했다.
+spb_desc_ch3_6	초기 이미지에 있던 그대로 머리 장식을 모델링했다.
+spb_desc_ch3_7	샤라의 또 다른 디자인. 허리띠와 피부색 등이 마음에 들어 여러 요소를 조합해 현재 설정으로 완성했다.
+spb_desc_ch3_8	샤라와 사이가 좋았던 시절에는 이런 모습의 젊은이였을 것이다.
+spb_desc_ch3_9	현재보다 색감이 조금 더 인간적인 인상을 준다.
+spb_desc_ch3_10	마신다운 모습이 되도록 피부색을 바꾸었다.
+spb_desc_ch3_11	중후한 장식은 초기 디자인부터 이어졌다.\n악당이지만 본래 인간이었다는 흔적을 남겼다.
+spb_desc_ch3_12	찡그린 얼굴뿐 아니라 여유로운 악당의 표정까지 세세하게 설정했다.
+spb_desc_ch3_13	후반부 영상 장면을 위해 마련한 여러 표정.
+spb_desc_ch3_14	전체 형태를 대략 완성했을 무렵의 모습.\n여기서부터 세부를 모델링했다.
+spb_desc_ch3_15	초기의 이레이저.\n평소의 소닉 세계였다면 이런 모습이었을지도!?
+spb_desc_ch4_1	아라비안 나이트의 ‘알리바바와 40인의 도적’에 나오는 알리바바를 모티브로 삼은 캐릭터.
+spb_desc_ch4_2	신드바드는 일곱 바다를 누비는 모험왕.\n힘차고 신사적이며 멋진 모습으로 설정했다.
+spb_desc_ch4_3	밤마다 이 왕에게 들려준 이야기들을 한데 엮은 것이 아라비안 나이트가 되었다.
+spb_desc_ch4_4	몸에 낀 반지 하나하나까지 설정을 정했다.
+spb_desc_ch4_5	게임 전체의 분위기와 달라 폐기했다.\n이 디자인대로도 나름의 멋은 있지만.
+spb_desc_ch4_6	평범한 램프와 달리 금도금이 녹아 속의 바탕이 드러난 모습을 표현했다.\n오른쪽 아래는 ‘덩어리’ 상태.
+spb_desc_ch4_7	이레이저가 램프의 정령이던 시절의 이미지.\n오른쪽은 이를 더욱 사악하게 만든 형태다.
+spb_desc_ch4_8	샤라의 반지.\n소유자에게 행복이 찾아오도록 ‘축복이 있기를’이라고 새겨져 있다.
+spb_desc_ch4_9	여성스럽고 부드러운 반지부터 남성적이고 단단하며 무서운 이미지까지 다양하게 검토했다.
+spb_desc_ch4_10	유리 같은 소재로 만들어져 언제나 빛을 낸다.\n일곱 가지 색이 있다.
+spb_desc_ch4_11	게임에 여러 종류의 링이 등장하기 때문에 서로 차이를 만드는 데 고심한 흔적이 보인다.
+spb_desc_ch4_12	하늘에 떠 있는 아라비아풍 성을 이미지화한 디자인.\n최종 형태와 가깝다.
+spb_desc_ch4_13	왕좌의 방을 여는 문의 이미지. 일곱 세계 링이 있으면 이 문이 열린다.
+spb_desc_ch4_14	일곱 세계 링을 모으면 들어갈 수 있는 방.\n의자가 두 개이고 분수가 있는 점을 빼면 최종 형태와 가깝다.
+spb_desc_ch4_15	첫 장면에서 소닉이 읽는 책.\n사실 책 표지와 세계 링의 문은 같은 디자인이다.
+spb_desc_ch5_1	책과 현실을 잇는 공간.\n흩어진 책장이 책 속 세계가 위험에 처했음을 나타낸다.
+spb_desc_ch5_2	프로젝트 초기에는 아라비안 나이트를 대표하는 소재로 먼저 사막부터 제작했다.
+spb_desc_ch5_3	사막만으로는 단조로워 빛과 물의 표현에 힘을 쏟았고, 그 결과 목표로 하던 오아시스의 형태가 보이기 시작했다.
+spb_desc_ch5_4	정글이라면 흔히 밀림을 떠올리지만, 그것만으로는 재미가 없어 다육식물의 정글을 만들었다.
+spb_desc_ch5_5	일러스트에는 돌기둥과 다리 같은 구조물도 있으나 대자연이라는 콘셉트와 달라 삭제했다.
+spb_desc_ch5_6	물을 가까이서 보여 주는 놀이를 넣고 싶다는 생각에서 통나무 크루즈가 탄생했다.
+spb_desc_ch5_7	폭포를 뚫고 솟은 거대한 선인장으로 물과 식물의 연관성을 표현한 이미지.
+spb_desc_ch5_8	수많은 기계 잔해가 입구 근처까지 넘쳐흐른다.
+spb_desc_ch5_9	전반부의 통로.\n이 부근은 아직 기계에 침식되지 않았지만 천장에는 파이프가 뻗어 있다.
+spb_desc_ch5_10	중반부의 나선 계단.\n성이 번영했던 시절을 떠올리게 하는 장식과 공장 구역의 대비를 노렸다.
+spb_desc_ch5_11	스테이지 중반에는 성 지하에서 침식이 일어나 곳곳에서 녹은 철이 흘러나온다.
+spb_desc_ch5_12	스테이지 후반부.\n발판 아래의 거대한 솥에서는 녹은 철이 끓어오르며 새로운 마신을 만들어 낸다.
+spb_desc_ch5_13	루흐에게 신드바드가 붙잡혀 있다는 설정에서 유적이 공중에 떠 있게 되었다.
+spb_desc_ch5_14	탑 정상에 오르면 루흐의 거대한 크기와 대편대 비행을 느낄 수 있도록 탑을 세웠다.
+spb_desc_ch5_15	거대한 새라는 전통적인 루흐의 이미지에서 벗어나 바닷속을 날듯 헤엄치는 쥐가오리를 모티브로 삼았다.
+spb_desc_ch6_1	거센 폭풍이 오랫동안 그치지 않아 곳곳에 난파선 잔해가 떠 있다.
+spb_desc_ch6_2	폭풍 때문에 어두운 장면이 이어지므로 동굴 안에는 산호를 배치해 밝게 만들고, 현실에는 없는 풍경을 연출했다.
+spb_desc_ch6_3	옛날 사람들이 이곳을 개척했다는 분위기를 내기 위해 지형 곳곳에 다리 등을 배치했다.
+spb_desc_ch6_4	수억 년 전에 멸종한 거대 생물의 유해가 쌓여 지형이 되었다는 설정.
+spb_desc_ch6_5	주변의 거대한 뼈는 수억 년 전 존재한 가상의 거대 생물이다. 이 땅에서 벌어진 어떤 사건 때문에 멸종했다는 설정이다.
+spb_desc_ch6_6	왕의 은신처라는 설정에 이 스테이지의 콘셉트인 ‘뼈’를 더해 탄생한 이미지.
+spb_desc_ch6_7	나선 통로의 중앙. 탁 트인 공간은 왕의 마력으로 불려온 수많은 영혼이 지나는 길이라는 설정이다.
+spb_desc_ch6_8	스테이지 이름에 들어간 ‘돔’이 바로 이 거대한 홀이다. 영혼들이 모이는 콜로세움을 이미지로 삼았다.
+spb_desc_ch6_9	왕의 은신처. 솔로몬 왕이 숨겨 둔 막대한 보물 가운데 스테이지에서 보이는 것은 일부에 불과하다.
+spb_desc_ch6_10	바닥이 거울처럼 닦인 대리석으로 되어 있어 유리 위에 서 있는 듯한 착각을 일으킨다.
+spb_desc_ch6_11	궁전 외부. 기묘한 달빛과 구불구불한 길이 앞에 무엇이 있을지 불안하게 만든다.
+spb_desc_ch6_12	달빛을 받아 푸른빛을 내는 환상적인 공중 궁전. 이 앞에는 현실 세계와 이어진 이공간이 있다.
+spb_desc_ch6_13	궁전 회랑에서는 아름다운 밤하늘이 펼쳐진다. 새어 나오는 빛은 따뜻하지만 사람의 모습도, 생활의 흔적도 전혀 없다.
+spb_desc_ch6_14	맵의 콘셉트는 ‘불가사의’. 궁전 내부를 달리며 세계의 ‘정신’ 영역과 접촉한다는 이미지다.
+spb_desc_ch6_15	정신세계를 표현한 이미지. 유리 통로가 이 공간의 기묘함을 강조한다.
+spb_desc_ch7_1	가장 먼저 제작한 보스. 이 게임에서 보스가 어떤 위치를 차지할지 고민하며 만들었다.
+spb_desc_ch7_2	버려진 기계와 불꽃의 마신이 합체한 이프리트. 자세히 보면 솥 안에 장난감 오리가 있다!
+spb_desc_ch7_3	슬라임 진들이 한데 모여 태어난 괴물이라는 설정.
+spb_desc_ch7_4	이레이저라는 이름은 ‘면도날’과 ‘베어 낸다’에서 유래했다. 그래서 면도날 같은 무기를 든다.
+spb_desc_ch7_5	일곱 세계 링으로 변신을 시도하지만 제물이 될 소닉과 융합하지 못해 불완전한 모습이 되었다.
+spb_desc_ch7_6	왼쪽부터 고대 식물이 마신이 된 라플레시아 진, 성의 고물이 모여 마신이 된 골렘 진.
+spb_desc_ch7_7	왼쪽은 유적의 수호자를 이미지화한 가고일 진. 오른쪽은 왕에게 봉인되었던 도적 스켈레톤 진.
+spb_desc_ch7_8	로스트 프롤로그에 등장하는 마신. 프로젝트 초기에 만든 기본 형태다.
+spb_desc_ch7_9	샌드 오아시스에 등장하는 마신. 프로젝트 막바지에 샌드 오아시스용으로 제작했다.
+spb_desc_ch7_10	다이너소어 정글에 등장하는 마신. 스테이지에 맞춰 고대 식물에 침식된 디자인으로 만들었다.
+spb_desc_ch7_11	이블 파운드리에 등장하는 마신. 머리에 톱니바퀴 같은 장식이 달려 있다.
+spb_desc_ch7_12	레비테이티드 루인에 등장하는 마신. ‘의태’와 ‘커다란 날개’라는 요청에서 탄생했다.
+spb_desc_ch7_13	파이러트 스톰에 등장하는 마신. 해적 유령선의 이미지에 맞춰 해적의 모습을 하고 있다!
+spb_desc_ch7_14	스켈레톤 돔에 등장하는 마신. 스테이지 콘셉트에 맞춰 ‘뼈’를 조금 더했다. 배의 갈비뼈가 특징이다.
+spb_desc_ch7_15	나이트 팰리스에 등장하는 마신. 최종 스테이지에 맞춰 다른 마신과는 다른 위엄을 지녔다.
+spb_desc_ch8_1	시작되는 것은 모험, 빠지는 것은 사랑? 소닉은 샤라에게 이끌려 낡은 책 속으로 들어간다.
+spb_desc_ch8_2	이레이저 등장. 그가 쏜 벌의 화살 ‘심판의 불꽃’이 꺼지기 전에 일곱 세계 링을 찾아라.
+spb_desc_ch8_3	먼저 도착한 소닉이지만 이레이저가 국왕을 납치한다. 그런데 저 국왕, 어디서 본 것 같은데…
+spb_desc_ch8_4	곤경에 빠진 인형을 구해 주니 알리바바였다. 힘은 없지만 손재주 좋은 여우…? 곤란한 일이 생기면 물어보자!
+spb_desc_ch8_5	이레이저가 낳은 괴물이 크게 날뛴다. 손가락을 걸고 약속하는 소닉과 샤라. 슬픈 얼굴은 하지 않기다!
+spb_desc_ch8_6	‘아라비안 나이트에 어둠이 찾아올 때, 바깥세상에서 전설의 파란 고슴도치가 오리라.’
+spb_desc_ch8_7	샤흐리야르 왕의 말에 따르면 이레이저는 부하를 늘리겠다며 낡은 성으로 향했다… 서둘러라, 소닉!
+spb_desc_ch8_8	마신들을 미치게 만든 정체가 이 세계 링일지도 모른다.\n어서 모으지 않으면 이 세계가…
+spb_desc_ch8_9	이레이저가 불러낸 것은 세상 모든 것을 태워 버릴 만큼 거대한 마신!! ‘타임 브레이크’, 달아나는 게 상책이다!
+spb_desc_ch8_10	모험 중 곤란한 일이 생기면 알리바바의 친구 신드바드에게 물어보라… 서쪽 하늘을 나는 루흐를 쫓아라!
+spb_desc_ch8_11	붙잡힌 신드바드. 이레이저의 마력 때문에 나갈 수 없다… 네 개의 열쇠를 열어라.
+spb_desc_ch8_12	신드바드 구출! 해적이 가진 것은 폭풍을 다스리는 하늘색 링!
+spb_desc_ch8_13	거대한 감정이 흘러 들어오는 세계 링. 지옥의 문이 열리는가? 그리고 샤라가 건넨 물건의 정체는…
+spb_desc_ch8_14	쏟아지는 포격. 역시 해적이다. 감탄하는 소닉, 화내는 샤라.\n폭풍을 일으키는 하늘색 링은 그곳에 있을까?
+spb_desc_ch8_15	번개를 등지고 선 그 모습… 해적들을 거느리는 캡틴의 정체는!?
+spb_desc_ch9_1	바깥 이세계에서 온 소닉만 만질 수 있는 세계 링. 그 비밀은!?
+spb_desc_ch9_2	하늘색 세계 링의 힘으로 불꽃의 마신 이프리트와 재대결에 나선 소닉. 과연 승부의 결과는!?
+spb_desc_ch9_3	이프리트의 잔해에서 태어난 폭탄. 곧바로 찾아온 위기! 역시 모험이 끊이지 않는 세계다! 서둘러 출구를 향하라.
+spb_desc_ch9_4	빨간 세계 링에는 모든 분노가…\n세계 링에 감춰진 수수께끼는…
+spb_desc_ch9_5	위대한 솔로몬 왕도 이레이저 때문에 처참한 모습으로… 뼈를 모아 원래대로 되돌려라!
+spb_desc_ch9_6	흰 세계 링에는 모든 소망이 담겨 있는 듯하다… 이레이저는 세계 링을 모아 무엇을 하려는 걸까?
+spb_desc_ch9_7	이레이저를 쓰러뜨리려면 기적의 힘이 필요하다…\n흰 세계 링으로 공중 궁전의 입구가 열린다!
+spb_desc_ch9_8	시간제한이 얼마 남지 않았다!\n나와 너의 약속, 잊지 마!
+spb_desc_ch9_9	슬픔이 봉인된 보라색 세계 링. 이레이저의 정체는 램프의 정령. 그 숙명 때문에 이 이야기를 증오하게 되었는데…
+spb_desc_ch9_10	이레이저와 직접 대결! 베이는 것은 어느 쪽인가!?
+spb_desc_ch9_11	단골 주문 ‘열려라 참깨’로는 열리지 않는 문. 일곱 세계 링으로 이 문을 열 수 있을까?
+spb_desc_ch9_12	알프 라일라 와 라일라와 다크스파인 소닉. 마지막까지 서 있는 것은 어느 쪽인가!?
+spb_desc_ch9_13	알프 라일라 와 라일라를 쓰러뜨리면 흐르는 스태프 롤.
+spb_desc_ch9_14	개발팀의 모습을 소개!
+spb_desc_ch9_15	
+spb_desc_ch10_1	CG 영상을 만들기 전 확인용 스토리보드를 임시 영상으로 제작한다. 이를 확인하며 이미지를 구체화한다.
+spb_desc_ch10_2	모델과 조명은 아직 임시 상태지만 전체 분위기는 상상할 수 있다. 여기서부터 전반적인 조정에 들어간다.
+spb_desc_ch10_3	렌더링도 시작되어 완성까지 한 걸음 남은 상태. 효과 등을 세세하게 거듭 수정한다.
+spb_desc_ch10_4	여러 시행착오 끝에 나온 스토리보드 영상. 전면적으로 다시 그린 제2고이며, 원래는 알프 전투 장면도 있었다.
+spb_desc_ch10_5	아직 제작 중인 상태. 완성된 모습을 상상하며 애절한 분위기가 전해지도록 세부를 조정한다.
+spb_desc_ch10_6	렌더링된 부분은 제법 멋진 모습으로 변했다. 개발진의 기대도 커지는 순간! 샤라가 예쁘게 나오면 좋겠다.
+spb_desc_ch10_7	효과뿐 아니라 효과음과 음악에도 공을 들여 완성도가 높다! 그 부분도 주목해 보자.
+spb_desc_ch10_8	세세한 수정과 조정을 거쳐 마침내 완성! 바람이 부는 방향과 영어 음성에 맞춘 입 모양도 완벽하다.
+spb_desc_ch10_9	기획자가 작성한 사양 중 재미있는 것을 골랐다. 스프링과 가시 같은 장치의 메모. 바나나 껍질도 있다…
+spb_desc_ch10_10	기획자가 그린 맵이 그대로 게임에 재현된 것을 알 수 있다. 물론 이 정도로 그릴 수 있는 사람은 흔치 않지만.
+spb_desc_ch10_11	이 낙서를 아티스트에게 넘겨 스테이지에 더욱 어울리는 모습으로 개조한다.
+spb_desc_ch10_12	최종 모습과는 상당히 다르지만 솥 안에서 나타난다는 발상은 그대로 남았다.
+spb_desc_ch10_13	스테이지 구성이 세세하게 적힌 기획 메모.\n무엇이 쓰여 있는지 알아볼 수 있을까?
+spb_desc_ch10_14	이 정도 메모에서 게임이 만들어진다. 게임 기획 일을 할 수 있겠다고 생각한 당신! 기다리고 있겠다.
+spb_desc_ch10_15	무언가 아이디어를 두고 고민하는 모습… 창작의 고통이 전해지는 듯하다.
+spb_desc_ch11_1	
+spb_desc_ch11_2	
+spb_desc_ch11_3	
+spb_desc_ch11_4	
+spb_desc_ch11_5	
+spb_desc_ch11_6	
+spb_desc_ch11_7	
+spb_desc_ch11_8	
+spb_desc_ch11_9	
+spb_desc_ch11_10	
+spb_desc_ch11_11	
+spb_desc_ch11_12	
+spb_desc_ch11_13	
+spb_desc_ch11_14	
+spb_desc_ch11_15	
+spb_desc_ch12_1	
+spb_desc_ch12_2	
+spb_desc_ch12_3	
+spb_desc_ch12_4	
+spb_desc_ch12_5	
+spb_desc_ch12_6	
+spb_desc_ch12_7	
+spb_desc_ch12_8	
+spb_desc_ch12_9	
+spb_desc_ch12_10	
+spb_desc_ch12_11	
+spb_desc_ch12_12	
+spb_desc_ch12_13	
+spb_desc_ch12_14	
+spb_desc_ch12_15	
+spb_desc_ch13_1	작곡·편곡: Aoi
+spb_desc_ch13_2	작곡·편곡: Aoi
+spb_desc_ch13_3	작곡·편곡: Zakkujo
+spb_desc_ch13_4	작곡·편곡: Stuart Woolley
+spb_desc_ch13_5	작곡·편곡: Stuart Woolley
+spb_desc_ch13_6	작곡·편곡: Aoi\n기타·믹싱: Stuart Woolley
+spb_desc_ch13_7	
+spb_desc_ch13_8	
+spb_desc_ch13_9	
+spb_desc_ch13_10	
+spb_desc_ch13_11	
+spb_desc_ch13_12	
+spb_desc_ch13_13	
+spb_desc_ch13_14	
+spb_desc_ch13_15	작곡·편곡: Aoi
+spb_desc_ch14_1	이레이저 진을 쓰러뜨린 증표!
+spb_hint_ch14_1	이레이저 진 격파…
+spb_desc_ch14_2	알프 라일라 와 라일라를 쓰러뜨린 증표!
+spb_hint_ch14_2	알프 라일라 와 라일라 격파…
+spb_desc_ch14_3	소닉의 누적 주행 거리가 500km를 넘은 증표!
+spb_hint_ch14_3	500km 달리기…
+spb_desc_ch14_4	누적 그라인드 거리가 30km를 넘은 증표!
+spb_hint_ch14_4	30km 그라인드하기…
+spb_desc_ch14_5	누적 획득 링이 10,000개를 넘은 증표!
+spb_hint_ch14_5	링 10,000개 모으기…
+spb_desc_ch14_6	쓰러뜨린 마신이 1,000마리를 넘은 증표!
+spb_hint_ch14_6	마신 1,000마리 쓰러뜨리기…
+spb_desc_ch14_7	스피드 브레이크를 누적 50회 사용한 증표!
+spb_hint_ch14_7	스피드 브레이크 50회 사용…
+spb_desc_ch14_8	타임 브레이크를 누적 300초 사용한 증표!
+spb_hint_ch14_8	타임 브레이크 300초 사용…
+spb_desc_ch14_9	링 체인 200회를 달성한 증표!
+spb_hint_ch14_9	링 체인 200회 달성…
+spb_desc_ch14_10	SP 100포인트 이내로 미션 30개를 클리어한 증표!
+spb_hint_ch14_10	SP 100포인트 이내로 미션 30개 클리어…
+spb_desc_ch14_11	SP 0포인트로 금메달을 획득한 증표!
+spb_hint_ch14_11	SP 0포인트로 금메달 획득…
+spb_desc_ch14_12	불꽃 속성 스킬만으로 미션 20개를 클리어한 증표!
+spb_hint_ch14_12	불꽃 속성 스킬만으로 미션 20개 클리어…
+spb_desc_ch14_13	바람 속성 스킬만으로 미션 20개를 클리어한 증표!
+spb_hint_ch14_13	바람 속성 스킬만으로 미션 20개 클리어…
+spb_desc_ch14_14	어둠 속성 스킬만으로 미션 20개를 클리어한 증표!
+spb_hint_ch14_14	어둠 속성 스킬만으로 미션 20개 클리어…
+spb_desc_ch14_15	레벨 25 이하로 이레이저 진을 쓰러뜨린 증표!
+spb_hint_ch14_15	레벨 25 이하로 이레이저 진 격파…
+spb_desc_ch15_1	소닉의 레벨이 99가 된 증표!
+spb_hint_ch15_1	레벨 99 달성…
+spb_desc_ch15_2	모든 스킬을 획득한 증표!
+spb_hint_ch15_2	모든 스킬 획득…
+spb_desc_ch15_3	모든 파이어 소울을 획득한 증표!
+spb_hint_ch15_3	모든 파이어 소울 획득…
+spb_desc_ch15_4	어드벤처 모드의 모든 금메달을 획득한 증표!
+spb_hint_ch15_4	어드벤처 모드의 모든 금메달 획득…
+spb_desc_ch15_5	플레이 시간이 24시간을 넘은 증표!
+spb_hint_ch15_5	24시간 플레이…
+spb_desc_ch15_6	파티 게임을 누적 200회 플레이한 증표!
+spb_hint_ch15_6	
+spb_desc_ch15_7	어트랙션을 누적 35회 플레이한 증표!
+spb_hint_ch15_7	
+spb_desc_ch15_8	월드 바자에서 누적 7회 우승한 증표!
+spb_hint_ch15_8	
+spb_desc_ch15_9	토너먼트 팰리스에서 누적 7회 우승한 증표!
+spb_hint_ch15_9	
+spb_desc_ch15_10	파이러츠 코스트에서 누적 7회 우승한 증표!
+spb_hint_ch15_10	
+spb_desc_ch15_11	지니즈 레어에서 누적 7회 우승한 증표!
+spb_hint_ch15_11	
+spb_desc_ch15_12	트레저 헌트에서 누적 7회 우승한 증표!
+spb_hint_ch15_12	
+spb_desc_ch15_13	파티 게임에서 누적 120회 1위를 차지한 증표!
+spb_hint_ch15_13	
+spb_desc_ch15_14	소닉을 누적 30회 사용한 증표!
+spb_hint_ch15_14	
+spb_desc_ch15_15	타임 어택 모드의 모든 기록을 경신한 증표!
+spb_hint_ch15_15	타임 어택 모드의 모든 기록 경신…
+spb_desc_ch16_1	모르는 요정이 ‘네가 파란 고슴도치구나’ 하더니 나를 이런 곳으로 데려왔어.\n신기한 곳이네.\n…그런데 여기가 어디지?
+spb_desc_ch16_2	물이 예쁜 오아시스에 왔어.\n맑아서 속이 훤히 보이는데 물고기가 있으려나?
+spb_desc_ch16_3	물고기를 잡고 있었더니 개굴이 친구가 헤엄치고 있었어.\n기분 좋아 보여.
+spb_desc_ch16_4	나도 같이 헤엄칠 거야~
+spb_desc_ch16_5	어라~?\n커다란 도마뱀에게 쫓겨 여기까지 와 버렸어~\n어느 쪽에서 왔더라~?
+spb_desc_ch16_6	조금 덥지만 여기서는 굉장한 게 낚일 것 같은 예감이 들어~\n나와라, 나와라, 물고기야~
+spb_desc_ch16_7	우와앗!\n이건 물고기가 아니구나~\n미안해~
+spb_desc_ch16_8	어라라~\n바람에 날려 와서 걸려 버렸어.\n누가 좀 도와줘~\n그런데 왠지 기분이 조금 좋아.
+spb_desc_ch16_9	나도 같이 줄을 서 봤어~\n그런데 좀처럼 날개가 안 생기네~\n앉는 방법이 다른 걸까~?
+spb_desc_ch16_10	우와~!\n올라온 건 좋은데 여기서 어떻게 내려가지~?
+spb_desc_ch16_11	우와~!\n아무도 없는 나만의 비밀 기지!\n누구에게도 비밀이야.\n그래도 개굴이에게는 알려 줘야지~
+spb_desc_ch16_12	뼈다귀 아저씨와 친구가 됐어.\n옛날에는 커다란 물고기였대~\n굉장하다~
+spb_desc_ch16_13	뼈다귀 아저씨는 뼈가 되기 전에는 예쁜 물고기였고 노래도 아주 잘했대.\n나도 아저씨를 낚아 보고 싶었는데.
+spb_desc_ch16_14	은하수에 와 버렸어~\n여기에는 ‘물고기자리’라는 물고기가 있다고 들었어~\n빨리 만나고 싶다~
+spb_desc_ch16_15	하늘을 보고 있으니 왠지 개굴이가 생각났어.\n이제 돌아가야지~\n개굴아~ 기다려 줘~
+event01_name	아라비안 나이트를 구할 전설의 시작
+event01_1	쿨쿨…
+event01_2	저기…
+event01_3	쿨쿨…
+event01_4	정말…
+event01_5	있잖아, 일어나.
+event01_6	하아암… 벌써 시간이 이렇게 됐나.\n지금 몇 시지?
+event01_7	응!?
+event01_8	당신이 파란 고슴도치군요.
+event01_9	우와아아아아!!
+event01_10	그렇게 놀라지 마세요!\n저는 링의 정령 샤라예요.
+event01_11	그러고 보니,\n‘알라딘과 마법의 램프’는…?
+event01_12	아직 안 읽었는데.
+event01_13	네에~?\n정말 괜찮으려나…
+event01_14	아라비안 나이트에서도 첫째, 둘째를 다툴 만큼\n재미있는 이야기인데…
+event01_15	아니, 그런 설명은 됐고,\n이걸 보세요!
+event01_16	페이지가 백지가 됐잖아!?
+event01_17	우리 세계가…
+event01_18	아라비안 나이트의 세계가\n지워지고 있어요.
+event01_19	지워진다고? 왜?
+event01_20	그건… 사악한 마신,\n이레이저 진의 짓이에요.
+event01_21	이레이저… 진?
+event01_22	그래요.
+event01_23	그는 강력한 마력을 지닌 마신이에요.\n그 탓에 자신의 힘을 주체하지 못하고,
+event01_24	책 속에만 머무는 걸\n견딜 수 없게 된 거예요.
+event01_25	그는 책의 글자를 베어 내어
+event01_26	책의 힘을 흡수하기 시작했어요.
+event01_27	책의 힘을 흡수한다고…
+event01_28	이대로 우리 세계가 사라지면,
+event01_29	다시는 이 이야기를\n읽을 수 없게 될 뿐 아니라,
+event01_30	힘을 흡수한 그가 당신이 있는\n이 세계에도 찾아올 거예요.
+event01_31	그건 확실히 큰일이네.\n그래서? 내가 뭘 해 주면 되는데?
+event01_32	당신이 그를…
+event01_33	이레이저 진을\n막아 줬으면 해요.
+event01_34	그럴 수 있는 건\n파란 고슴도치인 당신뿐이에요.
+event01_35	흠.
+event01_36	제멋대로 구는 꼬마랑\n놀아 달라는 거군.
+event01_37	하지만 돕는다고 해도,
+event01_38	결국 책 속에서 일어난 일이잖아?
+event01_39	어떻게 하면 되는데?
+event01_40	간단해요.
+event01_41	링의 정령인 저는\n저를 불러낸 분을 주인님으로 모시고,
+event01_42	그분의 소원을\n이뤄 드릴 수 있어요.
+event01_43	간단한 소원에\n한정되지만요…
+event01_44	당신을 아라비안 나이트의 세계로\n데려가는 정도는 할 수 있어요.
+event01_45	뭐!? 책 속으로?
+event01_46	자!\n이 링을 손가락에 끼워 주세요!
+event01_47	…이렇게?
+event01_48	아야!\n아야야야.
+event01_49	죄송해요, 주인님.\n이것으로 계약은 완료됐어요.
+event01_50	계약?
+event01_51	네, 그리고… 이제\n당신을 지켜 드릴 수도 있어요.
+event01_52	자, 링을 문질러 주세요.
+event01_53	이러면 돼?
+event01_54	무엇을 원하시나요?\n주인님, 무엇이든 명령해 주세요.
+event01_55	에취!\n에취!
+event01_56	손수건을 줘! 잔뜩.
+event01_57	이야, 정말 살았네!\n사실 어제부터 감기 기운이 있어서…
+event01_58	진지하게 해 주세요!!
+event01_59	알고 있다니까.\n손수건 정도는 괜찮잖아.
+event01_60	정말… 참.\n진짜 괜찮을까…
+event01_61	그럼, 가자.
+event01_62	날 아라비안 나이트의 세계로\n데려가 줘!
+event01_63	알겠습니다, 주인님!!
+event01_64	그만해!
+event01_65	난 소닉!\n소닉 더 헤지혹이야.
+event01_66	알겠어요, 소닉.
+event01_67	…전설의 고슴도치.
+event01_68	그럼 갑니다!\n아라비안 나이트의 세계로.
+event01_69	좋아.
+event01_70	일등석으로 부탁한다고!
+event01_71	자, 간다!!
+event02_name	세계를 베어내는 자와 이야기에 쓰인 자
+event02_1	이 세계를 없애려는 녀석 이름이 뭐였더라…
+event02_2	이레이저 진 말인가요?
+event02_3	그래, 그 녀석한테 이대로 데려다줘.
+event02_4	…그럴 필요는 없을 것 같네요.
+event02_5	뭐라고?
+event02_6	왔어요!!
+event02_7	야, 면도라면 사양하겠어.
+event02_8	가시를 깎는 건 더더욱…
+event02_9	소닉!\n저자가 바로…
+event02_10	이 세계에서 글자를 지우고\n이야기의 페이지를 베어내는 마신이에요!
+event02_11	네놈이로군… 이야기에 새로 쓰인\n파란 쥐라는 녀석이…
+event02_12	보면 모르겠어?
+event02_13	쥐가 아니라\n고슴도치야.
+event02_14	후후후…\n내 이름은 이레이저 진.
+event02_15	이 세계를 베어내는 자다.
+event02_16	관둬.
+event02_17	하려거든\n내가 다 읽고 나서 하라고.
+event02_18	소닉…
+event02_19	이미 천일야화 가운데
+event02_20	백일 밤의 글자를 베어냈다.
+event02_21	이제 남은 이야기도\n하나씩 모조리 베어내 주마.
+event02_22	이제 일곱 ‘세계 링’만\n손에 넣으면…
+event02_23	일곱 세계 링?
+event02_24	나를 위해 일곱 세계 링을\n모으고 있던 것 아니었나?
+event02_25	샤라.
+event02_26	아직도 그 말을 하는 거야?
+event02_27	그런 건 이 세계에 존재하지도 않고,
+event02_28	있다고 해도 당신에겐 주지 않아.
+event02_29	그게 네 진심은 아닐 텐데?
+event02_30	…
+event02_31	아무래도 그에 걸맞은 벌이 필요하겠군…
+event02_32	!!
+event02_33	크아악!
+event02_34	소닉!
+event02_35	호오…\n‘심판’은 그쪽에 내려졌나.
+event02_36	뭐, 그것도 재미있겠군…
+event02_37	잘 들어라.
+event02_38	그 화살의 불꽃이 꺼지기 전에\n일곱 세계 링을 찾아와라.
+event02_39	그러지 못하면…
+event02_40	!?
+event02_41	네 목숨은 없다.
+event02_42	그럼 다음은 샤흐리야르 왕의 목숨을\n베어내러 가 볼까…
+event02_43	왕은 아라비안 나이트의 창조주이자
+event02_44	이 세계의 중심인물이에요!!
+event02_45	이 나랑 속도 승부를 하겠다고?\n배짱 한번 좋군! 앞질러 주겠어!
+event03_name	항아리 속 국왕과 파란 가시돌이
+event03_1	선수를 빼앗겼나?\n흥, 설마.
+event03_2	!?
+event03_3	닥터 에그맨이 왜 여기에…
+event03_4	하하! 이번에도 네 짓이었구나!!
+event03_5	무슨 소리냐! 나는 이 나라의 왕\n샤흐리야르다!
+event03_6	…에그맨, 이번엔 대체\n무슨 꿍꿍이를…
+event03_7	잠깐만, 소닉!
+event03_8	이분은 진짜야. 우리가 찾던\n샤흐리야르 왕이라고!
+event03_9	정말?
+event03_10	이 무슨 무례한 녀석이냐! 여봐라!\n이 파란 가시돌이를 당장 잡아라!
+event03_11	왕이시여, 신하들은 어디 있나요?
+event03_12	아, 그렇지…
+event03_13	갑자기 성 아래에 흉포한 마신들이 나타나\n모두 끌려가 버렸다.
+event03_14	짐은 재빨리 기지를 발휘해 항아리 속으로…
+event03_15	으아아악!!\n살려 다오!
+event03_16	흥…
+event03_17	이거 참…\n점점 바빠지겠는걸.
+event04_name	손재주 좋은 알리바바
+event04_1	고마워!\n덕분에 살았어!
+event04_2	테일즈!\n너도 이쪽으로 온 거야?
+event04_3	…테일즈?
+event04_4	내 이름은\n알리바바인데…
+event04_5	이봐!\n너까지 왜 그래!
+event04_6	미안해요.
+event04_7	아무래도 사람을 착각한 모양이에요…
+event04_8	신경 쓰지 마!\n덕분에 도움을 받았으니까.
+event04_9	난 힘은 없지만\n이래 봬도 손재주는 제법 좋아.
+event04_10	혹시 내가 도울 일이 생기면
+event04_11	언제든 말해 줘!
+event04_12	고마워!
+event04_13	무슨 일 생기면 부탁할게!
+event05_name	샌드 스코피온 등장
+event05_1	저길 봐, 소닉!
+event05_2	이봐, 저런 흉측한 걸\n누가 불렀대?
+event05_3	저건… 이레이저 진이\n만들어 낸 괴물이야.
+event05_4	샤라, 네 특기인 마법으로\n저걸 어떻게 좀 해 줄 수 없어?
+event05_5	미안해, 소닉.
+event05_6	그자의 마법은 너무 강해서\n내 힘으로는 어쩔 수 없어.
+event05_7	좋아! 그럼 이렇게 하자.\n내가 저 녀석을 가볍게 걷어차고 올게.
+event05_8	그러니까 샤라, 그렇게 슬픈 표정 짓지 마.\n언제나 웃어 줘!
+event05_9	이건 명령이 아니야.
+event05_10	나와 너의 ‘약속’이야!
+event05_11	응… 알았어.
+event05_12	좋아, 해 보자고!
+event05_13	약속…
+event06_name	노란 세계 링 획득!
+event06_1	이것 좀 봐, 소닉!
+event06_2	이건…
+event06_3	이레이저 진이 말했던\n일곱 세계 링 중 하나일지도 몰라…
+event06_4	?\n잡히지 않아…
+event06_5	으아아악!
+event06_6	‘아라비안 나이트에 어둠이 찾아올 때―
+event06_7	―바깥 세계에서 전설의\n푸른 고슴도치가 오리라.’
+event06_8	뭐야? 내 얘기야?
+event06_9	쑥스럽게 왜 이래.
+event06_10	‘일곱 세계를 다스리는\n링이 모두 모일 때,
+event06_11	세계를 잇는 문이 열리리라…
+event06_12	그러나 이를 모은 자는\n자신의 목숨을 대가로 바쳐
+event06_13	모든 것을 다스리는 열쇠가 되리라.’
+event06_14	…이게 최근 아라비안 나이트에\n새로 쓰인 문장이에요.
+event06_15	뭐라고!\n나를 제물로 삼겠다는 거야?
+event06_16	지금으로서는 확실히 알 수 없어요.
+event06_17	하지만 이 세계 링에는
+event06_18	무언가 비밀이 숨겨져 있는 것 같아요.
+event06_19	어떻게든 일곱 링을 모아서
+event06_20	그 비밀을 풀어야 해요…
+event06_21	내 가슴엔 이런 화살까지 박혀 있고,
+event06_22	어느 쪽이든 위기인 건 마찬가지네.
+event06_23	미안해요. 나 때문에\n당신을 이런 운명에 빠뜨려서…
+event06_24	하하하!\n신경 쓰지 마.
+event06_25	알고 있어?\n내 특기가 뭔지.
+event06_26	운명 따위, 내 스피드로\n따돌려 주겠어.
+event07_name	왕을 구하긴 했지만…
+event07_1	이놈, 가시돌이! 뭘 꾸물대느냐!\n어서 짐을 구하지 못할까!!
+event07_2	으아아아아악…!
+event07_3	히익!?
+event07_4	…!!
+event07_5	휴우…
+event07_6	네놈! 짐은 왕이니라!!\n좀 더 품위 있게 다루지 못하겠느냐!
+event07_7	미안.
+event07_8	왕이시여, 그 마신은 어디로 갔나요?
+event07_9	녀석은 부하를 더 늘리겠다며\n이 앞에 있는 성으로 향했다.
+event07_10	성?
+event07_11	이 앞에는 거대한 성채가 있어요.
+event07_12	아주 오래전에 멸망한 왕국의…
+event08_name	초록 세계 링 획득!
+event08_1	오, 이건…
+event08_2	일곱 세계 링 중 하나야.
+event08_3	윽! 이 힘은…
+event08_4	이게 마신들을 미치게 만든\n원인이 아닐까요?
+event08_5	흉포한 마신들이 많이 나타나기 시작한 건\n최근의 일이니까요…
+event08_6	확실히 그럴 가능성은 충분해.
+event08_7	…
+event08_8	그러고 보니 링의 정령에게\n부탁 하나 해도 될까?
+event08_9	무엇을 원하시나요?\n주인님, 무엇이든 명령해 주세요.
+event08_10	내 가슴에 박힌 ‘심판 어쩌고’ 좀\n빼 줄 수 없어?
+event08_11	…
+event08_12	미안해요.
+event08_13	이봐.\n그렇게 슬픈 표정 짓지 마.
+event08_14	어?
+event08_15	괜찮아!
+event08_16	모험은 어려울수록\n더 재미있는 법이잖아?
+event08_17	그냥 마법으로 뺄 수 있다면\n좋겠다 싶어서 말이지.
+event08_18	좋아, 힘내서 가 보자고!
+event08_19	…응.
+event09_name	강적, 불꽃의 마신 등장
+event09_1	저 녀석!\n뭘 하려는 거지!?
+event09_2	마신을 불러내려는 거예요!
+event09_3	마신!?
+event09_4	이퍄라스 자라스 이 에 자라크\n이퍄리스 자리스 이 에 자리크
+event09_5	심연 깊은 자한남의 화로에서 나오라.\n이블리스에게 저주받은 팔이여.
+event09_6	이스 이프리테!!
+event09_7	크오오오!
+event09_8	저건…
+event09_9	세상 모든 것을 불태우는\n불꽃의 대마신, 이프리트!!
+event09_10	…
+event09_11	이미 이 세계를 이루는 페이지의 절반은\n베어냈다.
+event09_12	그래서 저걸 불러낼 수 있었구나…
+event09_13	남은 페이지는 이 이프리트에게\n불태우게 하면 되겠군.
+event09_14	거기 파란 시궁쥐.
+event09_15	일곱 링은 모으고 있느냐?
+event09_16	이봐, 난 시궁쥐가 아니야.
+event09_17	고·슴·도·치라고!
+event09_18	더럽고 하찮은 생물인 건 마찬가지다.
+event09_19	그리고… 서두르는 편이 좋을 거다.
+event09_20	쳇!
+event09_21	네 목숨도 절반으로 줄었다…\n그 말이다.
+event09_22	기다려!!
+event09_23	크오오오!
+event09_24	쳇, 방해야!\n이런 녀석은 단숨에 해치워 주겠어!
+event09_25	뭐야, 안 통하잖아!?
+event09_26	안 돼, 소닉!!
+event09_27	지금 네 몸은 불의 영역에 속해 있어.\n불로 불을 칠 수는 없어!!
+event09_28	제법인데!!
+event09_29	조금 위험하겠는걸!\n샤라, 네 힘을 빌릴게!
+event09_30	‘타임 브레이크!!’
+event09_31	이럴 때는 도망치는 게 상책이지.
+event09_32	잘 있어! 다음에 또 놀아 주지!
+event10_name	알리바바의 조언, 새로운 모험
+event10_1	…그렇게 된 거야.
+event10_2	음…\n어쩌면…
+event10_3	내 친구 신드바드라면
+event10_4	좋은 지혜를 빌려줄지도 몰라…
+event10_5	그래서, 그 녀석은 어디 있는데?
+event10_6	소문에 따르면 어느 섬에서 해적과 싸우다가
+event10_7	루흐에게 납치된 모양이야.
+event10_8	루흐…
+event10_9	거대한 새야.
+event10_10	새라고는 해도, 이제는 거의\n살아 있는 화석 같은 존재지만.
+event10_11	흐음, 그래서 어디 있는데?\n그 뭐시기 새는…
+event10_12	루흐 무리는 지금쯤\n서쪽 하늘을 날고 있을 거야.
+event10_13	하늘이라… 좋아!\n샤라!
+event10_14	무엇을 원하시나요?\n주인님, 무엇이든 명령해 주세요.
+event10_15	마법 양탄자로 가자!\n그 루흐의 등까지 데려다줘!
+event11_name	일곱 바다를 누빈 모험가!?
+event11_1	이봐, 너클즈!\n너클즈잖아!
+event11_2	나는 일곱 바다를 누빈\n모험가 신드바드다.
+event11_3	넌 대체 누구지?
+event11_4	오오!\n위대한 모험가 신드바드 님.
+event11_5	그 비범한 지혜를\n저희에게 빌려주시겠어요?
+event11_6	아가씨, 그러니까…
+event11_7	샤라예요.
+event11_8	샤라.
+event11_9	유감이지만 나는 갇혀 있는 몸이라서 말이지.
+event11_10	부탁하고 싶은 건\n오히려 이쪽이다.
+event11_11	여기서도 강력한 마법의 힘이 느껴져요.
+event11_12	아마 이레이저 진의 짓일 거예요.
+event11_13	…그렇다면 마법을 풀어서\n이 자물쇠를 열면 되는 거죠?
+event11_14	오오, 샤라! 바로 그거야.
+event11_15	이런 곳에서도 못 나오는 녀석은\n그냥 내버려 두자.
+event11_16	이봐, 거기 고슴도치!
+event11_17	서로 주고받는 걸로 하자고.\n네가 이 몸을 여기서 꺼내 주면,
+event11_18	내가 지혜를 빌려주지.\n어때, 나쁘지 않잖아?
+event11_19	너클즈의 지혜라…
+event11_20	?
+event11_21	아니, 아무것도 아니야.\n그럼 열쇠든 뭐든 찾아볼까.
+event12_name	불꽃의 마신에는 물, 해적에게는 무엇을?
+event12_1	흐음, 불꽃의 마신이라…
+event12_2	그럼 물이라도 끼얹으면\n되는 거 아니야?
+event12_3	역시 일곱 바다를 누빈\n모험왕 신드바드 님답네.
+event12_4	뭐야, 네놈은!\n그럼 넌 어떻게 할 건데!!
+event12_5	그만!!
+event12_6	문제는 불꽃의 마신을 쓰러뜨릴 만큼의 물을
+event12_7	어떻게 손에 넣느냐는 거야.
+event12_8	흥, 그걸 먼저 말했어야지.
+event12_9	?
+event12_10	나를 가둔 해적 녀석들이\n폭풍을 다루는 하늘색 링을
+event12_11	가지고 있었어.
+event12_12	하늘색…
+event12_13	링…
+event12_14	불꽃의 마신 다음은 해적 퇴치인가.
+event12_15	역시 아라비안 나이트야.\n모험이 끊이지 않는 세계라니까.
+event13_name	파란 세계 링 획득!
+event13_1	드디어인가… 정말 마신들은\n끝도 없이 나오는군.
+event13_2	이건…
+event13_3	일곱 세계 링 중 하나… 맞지?
+event13_4	괜찮아?
+event13_5	그래.\n괜찮아!
+event13_6	다만 손을 대면 거대한 감정의 소용돌이가
+event13_7	몸 안으로 흘러 들어와…
+event13_8	이런 링이 일곱 개나 모이면
+event13_9	대체 무슨 일이 벌어질지\n상상도 안 되는걸.
+event13_10	…
+event13_11	지옥문이라도 열리는 것 아냐…
+event13_12	소닉… 이거.
+event13_13	?
+event13_14	이걸 맡아 줘…
+event13_15	뭐야?\n이건?
+event13_16	무슨 수를 써도 그를 막지 못할 때\n마지막으로 그를 멈출 수 있는 물건이야.
+event13_17	샤라…
+event13_18	나 혼자서는 쓸 수 없어…
+event14_name	해적 선단 발견!
+event14_1	찾았다!
+event14_2	저기에 폭풍을 일으킬 수 있는\n하늘색 링이 있는 거구나.
+event14_3	아까부터 무턱대고 쏴 대네.\n역시 해적이야.
+event14_4	이상한 데 감탄하지 마!
+event14_5	어서 가서\n끝장을 내 볼까!
+event15_name	캡틴 베모스 등장
+event15_1	오호.\n결투를 하자는 건가.
+event15_2	소닉…
+event15_3	재미있어지는데.\n바라던 바야!!
+event16_name	하늘색 세계 링 획득!
+event16_1	이건 일곱 세계 링 중 하나인\n하늘색 링…
+event16_2	나는 손을 대는 것조차\n할 수 없는 거구나.
+event16_3	바깥 세계에서 온 나만\n만질 수 있다는 건…
+event16_4	이건…
+event16_5	이 세계의 물건이 아닌 건가?
+event16_6	…소닉.
+event16_7	…그럼 신드바드라는 녀석이\n말한 건 이거겠네.
+event16_8	드디어 그 커다란 뭐시기에게\n한 방 먹일 수 있겠군!
+event16_9	불꽃의 대마신,\n이프리트야.
+event16_10	성에서 연기가 나기 시작했어!
+event16_11	아무래도 이프리트의 힘이
+event16_12	세계를 불태울 만큼\n강해지고 있는 것 같아.
+event16_13	이쪽도 준비 끝났어.\n기다려라, 대마신!!
+event17_name	이프리트와의 재대결!
+event17_1	미안!\n기다렸지!
+event17_2	크오오오!
+event17_3	저번에 데이트 도중에\n바람맞혔다고
+event17_4	아직도 화난 거야?
+event17_5	그렇게 속이 좁아서야\n모두에게 미움받는다고.
+event17_6	자, 하늘색 링이여.\n폭풍을 불러일으켜 줘!
+event17_7	크르르!
+event17_8	소닉! 이프리트의 힘이\n상당히 약해졌어!
+event17_9	좋아, 이제 슬슬 끝내자고!
+event18_name	마신 공장에서 탈출
+event18_1	두근… 두근… 두근…
+event18_2	이건…
+event18_3	뭐야, 이건?\n뭔가… 태어나는 건가?
+event18_4	소리… 소리가 들려요…\n심장 같은 소리가…
+event18_5	설마 시한폭탄이라서\n나중에 폭발하는 건…
+event18_6	점점 빨라지고 있어!
+event18_7	안 돼!!\n그건 곤란한데.
+event18_8	서둘러 탈출하자!
+event18_9	어딘가 넓은 곳에서 폭발시켜야 해!
+event18_10	응!
+event19_name	빨간 세계 링 획득!
+event19_1	젠장! 늦지 마라!!
+event19_2	응!?\n이건…
+event19_3	이런 곳에도…
+event19_4	일곱 세계 링 중 하나야.
+event19_5	이프리트의 몸 안에 있었던 걸까…
+event19_6	여기서는 분노가 느껴져.
+event19_7	모든 분노가 봉인된 것 같아…
+event19_8	분노?
+event19_9	아무래도 링에는\n여러 감정의 힘이 봉인되어 있나 봐…
+event19_10	여기에는 분노의 힘이…
+event19_11	…
+event19_12	자, 다음은 어떻게 할까?
+event19_13	솔로몬 왕을 만나러 가요!
+event19_14	마신들은 원래 솔로몬 왕이\n봉인해 두었어요.
+event19_15	이번 이변은 분명 솔로몬 왕과도\n관련이 있을 거예요.
+event19_16	좋아!\n그렇게 정했으면 당장 출발하자!
+event20_name	썩은 왕좌의 해골바가지
+event20_1	조금 늦은 모양인데…
+event20_2	그러고도 남았지!!
+event20_3	우왓!?
+event20_4	소, 솔로몬 왕…?
+event20_5	그렇다! 짐이 바로 천하에 이름 높은\n솔로몬 왕이니라.
+event20_6	머리밖에 없으면서!
+event20_7	짐인들 좋아서\n이 꼴이 된 줄 아느냐!
+event20_8	이레이저 진이라는 녀석이
+event20_9	40인의 도적을 마신으로 부활시켜
+event20_10	이곳을 공격해 왔다.
+event20_11	그래서 그런 모습이 된 건가요?
+event20_12	그렇다.
+event20_13	미안하지만,
+event20_14	짐의 몸을 모아다 주지 않겠느냐?
+event20_15	하는 김에 40인의 해골 도적들도
+event20_16	어떻게 좀 해 주면 고맙겠구나.
+event20_17	흥! 식은 죽 먹기지!
+event21_name	흰 세계 링 획득!
+event21_1	이건…
+event21_2	일곱 링 중 하나인 흰색 링이야.
+event21_3	윽! 확실히 일곱 세계 링 중 하나야…\n빛 같은 힘이 느껴져…
+event21_4	…정말 성가신 물건이라니까.
+event21_5	그… 링이 말인가요?
+event21_6	큰 힘은 사람을 행복하게도 하지만\n불행하게도 해.
+event21_7	…아라비안 나이트에도\n그런 이야기가 몇 가지 있어요.
+event21_8	예를 들면 이 링에는 사람의 ‘소망’이\n가득 담긴 느낌이야.
+event21_9	희망이라고도 할 수 있지만, 이야기에 따라선\n야망이나 욕망이 되기도 하지.
+event21_10	…
+event21_11	대체 이런 걸 모아서\n그 녀석은 뭘 하려는 거지?
+event22_name	달밤에 떠오른 공중 궁전
+event22_1	…수많은 마신이 광기에 사로잡혀
+event22_2	이레이저 진이라는 자의 부하가 된 건\n짐의 불찰이다.
+event22_3	하지만 녀석은 베어낸\n이 세계의 글자에서
+event22_4	새로운 마신을 만들어 내고 있다.
+event22_5	그 힘은…\n실로 신과도 같지.
+event22_6	신이라고…?\n골치 아픈데.
+event22_7	허나 신이라 해도\n약점은 있는 법.
+event22_8	짐작건대…
+event22_9	?
+event22_10	?
+event22_11	녀석의 정체는 램프의 정령이다.\n어떤 이유로 밖에 나온 것이겠지.
+event22_12	원래의 램프가 있다면
+event22_13	녀석의 힘을 봉인할 수\n있을지도 모른다.
+event22_14	램프라…
+event22_15	흐음…
+event22_16	사라진 이야기를 되돌리는 데에는\n빼앗는 것보다 훨씬 강한 힘이 필요하다.
+event22_17	그야말로 기적이라 부를 만한\n힘이 말이지.
+event22_18	맡겨 두라고.\n그러려고 온 거니까.
+event22_19	그렇군. 네가 바로\n전설의 고슴도치라는 녀석인가…
+event22_20	제법 지독한 저주를 받았구나.
+event22_21	네 눈에서는\n지옥이 보이는구나.
+event22_22	그렇게 들여다보지 마, 영감님.\n쑥스럽잖아.
+event22_23	흠, 네게 맡기는 건\n조금 불안하다만… 알려 주마.
+event22_24	녀석은 스스로 띄운\n공중 궁전에 있다.
+event22_25	전설의 편린이라도\n보여 주거라.
+event22_26	고마워.\n그럼 전설 하나 만들고 올까.
+event22_27	궁전 문 앞에서 흰 세계 링을\n치켜들어라. 그러면 문이 열릴 것이다.
+event22_28	좋아!\n도움이 됐어, 영감님.
+event22_29	흠…\n죽음의 기운이 드리웠구나.
+event23_name	시간제한과 잊지 않을 약속
+event23_1	헤헤, 아무래도 내\n시간도 얼마 안 남은 모양이네.
+event23_2	소닉!?
+event23_3	미안, 괜한 걱정을 끼쳤네.\n…괜찮아.
+event23_4	정말 미안해.
+event23_5	이런 일에\n휘말리게 해서…
+event23_6	…\n됐어. 신경 쓰지 마.
+event23_7	약속… 나와 너의 약속을\n잊지 마!
+event23_8	…약속,\n잊지 않았어!!
+event23_9	좋아!
+event23_10	고작 불꽃 주제에\n나를 심판하겠다고!? 건방진걸.
+event23_11	조금 서두를까.
+event23_12	응!
+event24_name	보라색 세계 링 획득!
+event24_1	이건…
+event24_2	일곱 세계 링 중 하나인\n보라색 링이야.
+event24_3	여기에는…\n슬픔이 봉인되어 있어…
+event24_4	대체 정체가 뭘까…\n이 링의 비밀은…
+event24_5	저기, 하나 궁금한 게 있는데\n물어봐도 될까?
+event24_6	뭔데?
+event24_7	그 녀석… 이레이저 진과 넌\n어떤 사이야?
+event24_8	어!? 그게…
+event24_9	말하고 싶지 않다면\n그러지 않아도 돼.
+event24_10	…소닉.
+event24_11	그 녀석의 정체는 그 영감이 말한 대로\n램프의 정령이야?
+event24_12	…맞아.
+event24_13	그는 ‘알라딘과 마법의 램프’에 나오는\n램프의 정령이야.
+event24_14	!?
+event24_15	그는 오래전 악행을 저지른 벌로\n램프 안에 갇혔고,
+event24_16	천 명의 소원을 들어줄 때까지
+event24_17	밖으로 나오는 걸\n허락받지 못했어…
+event24_18	그리고 그 ‘속죄’가 끝났을 때,\n그의 마음에는 사람을 향한 더 큰 증오와
+event24_19	자신에게 그런 숙명을 안긴
+event24_20	이 이야기 자체를 저주하는 마음이\n깊이 새겨졌어.
+event24_21	…샤라.
+event24_22	그에게 나는\n한낱 링의 정령일 뿐이야.
+event24_23	…
+event24_24	그래도 난 그를 막고 싶어.
+event24_25	그리고 이 아라비안 나이트의\n세계를 원래대로 되돌리고 싶어.
+event24_26	그게… 내 소원이야.
+event25_name	언제나 베이는 것은 자존심
+event25_1	흥… 파란 시궁쥐인가…
+event25_2	슬슬 연료가 바닥나서 말이야.
+event25_3	가득 채워 줘.
+event25_4	일곱 세계 링은 모았느냐?
+event25_5	글쎄, 어떨까.
+event25_6	궁금하면 직접 찾아보는 게 어때?
+event25_7	그렇다면…
+event25_8	네놈을 갈기갈기 베어서\n확인해 주마!
+event25_9	그래?\n그럼 한번 해 봐!
+event26_name	수수께끼의 문과 책의 장정
+event26_1	소닉!?
+event26_2	그래, 괜찮아. 아직은…
+event26_3	저 안쪽 문… 뭐지?
+event26_4	이럴 땐 그거잖아?\n열려라! 참깨!!
+event26_5	반응 없음!
+event26_6	저건…
+event26_7	뭔가를 끼워 넣는 곳이 있어…\n일곱 개… 소닉!?
+event26_8	‘일곱 세계를 다스리는 링이\n모였을 때…’
+event26_9	‘세계를 잇는 문이 열리리라.’
+event26_10	그러니까 일곱 세계 링이 있으면\n이 문이 열린다는 거군.
+event27_name	멸망해 가는 것은 야심
+event27_1	제법 끈질긴 녀석이군.
+event27_2	일곱 세계 링을 모은 모양이구나.\n수고했다.
+event27_3	신경 쓰지 마.\n우리 사이에 뭘.
+event27_4	샤라여.
+event27_5	…
+event27_6	잘도 그 녀석을 시켜 링을 모았구나.\n자, 세계 링을 내게 넘겨라.
+event27_7	잠깐만.\n가슴에 있는 이건 어떻게 할 건데?
+event27_8	샤라, 자, 어서!\n함께 세계를 다스릴 반려가 되자꾸나!
+event27_9	샤라!?\n뭘…
+event27_10	나, 그를…
+event27_11	그만둬, 샤라!
+event27_12	그러면 어떻게 될지\n알고 있는 거야!?
+event27_13	미안해.\n하지만 어쩔 수 없어…
+event27_14	난 그저 그가 돌아오길 바랄 뿐이야.
+event27_15	큭! 링의 정령에게 명령한다.
+event27_16	‘네가 진정 옳다고 생각하는 일을\n하는 거야!’
+event27_17	꺄아아!
+event27_18	샤라!
+event27_19	기도, 슬픔, 분노, 증오,\n기쁨, 즐거움, 소망.
+event27_20	이야기를 만드는 일곱 마음.
+event27_21	이것이… 이 세계의 페이지를 묶는\n일곱 세계 링!!
+event27_22	…!!
+event27_23	‘그러나 그것을 모은 자의 목숨을\n대가로 바쳐,
+event27_24	모든 것을 다스릴 열쇠로 삼으리라.’
+event27_25	나의 제물이 되어라! 파란 고슴도치!
+event27_26	칫!!
+event27_27	샤라!!
+event27_28	…소닉.\n미안해.
+event27_29	나, 알고 있었는데…
+event27_30	이렇게 될 줄 알면서도\n널 끌어들이고 말았어…
+event27_31	됐어.\n그런 건!
+event27_32	운명, 바꿀 수 있었을까?
+event27_33	약속, 지킬 수 있었을까?
+event27_34	…샤라, 명령이야!
+event27_35	‘죽지 마! 원래대로 돌아오는 거야.’
+event27_36	미안해요, 주인님…\n그 명령은…
+event27_37	흥, 고작 링의 정령.\n끝까지 쓸모가 없군.
+event27_38	우!?\n우오오오!
+event27_39	워어어어어어!
+event27_40	나의 이름은\n알프 라일라 와 라일라.
+event27_41	나는 아라비안 나이트의 세계.\n나는 새로운 창조주.
+event27_42	이 세계와 현실을 뒤바꾸어\n내가 모든 것의 지배자가 되리라.
+event27_43	꼴사납게\n불완전한 괴물이 됐군…
+event27_44	우오오오!
+event27_45	저 녀석을 막아야 해… 샤라.
+event27_46	그러니까 내게 힘을 빌려 줘!!
+event28_name	이레이저의 투옥
+event28_1	크으으, 이대로 끝날 순 없다.
+event28_2	몇 번이고 다시 살아나 주마.
+event28_3	내게 죽음은 없다.\n나는 사라지지 않는 존재다.
+event28_4	크크크, 와하하하!
+event28_5	뭐!?\n그, 그것은…
+event28_6	‘이거, 맡아 줘…’
+event28_7	‘……원래대로 돌아오는 거야…’
+event28_8	분명 램프의 정령은 세 가지\n소원을 들어주지?
+event28_9	네놈의 말 따위를\n들을 것 같으냐!
+event28_10	이얏!
+event28_11	첫 번째.
+event28_12	샤라를 되살려 줘.
+event28_13	크헉!
+event28_14	크으으, 몸이…\n몸이…
+event28_15	두 번째.
+event28_16	사라져 버린 이 세계의 이야기,
+event28_17	아라비안 나이트를\n전부 원래대로 돌려놔.
+event28_18	뭣!
+event28_19	크아악!!
+event28_20	마, 마…
+event28_21	세 번째.
+event28_22	이레이저 진.
+event28_23	넌 램프의 정령으로서\n옛날처럼 램프 안에서 살아.
+event28_24	크헉! 하아, 하아…
+event28_25	샤라, 거기 있지!?\n부탁이야, 이 녀석을 막아 줘!
+event28_26	다시 둘이서 시작하자.\n거짓말이 아니야, 정말이야…
+event28_27	세계를 다스릴 자는 나란 말이다!
+event28_28	그런 내가 이 더러운 쥐 따위에게!
+event28_29	어째서어어어!
+event28_30	난\n더러운 쥐 따위가 아니야.
+event28_31	좀 굉장한\n고슴도치라고.
+event28_32	샤라…\n내 소원을 들어줄래?
+event28_33	…?
+event28_34	손수건을\n산더미처럼 꺼내 줘.
+event28_35	바다가 생길 때까지 울어도 돼.
+event28_36	손수건은 산더미처럼 있으니까.
+event29_name	엔딩
+event29_1	그리고 파란 고슴도치는
+event29_2	아라비안 나이트 이야기의 세계를\n구한 뒤, 실컷 달리고 또 달려
+event29_3	원래 세계로 돌아갔습니다.
+event29_4	그동안 여러 모험이 있었지만…
+ En chemin, \nil a vécu de nombreuses aventures...	
+event29_5	그 이야기는\n또 다른 기회에.
+event29_6	고마워…\n소닉 더 헤지혹.
+event29_7	전설의 고슴도치여.
+event30_name	책 제목
+event30_1	‘알라딘과 마법의 램프’
+event30_2	‘소닉과 비밀의 링’
+PARTY LINES ARE STILL WIP--DON'T TRANSLATE YET	
+party_host	방 만들기
+party_join	참가하기
+party_offline	오프라인
+party_server	IP 주소
+party_room	방 ID
+party_copy	데이터 복사
+party_paste	데이터 붙여넣기
+party_connect	연결
+party_start	시작
+party_player_count	플레이어 설정
+party_player	P0
+party_com	COM0
+party_settings	설정
+party_continue	계속하기
+party_on	켜기
+party_off	끄기
+party_placement1	1위
+party_placement2	2위
+party_placement3	3위
+party_placement4	4위
+party_lap	[C]/[T]바퀴
+party_final_lap	마지막 바퀴!
+party_char_select	캐릭터 선택
+party_random	무작위
+party_sonic	소닉
+party_tails	테일즈
+party_knuckles	너클즈
+party_amy	에이미
+party_shadow	섀도우
+party_cream	크림
+party_silver	실버
+party_blaze	블레이즈
+party_easy	약함
+party_normal	보통
+party_hard	강함
+party_extreme	매우 강함
+party_world_bazaar	월드 바자
+party_world_bazaar_desc	파티 게임의 순위에 따라 링을 획득합니다!\n그 링으로 카펫을 낙찰받으세요, 차오!
+party_tournament_palace	토너먼트 팰리스
+party_tournament_palace_desc	파티 게임에서 승리해\n토너먼트 정상에 도전하세요!
+party_genie_lair	마신의 소굴
+party_genie_lair_desc	승리한 플레이어가 보물 상자를 열 수 있어요!\n무엇이 나올지는 열어 봐야 알아요, 차오!
+party_world_library	월드 라이브러리
+party_world_library_desc	여러 파티 게임에 도전하고\n기록을 확인할 수 있어요, 차오!
+party_treasure_hunt	보물찾기
+party_treasure_hunt_desc	파티 게임 순위에 따라 이동 범위가 정해져요!\n지정된 보물을 최대한 많이 모으세요, 차오!
+party_pirate_coast	파이러츠 코스트
+party_pirate_coast_desc	파티 게임 순위에 따라 해적선이 이동해요!\n목표인 보물섬을 향해 가세요, 차오!
+party_exit	나가기
+party_exit_desc	파티 모드를 종료하고\n메인 메뉴로 돌아갑니다.
+party_exit_confirm	파티 모드를 종료하고 메인 메뉴로\n돌아가시겠습니까?
+party_attract_menu1	‘크로스 어드벤처 월드’에\n어서 오세요, 차오!
+party_attract_menu2	어느 어트랙션에서 놀까요, 차오?
+party_change_players	참가할 플레이어를 변경할까요, 차오?
+network_connecting	네트워크 연결 중...
+network_connected	네트워크에 연결되었습니다.
+network_disconnected	네트워크 연결이 끊어졌습니다.
+network_server_connected	서버에 연결되었습니다.
+network_server_disconnected	서버 연결이 끊어졌습니다.
+network_add_player	플레이어 0이 연결되었습니다.
+network_remove_player	플레이어 0의 연결이 끊어졌습니다.
+network_error	네트워크 오류 (0)
+world_library_all	모든 파티 게임
+world_library_all_desc	모든 파티 게임 중 원하는 게임을 플레이합니다.
+world_library_survival	서바이벌 게임
+world_library_survival_desc	서바이벌 계열 파티 게임을 선택해 플레이합니다.
+world_library_point	포인트 게임
+world_library_point_desc	포인트 계열 파티 게임을 선택해 플레이합니다.
+world_library_race	레이스 게임
+world_library_race_desc	레이스 계열 파티 게임을 선택해 플레이합니다.
+world_library_record	기록 게임
+world_library_record_desc	기록 계열 파티 게임을 선택해 플레이합니다.
+world_library_rankings	순위표
+world_library_rankings_desc	여러 기록의 순위를 확인합니다.
+world_library_character	캐릭터별 기록
+world_library_character_desc	캐릭터별 기록을 확인합니다.
+world_library_final	끝없는 크로스 어드벤처
+world_library_final_desc	1인 전용 모드입니다.\n파티 게임에서 몇 번 연속 승리할 수 있는지 도전합니다.
+minigame_ready	준비
+minigame_go	출발!!
+minigame_start	시작!
+minigame_set	게임 종료!
+minigame_time	시간 종료!
+minigame_goal	골!
+minigame_win	승리!!
+minigame_draw	무승부...
+tp_intro_1	‘토너먼트 팰리스’에 어서 오세요, 차오!
+tp_explain_1	‘토너먼트 팰리스’의\n설명을 들을까요, 차오?
+tp_explain_2	여기서는 두 조로 나뉘어 파티 게임을 하고,\n토너먼트 방식으로 우승자를 정해요, 차오!
+tp_explain_3	토너먼트에서 이기면 궁전 위층으로 올라가요.\n하지만 꼴찌를 하면...
+tp_explain_4	그 이상은 말할 수 없어요, 차오!
+tp_explain_5	누가 우승할까요?\n모두 힘내세요, 차오!
+tp_rule_1	‘토너먼트 팰리스’의 설정을\n변경할까요, 차오?
+tp_rule_2	파티 게임에서 몇 번 이겨야\n승리하는지 설정합니다.
+tp_rule_3	COM끼리의 대전을\n관전할지 설정합니다.
+tp_rule_4	게임으로 돌아갑니다.
+tp_win_count	승리 횟수
+tp_com	COM 대 COM
+tp_round1	1회
+tp_round2	2회
+tp_round3	3회
+tp_consolation	3위 결정전
+tp_championship	결승전
+tp_winner	우승!
+tp_congratulations	축하합니다!
+tp_again	‘토너먼트 팰리스’를\n다시 플레이할까요?
+UNUSED--DON'T BOTHER TRANSLATING BEYOND HERE.	
+sys_create_preset	새 프리셋 만들기
+sys_edit_preset	프리셋 편집
+sys_delete_preset	프리셋 삭제
+load_cache	셰이더 캐시 불러오는 중
+load_lighting	조명 변화 계산 중
+shader_cache_finished	셰이더 캐시 불러오기 완료
+ta_warning_loadsave	사용할 스킬과 프리셋이 있는 저장 데이터를 불러와 주세요.
+common_hint_catapult_sh	투석기에 올라탄 뒤, 가고 싶은 방향으로\n상하로 기울여 봐.
+common_hint_catapult2_sh	[button_action]을 눌러\n몸을 날려 봐.
+common_hint_speedbreak_sh	소울 게이지에 힘이 차면\n[button_speedbreak]을 눌러 스피드 브레이크를 사용해.
+common_hint_timebreak_sh	소울 게이지에 힘이 차면\n[button_timebreak]을 눌러 타임 브레이크를 사용해.
+oas_boss_start_so	다가오지 말라고 해도, 들어줄 것 같진 않네.
+oas_boss_start_sh	오지 말라고 해도 알아듣지 못할 것 같아!
+din_blendin_so	헤! 꽃인 척 숨은 거냐?
+din_blendin_sh	공격하면 분명 정체를 드러낼 거야!
+pir_hint_buoy_so	저걸 통과할수록 속도가 올라가는군.
+pir_hint_buoy_sh	저 부표를 통과할수록\n속도가 점점 빨라지는구나.
+pir_hint_debris_so	떠다니는 잔해에 부딪히면\n속도가 떨어지겠어.
+pir_hint_debris_sh	떠다니는 잔해에 부딪히면\n속도가 떨어지고 말 거야.
+pir_hint_surf_respawn_sh	속도가 붙지 않으면\n파도를 넘을 수 없을 것 같아.
+pir_hint_surf_force_sh	기세가 없으면 파도를 넘을 수 없어!\n조심해!
+nig_hint_carpet	기울여서 양탄자를 조작하세요!
+lang_ko	한국어
+ta_resets	재시작 횟수
+host	방 만들기
+control	조작
+enabled	켜기
+Enabled	켜기
+disabled	끄기
+high	높음
+medium	보통
+low	낮음
+hold	누르기
+Attack	공격
+playstation	PlayStation
+Remixed	리믹스
+select	선택
+Connecting...	연결 중...
+Random	무작위
+New!	신규!
+Main Missions	주요 미션
+Winner!	우승!
+Congratulations!	축하합니다!
+ROUND 	라운드 

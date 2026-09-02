@@ -1,0 +1,35 @@
+using Godot;
+using Project.Core;
+
+namespace Project.Interface.Menus
+{
+	public partial class Description : Control
+	{
+		[Export] private Label descriptionLabel;
+		public string Text
+		{
+			get => descriptionLabel.Text;
+			set
+			{
+				descriptionLabel.Text = value;
+				ModManager.Instance?.ApplyLocalizationFont(descriptionLabel);
+			}
+		}
+
+		[Export] private AnimationPlayer animator;
+
+		private void SetText(string text) => Text = text;
+
+		public void ShowDescription()
+		{
+			animator.Play("show");
+			animator.Seek(0, true);
+		}
+
+		public void HideDescription()
+		{
+			animator.Play("hide");
+			animator.Seek(0, true);
+		}
+	}
+}

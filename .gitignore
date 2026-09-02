@@ -1,0 +1,20 @@
+# Never commit a local game install, Godot editor cache, or build output.
+Project Reignition - Windows v1.0.0/
+tools/
+backup/
+test-userdata/
+*.log
+*.pck
+*.dll
+*.pdb
+korean-pack-project/.godot/
+korean-pack-project/*.import
+korean-pack-project/*.fontdata
+korean-pack-project/*.translation
+korean-pack-project/KoreanBonus_*.png
+korean-pack-project/KoreanSkillSelect_*.png
+korean-pack-project/KoreanBonus.fnt
+korean-pack-project/KoreanSkillSelect.fnt
+release/
+.DS_Store
+
