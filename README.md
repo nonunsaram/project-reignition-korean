@@ -21,13 +21,30 @@ Project Reignition v1.0.0에 한국어 번역을 안전하게 얹기 위한 기�
 
 ## 설치
 
-게임을 종료한 뒤 `설치.bat`을 실행하세요. 이 작업 폴더에서는 게임 위치를 자동으로 찾습니다. 다른 위치에서 실행하면 `Project Reignition.exe`가 있는 폴더를 묻습니다.
+1. GitHub Releases에서 `Project-Reignition-Korean-v0.1.zip`을 내려받습니다. `Source code` ZIP이 아니라 이름에 `Korean`이 들어간 첨부 파일을 받아야 합니다.
+2. ZIP의 내용물을 새 폴더에 모두 압축 해제합니다. 압축 파일 안에서 `설치.bat`을 바로 실행하지 마세요.
+3. Project Reignition이 실행 중이라면 완전히 종료합니다.
+4. 압축을 푼 폴더의 `설치.bat`을 실행합니다.
+5. 설치기가 게임을 자동으로 찾지 못하면 `Project Reignition.exe`가 들어 있는 **게임 폴더**의 전체 경로를 입력합니다.
+
+   예: `E:\Games\Project Reignition - Windows v1.0.0`
+
+   탐색기에서 `Project Reignition.exe`가 보이는 폴더를 연 뒤 주소 표시줄의 경로를 복사해 붙여넣으면 됩니다. 폴더를 설치기 창으로 끌어다 놓아도 됩니다. `Project Reignition.exe` 파일 자체가 아니라 그 파일이 들어 있는 폴더를 지정하세요.
+
+6. `한국어 패치 설치가 완료되었습니다.`라는 메시지가 나오면 게임을 실행합니다.
+7. `Options → Language → Text Language`를 `Korean`으로 변경합니다.
 
 설치기는 원본 DLL을 게임 폴더의 `ReignitionKR_Backup_v1.0.0`에 먼저 보관합니다. 설치 후 게임의 Options에서 Text Language를 Korean으로 선택할 수 있습니다.
 
+### 설치 오류가 날 때
+
+- 게임 파일이 사용 중이라고 나오면 Project Reignition을 종료하고 다시 실행하세요.
+- 게임 폴더가 아니라고 나오면 그 폴더 안에 `Project Reignition.exe`와 `data_Sonic Remake Project_windows_x86_64` 폴더가 함께 있는지 확인하세요.
+- 지원하지 않는 게임 파일이라고 나오면 Project Reignition Windows v1.0.0 원본을 다시 준비하세요. 다른 버전이나 다른 DLL 패치와는 호환되지 않습니다.
+
 ## 제거
 
-게임을 종료한 뒤 `제거.bat`을 실행하세요. 원본 DLL과 기존 한국어 PCK가 있었다면 함께 복원합니다. 백업 폴더는 안전을 위해 자동 삭제하지 않습니다.
+게임을 종료한 뒤 `제거.bat`을 실행하세요. 설치할 때와 마찬가지로 게임 폴더 경로를 요구할 수 있습니다. 원본 DLL과 기존 한국어 PCK가 있었다면 함께 복원합니다. 백업 폴더는 안전을 위해 자동 삭제하지 않습니다.
 
 ## 번역 작업
 

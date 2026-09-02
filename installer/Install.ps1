@@ -1,4 +1,4 @@
-[CmdletBinding()]
+﻿[CmdletBinding()]
 param([string]$GameDirectory)
 
 $ErrorActionPreference = "Stop"
@@ -24,12 +24,29 @@ $previousPatchedDllHashes = @(
 )
 
 if ([string]::IsNullOrWhiteSpace($GameDirectory)) {
-    $candidate = [IO.Path]::GetFullPath((Join-Path $PSScriptRoot "..\..\Project Reignition - Windows v1.0.0"))
-    if (Test-Path -LiteralPath (Join-Path $candidate "Project Reignition.exe")) {
-        $GameDirectory = $candidate
-    } else {
-        $GameDirectory = Read-Host "Paste the game folder containing Project Reignition.exe"
+    $candidates = @(
+        $PSScriptRoot,
+        (Split-Path $PSScriptRoot -Parent),
+        [IO.Path]::GetFullPath((Join-Path $PSScriptRoot "..\..\Project Reignition - Windows v1.0.0"))
+    )
+    $GameDirectory = $candidates |
+        Where-Object { Test-Path -LiteralPath (Join-Path $_ "Project Reignition.exe") } |
+        Select-Object -First 1
+
+    if ([string]::IsNullOrWhiteSpace($GameDirectory)) {
+        Write-Host "Project Reignition 게임 폴더를 자동으로 찾지 못했습니다." -ForegroundColor Yellow
+        Write-Host "'Project Reignition.exe'가 들어 있는 폴더의 전체 경로를 붙여넣어 주세요."
+        Write-Host "예: E:\Games\Project Reignition - Windows v1.0.0"
+        Write-Host "탐색기 주소 표시줄의 경로를 복사하거나, 폴더를 이 창으로 끌어다 놓아도 됩니다."
+        Write-Host "실행 파일 자체가 아니라 실행 파일이 들어 있는 폴더를 지정해야 합니다."
+        Write-Host ""
+        $GameDirectory = Read-Host "게임 폴더 경로"
     }
+}
+
+$GameDirectory = ([string]$GameDirectory).Trim().Trim('"')
+if ([string]::IsNullOrWhiteSpace($GameDirectory) -or !(Test-Path -LiteralPath $GameDirectory -PathType Container)) {
+    throw "입력한 게임 폴더를 찾을 수 없습니다: $GameDirectory"
 }
 
 $game = (Resolve-Path -LiteralPath $GameDirectory).Path
@@ -38,19 +55,19 @@ $managed = Join-Path $game "data_Sonic Remake Project_windows_x86_64"
 $gameDll = Join-Path $managed "Sonic Remake Project.dll"
 $gamePdb = Join-Path $managed "Sonic Remake Project.pdb"
 if (!(Test-Path -LiteralPath $gameExe) -or !(Test-Path -LiteralPath $gameDll)) {
-    throw "This is not a Project Reignition v1.0.0 game folder: $game"
+    throw "Project Reignition v1.0.0 게임 폴더가 아닙니다. 'Project Reignition.exe'가 있는 폴더를 지정해 주세요: $game"
 }
 
 try {
     $lockTest = [IO.File]::Open($gameDll, [IO.FileMode]::Open, [IO.FileAccess]::ReadWrite, [IO.FileShare]::None)
     $lockTest.Dispose()
 } catch {
-    throw "Close Project Reignition completely, then run the installer again. The game DLL is currently in use."
+    throw "Project Reignition을 완전히 종료한 뒤 설치기를 다시 실행해 주세요. 현재 게임 파일이 사용 중입니다."
 }
 
 $currentHash = (Get-FileHash -Algorithm SHA256 -LiteralPath $gameDll).Hash
 if ($currentHash -ne $originalDllHash -and $currentHash -ne $patchedDllHash -and $previousPatchedDllHashes -notcontains $currentHash) {
-    throw "The game DLL does not match supported Project Reignition v1.0.0. It may be another version or already modified."
+    throw "지원하는 Project Reignition v1.0.0 게임 파일과 일치하지 않습니다. 다른 버전이거나 이미 다른 패치로 수정된 파일일 수 있습니다."
 }
 
 $backup = Join-Path $game "ReignitionKR_Backup_v1.0.0"
@@ -101,5 +118,7 @@ Copy-Item -LiteralPath (Join-Path $PSScriptRoot "files\ProjectReignition_Korean.
 } | ConvertTo-Json | Set-Content -LiteralPath $manifest -Encoding UTF8
 
 Write-Host ""
-Write-Host "Installation completed." -ForegroundColor Green
-Write-Host "In Options, set Text Language to Korean. This release includes the complete Korean translation for all 2,321 text entries."
+Write-Host "한국어 패치 설치가 완료되었습니다." -ForegroundColor Green
+Write-Host "게임 폴더: $game"
+Write-Host "게임을 실행한 뒤 Options > Language > Text Language에서 Korean을 선택해 주세요."
+Write-Host "전체 2,321개 텍스트의 한국어 번역이 포함되어 있습니다."
