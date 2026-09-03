@@ -2,7 +2,7 @@
 
 Base project: <https://github.com/kumapauz/project-reignition>
 
-Base branch and version: `dev/v0.5.0`, matching the C# source paths embedded in the public Windows v1.0.0 PDB.
+Base branch and version: `dev/v0.5.0` at commit `2d45af71b` (`Hotfix v1.0.1`), matching the public Windows v1.0.1 release and changelog.
 
 This package changes thirteen source files:
 

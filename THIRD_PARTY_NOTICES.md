@@ -2,7 +2,7 @@
 
 ## Project Reignition
 
-The patch targets Project Reignition Windows v1.0.0. Its source and fan-game license are available from the original project:
+The patch targets Project Reignition Windows v1.0.1. Its source and fan-game license are available from the original project:
 
 <https://github.com/kumapauz/project-reignition>
 
@@ -19,4 +19,3 @@ LINE Seed KR Regular is used for general Korean text and subtitles. It is distri
 <https://copyright.keris.or.kr/wft/fntDwnldView?fntGrpId=GFT202509240000000000004>
 
 The complete license notice is in `licenses/SCHOOL-SAFETY-CERTIFICATE-OFL-1.1.txt`.
-
