@@ -1,7 +1,9 @@
 @echo off
-chcp 65001 >nul
-title Project Reignition 한국어 모드 설치
+setlocal
+title Project Reignition Korean Mod Installer
 powershell.exe -NoProfile -ExecutionPolicy Bypass -File "%~dp0Install.ps1" -GameDirectory "%~1"
+set "result=%errorlevel%"
 echo.
-if errorlevel 1 echo 설치하지 못했습니다. 위의 오류 내용을 확인해 주세요.
+if not "%result%"=="0" echo Installation failed. Check the error message above.
 pause
+exit /b %result%

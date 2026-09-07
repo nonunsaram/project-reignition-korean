@@ -1,10 +1,21 @@
-[CmdletBinding()]
+﻿[CmdletBinding()]
 param(
     [string]$GameDirectory,
     [string]$DataDirectory
 )
 
 $ErrorActionPreference = 'Stop'
+
+function Get-Sha256([string]$Path) {
+    $stream = [IO.File]::OpenRead($Path)
+    $sha256 = [Security.Cryptography.SHA256]::Create()
+    try {
+        return [BitConverter]::ToString($sha256.ComputeHash($stream)).Replace('-', '')
+    } finally {
+        $sha256.Dispose()
+        $stream.Dispose()
+    }
+}
 
 function Resolve-DataRoot {
     if (-not [string]::IsNullOrWhiteSpace($DataDirectory)) {
@@ -51,7 +62,7 @@ if ([bool]$installation.PreviousExisted) {
         throw "이전 Korean.pck 백업을 찾을 수 없습니다: $backupPath"
     }
     if (-not [string]::IsNullOrWhiteSpace([string]$installation.PreviousHash)) {
-        $backupHash = (Get-FileHash -Algorithm SHA256 -LiteralPath $backupPath).Hash
+        $backupHash = Get-Sha256 $backupPath
         if ($backupHash -ne [string]$installation.PreviousHash) {
             throw '이전 Korean.pck 백업의 무결성 검사에 실패했습니다.'
         }
@@ -59,7 +70,7 @@ if ([bool]$installation.PreviousExisted) {
 }
 
 if (Test-Path -LiteralPath $packPath -PathType Leaf) {
-    $currentHash = (Get-FileHash -Algorithm SHA256 -LiteralPath $packPath).Hash
+    $currentHash = Get-Sha256 $packPath
     if ($currentHash -ne $packHash) {
         throw "설치 후 Korean.pck가 변경되어 제거하지 않았습니다: $packPath"
     }

@@ -1,4 +1,4 @@
-[CmdletBinding()]
+﻿[CmdletBinding()]
 param(
     [string]$GameDirectory,
     [string]$DataDirectory
@@ -7,6 +7,17 @@ param(
 $ErrorActionPreference = 'Stop'
 $expectedPackHash = 'AF4E70DE3844933D10FEEF2B591B2DB59811886FF76DD344C90D48DD661804D2'
 $sourcePack = Join-Path $PSScriptRoot 'files\Korean.pck'
+
+function Get-Sha256([string]$Path) {
+    $stream = [IO.File]::OpenRead($Path)
+    $sha256 = [Security.Cryptography.SHA256]::Create()
+    try {
+        return [BitConverter]::ToString($sha256.ComputeHash($stream)).Replace('-', '')
+    } finally {
+        $sha256.Dispose()
+        $stream.Dispose()
+    }
+}
 
 function Resolve-DataRoot {
     if (-not [string]::IsNullOrWhiteSpace($DataDirectory)) {
@@ -43,7 +54,7 @@ function Resolve-DataRoot {
 if (-not (Test-Path -LiteralPath $sourcePack -PathType Leaf)) {
     throw "설치 파일이 빠져 있습니다. ZIP을 모두 압축 해제한 뒤 설치.bat을 실행해 주세요: $sourcePack"
 }
-if ((Get-FileHash -Algorithm SHA256 -LiteralPath $sourcePack).Hash -ne $expectedPackHash) {
+if ((Get-Sha256 $sourcePack) -ne $expectedPackHash) {
     throw 'Korean.pck 무결성 검사에 실패했습니다. 배포 ZIP을 다시 내려받아 주세요.'
 }
 if (Get-Process -Name 'Project Reignition' -ErrorAction SilentlyContinue) {
@@ -63,7 +74,7 @@ $previousExisted = Test-Path -LiteralPath $installedPack -PathType Leaf
 $previousHash = $null
 $backupPack = $null
 if ($previousExisted) {
-    $previousHash = (Get-FileHash -Algorithm SHA256 -LiteralPath $installedPack).Hash
+    $previousHash = Get-Sha256 $installedPack
     if ($previousHash -eq $expectedPackHash -and (Test-Path -LiteralPath $manifest -PathType Leaf)) {
         Write-Host ''
         Write-Host '같은 버전의 한국어 모드가 이미 설치되어 있습니다.' -ForegroundColor Green
@@ -79,7 +90,7 @@ if ($previousExisted) {
 }
 
 Copy-Item -LiteralPath $sourcePack -Destination $installedPack -Force
-if ((Get-FileHash -Algorithm SHA256 -LiteralPath $installedPack).Hash -ne $expectedPackHash) {
+if ((Get-Sha256 $installedPack) -ne $expectedPackHash) {
     throw '설치 후 Korean.pck 무결성 검사에 실패했습니다.'
 }
 

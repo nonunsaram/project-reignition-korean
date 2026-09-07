@@ -1,4 +1,4 @@
-Project Reignition 한국어 모드 v0.3 / 게임 v1.0.2용
+﻿Project Reignition 한국어 모드 v0.3 / 게임 v1.0.2용
 
 1. 이 ZIP을 새 폴더에 모두 압축 해제하세요.
 2. 게임을 완전히 종료하세요.
