@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="LocalizationResource" load_steps=6 format=3]
+
+[ext_resource type="Script" path="res://resource/script/LocalizationResource.cs" id="1_script"]
+[ext_resource type="FontFile" path="res://mods/lang/korean/LINESeedKR-Rg.fontdata" id="2_font"]
+[ext_resource type="FontFile" path="res://mods/lang/korean/Hakgyoansim_SangjangR.fontdata" id="3_font"]
+[ext_resource type="FontFile" path="res://mods/lang/korean/KoreanBonus.fontdata" id="4_font"]
+[ext_resource type="FontFile" path="res://mods/lang/korean/KoreanSkillSelect.fontdata" id="5_font"]
+
+[resource]
+script = ExtResource("1_script")
+LocaleId = "ko"
+LocaleType = 0
+TextFontFallback = ExtResource("2_font")
+MenuTextFontFallback = ExtResource("3_font")
+BonusFontFallback = ExtResource("4_font")
+SkillSelectFontFallback = ExtResource("5_font")

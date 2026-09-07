@@ -1,0 +1,259 @@
+extends Node
+
+const TEXT_FONT_PATH := "res://mods/lang/korean/LINESeedKR-Rg.fontdata"
+const MENU_FONT_PATH := "res://mods/lang/korean/Hakgyoansim_SangjangR.fontdata"
+const BONUS_FONT_PATH := "res://mods/lang/korean/KoreanBonus.fontdata"
+const SKILL_FONT_PATH := "res://mods/lang/korean/KoreanSkillSelect.fontdata"
+const BONUS_ORIGINAL_PATH := "res://interface/font/bitmap fonts/Bonus.fnt"
+const SKILL_ORIGINAL_PATH := "res://interface/font/bitmap fonts/Skill Select.fnt"
+const SUBTITLE_LABEL_NAME := &"Subtitles"
+
+var text_font: Font
+var menu_font: Font
+var bonus_font: Font
+var skill_font: Font
+
+var labels: Dictionary = {}
+var observations: Dictionary = {}
+var localized_states: Dictionary = {}
+var observed_locale := ""
+
+func _ready() -> void:
+	process_mode = Node.PROCESS_MODE_ALWAYS
+	# Catch late text assignments after normal UI processing but before rendering.
+	process_priority = 100000
+
+	text_font = load(TEXT_FONT_PATH) as Font
+	menu_font = load(MENU_FONT_PATH) as Font
+	bonus_font = load(BONUS_FONT_PATH) as Font
+	skill_font = load(SKILL_FONT_PATH) as Font
+	_add_fallback(bonus_font, load(BONUS_ORIGINAL_PATH) as Font)
+	_add_fallback(skill_font, load(SKILL_ORIGINAL_PATH) as Font)
+
+	if text_font == null or menu_font == null or bonus_font == null or skill_font == null:
+		push_error("Korean localization font resources could not be loaded.")
+		return
+
+	observed_locale = TranslationServer.get_locale()
+	get_tree().node_added.connect(_register_node)
+	_register_branch(get_tree().root)
+	_refresh_all()
+	print("Korean localization controller ready before UI. locale=%s, language=%s, select=%s" % [
+		TranslationServer.get_locale(),
+		TranslationServer.translate("lang_ko"),
+		TranslationServer.translate("sys_select"),
+	])
+
+func _process(_delta: float) -> void:
+	var locale := TranslationServer.get_locale()
+	var locale_changed := locale != observed_locale
+	if locale_changed:
+		observed_locale = locale
+
+	var expired: Array[int] = []
+	for id in labels:
+		var label := (labels[id] as WeakRef).get_ref() as Label
+		if label == null:
+			expired.append(id)
+			continue
+
+		var observation: Dictionary = observations.get(id, {})
+		if locale_changed or observation.get("text", "") != label.text:
+			_refresh_label(label)
+
+	for id in expired:
+		_forget_label(id)
+
+func _notification(what: int) -> void:
+	if what == NOTIFICATION_TRANSLATION_CHANGED and is_inside_tree():
+		observed_locale = TranslationServer.get_locale()
+		_refresh_all()
+
+func _register_node(node: Node) -> void:
+	if node is Label:
+		_register_label(node as Label)
+
+func _register_branch(node: Node) -> void:
+	_register_node(node)
+	for child in node.get_children():
+		_register_branch(child)
+
+func _register_label(label: Label) -> void:
+	var id := label.get_instance_id()
+	if labels.has(id):
+		return
+	labels[id] = weakref(label)
+	observations[id] = { "text": label.text }
+
+	# Subtitles, menu descriptions and transition/loading text all start empty and
+	# receive their localized text later. Prewarm them as they enter the tree so
+	# their first visible Korean frame is already LINE Seed.
+	if _is_korean_active() and _should_prewarm_text_font(label):
+		_apply_font(label, true)
+	else:
+		_refresh_label(label)
+
+func _refresh_all() -> void:
+	var expired: Array[int] = []
+	for id in labels:
+		var label := (labels[id] as WeakRef).get_ref() as Label
+		if label == null:
+			expired.append(id)
+			continue
+		_refresh_label(label)
+	for id in expired:
+		_forget_label(id)
+
+func _refresh_label(label: Label) -> void:
+	var id := label.get_instance_id()
+	_refresh_text_language_label(label)
+	observations[id] = { "text": label.text }
+
+	if !_is_korean_active():
+		_restore_font(label, id)
+		return
+
+	var translated := str(TranslationServer.translate(label.text))
+	var prewarm := _should_prewarm_text_font(label)
+	if !prewarm and !_contains_hangul(translated):
+		_restore_font(label, id)
+		return
+
+	_apply_font(label, prewarm)
+
+func _apply_font(label: Label, force_text_font: bool = false) -> void:
+	var id := label.get_instance_id()
+	if !localized_states.has(id):
+		localized_states[id] = _capture_font_state(label)
+
+	var state: Dictionary = localized_states[id]
+	# Preserve settings assigned by the game after the Label entered the tree.
+	if state.localized_settings != null and label.label_settings != state.localized_settings:
+		state = _capture_font_state(label)
+
+	var target := text_font if force_text_font else _select_font(state.effective_font as Font)
+	if target == null:
+		return
+	if state.applied_font == target and label.label_settings == state.localized_settings:
+		return
+
+	var settings := (state.label_settings as LabelSettings).duplicate() as LabelSettings if state.label_settings != null else _settings_from_theme(label)
+	settings.font = target
+	_apply_pause_style(label, settings, state.effective_font as Font)
+	label.label_settings = settings
+	state.applied_font = target
+	state.localized_settings = settings
+	localized_states[id] = state
+
+func _capture_font_state(label: Label) -> Dictionary:
+	var effective_font := label.label_settings.font if label.label_settings != null else label.get_theme_font("font")
+	return {
+		"label_settings": label.label_settings,
+		"had_override": label.has_theme_font_override("font"),
+		"font_override": label.get_theme_font("font") if label.has_theme_font_override("font") else null,
+		"effective_font": effective_font,
+		"applied_font": null,
+		"localized_settings": null,
+	}
+
+func _select_font(original: Font) -> Font:
+	var path := original.resource_path.to_lower() if original != null else ""
+	if path.contains("bonus.fnt") and bonus_font != null:
+		return bonus_font
+	if path.contains("skill select.fnt") and skill_font != null:
+		return skill_font
+	if _is_classic_menu_font(path) and menu_font != null:
+		return menu_font
+	return text_font
+
+func _restore_font(label: Label, id: int) -> void:
+	if !localized_states.has(id):
+		return
+	var state: Dictionary = localized_states[id]
+	label.label_settings = state.label_settings
+	if state.had_override:
+		label.add_theme_font_override("font", state.font_override)
+	else:
+		label.remove_theme_font_override("font")
+	localized_states.erase(id)
+
+func _forget_label(id: int) -> void:
+	labels.erase(id)
+	observations.erase(id)
+	localized_states.erase(id)
+
+func _refresh_text_language_label(label: Label) -> void:
+	if label.name != &"TextLabel" or !_has_language_ancestor(label):
+		return
+	var locale := TranslationServer.get_locale().replace("-", "_")
+	var language := locale.get_slice("_", 0).to_lower()
+	label.text = "lang_pt_BR" if language == "pt" else "lang_%s" % language
+
+func _has_language_ancestor(node: Node) -> bool:
+	var current := node.get_parent()
+	for _depth in 4:
+		if current == null:
+			break
+		if str(current.name).to_lower().contains("language"):
+			return true
+		current = current.get_parent()
+	return false
+
+func _should_prewarm_text_font(label: Label) -> bool:
+	if label.name == SUBTITLE_LABEL_NAME:
+		return true
+
+	var current: Node = label
+	while current != null:
+		var node_name := str(current.name).to_lower()
+		if node_name.contains("description") or node_name.begins_with("load") or node_name.contains("loading"):
+			return true
+		var script := current.get_script() as Script
+		var script_path := script.resource_path.to_lower() if script != null else ""
+		if script_path.ends_with("/description.cs") or script_path.ends_with("/transitionmanager.cs"):
+			return true
+		current = current.get_parent()
+	return false
+
+func _settings_from_theme(label: Label) -> LabelSettings:
+	var settings := LabelSettings.new()
+	settings.font_size = label.get_theme_font_size("font_size")
+	settings.font_color = label.get_theme_color("font_color")
+	settings.outline_color = label.get_theme_color("font_outline_color")
+	settings.outline_size = label.get_theme_constant("outline_size")
+	settings.shadow_color = label.get_theme_color("font_shadow_color")
+	settings.shadow_size = label.get_theme_constant("shadow_outline_size")
+	settings.shadow_offset = Vector2(label.get_theme_constant("shadow_offset_x"), label.get_theme_constant("shadow_offset_y"))
+	settings.line_spacing = label.get_theme_constant("line_spacing")
+	return settings
+
+func _apply_pause_style(label: Label, settings: LabelSettings, original: Font) -> void:
+	var font_path := original.resource_path.to_lower() if original != null else ""
+	var label_path := str(label.get_path()).to_lower()
+	if !_is_classic_menu_font(font_path) or font_path.contains("skill select.fnt"):
+		return
+	if !label_path.contains("/pause/") or label_path.contains("/quitmenu/"):
+		return
+	settings.font_color = Color("b96a27")
+	settings.outline_color = Color("3a170a")
+	settings.outline_size = maxi(settings.outline_size, 2)
+	settings.shadow_color = Color(0.0, 0.0, 0.0, 0.5)
+	settings.shadow_size = maxi(settings.shadow_size, 3)
+	settings.shadow_offset = Vector2(1.0, 2.0)
+
+func _is_korean_active() -> bool:
+	return TranslationServer.get_locale().to_lower().begins_with("ko")
+
+func _contains_hangul(text: String) -> bool:
+	for character in text:
+		var code := character.unicode_at(0)
+		if (code >= 0x1100 and code <= 0x11ff) or (code >= 0x3130 and code <= 0x318f) or (code >= 0xac00 and code <= 0xd7a3):
+			return true
+	return false
+
+func _is_classic_menu_font(path: String) -> bool:
+	return path.contains("greco") or path.contains("skill select.fnt") or path.contains("keyboard style.fnt") or path.contains("bonus.fnt")
+
+func _add_fallback(font: Font, fallback: Font) -> void:
+	if font != null and fallback != null and !font.fallbacks.has(fallback):
+		font.fallbacks.append(fallback)

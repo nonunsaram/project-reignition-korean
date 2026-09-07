@@ -1,0 +1,12 @@
+; Minimal import project for the Project Reignition Korean language pack.
+config_version=5
+
+[application]
+
+config/name="Project Reignition Korean Pack"
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+

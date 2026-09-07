@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 
-import csv
+import json
 import math
 from pathlib import Path
 
@@ -10,7 +10,7 @@ from PIL import Image, ImageChops, ImageDraw, ImageFilter, ImageFont
 
 
 ROOT = Path(__file__).resolve().parents[1]
-TRANSLATION = ROOT / "translation" / "Locale.ko.csv"
+TRANSLATION = ROOT / "translation" / "human_translation_ko.json"
 FONT = ROOT / "korean-pack-project" / "Hakgyoansim_SangjangR.ttf"
 OUTPUT = ROOT / "korean-pack-project"
 
@@ -60,10 +60,9 @@ def render_glyph(character: str, font: ImageFont.FreeTypeFont) -> Image.Image:
 
 
 def main() -> None:
-    with TRANSLATION.open(encoding="utf-8-sig", newline="") as source:
-        entries = list(csv.DictReader(source, delimiter="\t"))
+    document = json.loads(TRANSLATION.read_text(encoding="utf-8"))
     characters = sorted(
-        {character for entry in entries for character in entry["ko"] if is_korean(character)},
+        {character for entry in document["entries"] for character in entry["ko"] if is_korean(character)},
         key=ord,
     )
     font = ImageFont.truetype(str(FONT), FONT_SIZE)

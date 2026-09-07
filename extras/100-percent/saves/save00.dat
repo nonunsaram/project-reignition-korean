@@ -1,0 +1,1206 @@
+{
+	"equippedAugments": {
+		"AccelJumpAttack": 0,
+		"GrindUp": 0,
+		"LandSoul": 0,
+		"QuickStep": 0,
+		"RocketStart": 0,
+		"SpeedUp": 0,
+		"TractionUp": 0
+	},
+	"equippedSkills": [
+		"QuickStart",
+		"RocketStart",
+		"RingSpawn",
+		"PearlRange",
+		"BackstepAttack",
+		"TractionUp",
+		"FreeRoam",
+		"AllRounder",
+		"TurnaroundUp",
+		"GrindUp",
+		"PerfectHomingAttack",
+		"RingRespawn",
+		"StompAttack",
+		"SpeedUp",
+		"AccelJumpAttack",
+		"QuickStep",
+		"RingRange",
+		"LandSoul",
+		"SlideDefense"
+	],
+	"exp": 1070000,
+	"lastPlayedWorld": 7,
+	"level": 99,
+	"levelData": {
+		"dj_a1_deathless": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"fire_soul1": true,
+			"fire_soul2": true,
+			"fire_soul3": true,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"dj_a1_main": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"fire_soul1": true,
+			"fire_soul2": true,
+			"fire_soul3": true,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"dj_a1_perfect": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"dj_a1_ring": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"dj_a2_chain": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"dj_a2_race": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"dj_a2_rampage": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"fire_soul1": true,
+			"fire_soul2": true,
+			"fire_soul3": true,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"dj_a2_stealth": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"fire_soul1": true,
+			"fire_soul2": true,
+			"fire_soul3": true,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"dj_a3_dino_egg": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"fire_soul1": true,
+			"fire_soul2": true,
+			"fire_soul3": true,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"dj_a3_majin_egg": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"fire_soul1": true,
+			"fire_soul2": true,
+			"fire_soul3": true,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"dj_a3_pearless": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"dj_a3_ring": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"ef_a1_deathless": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"fire_soul1": true,
+			"fire_soul2": true,
+			"fire_soul3": true,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"ef_a1_main": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"fire_soul1": true,
+			"fire_soul2": true,
+			"fire_soul3": true,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"ef_a1_race": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"ef_a1_ringless": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"ef_a2_perfect": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"ef_a2_ringless": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"ef_a2_stealth": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"fire_soul1": true,
+			"fire_soul2": true,
+			"fire_soul3": true,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"ef_a2_time": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"fire_soul1": true,
+			"fire_soul2": true,
+			"fire_soul3": true,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"ef_a3_chain": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"ef_a3_perfect": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"ef_a3_rampage": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"fire_soul1": true,
+			"fire_soul2": true,
+			"fire_soul3": true,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"ef_a3_ring": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"fire_soul1": true,
+			"fire_soul2": true,
+			"fire_soul3": true,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"ef_boss": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"lp_a1_main": {
+			"clear_status": 2.0
+		},
+		"lp_p01": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"lp_p02": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"lp_p03": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"lp_p04": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"lp_p05": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"lp_p06": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"lp_p07": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"lp_p08": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"lp_p09": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"lp_p10": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"lp_p11": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"lp_p12": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"lp_p13": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"lp_p14": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"lp_p15": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"lp_p16": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"lp_p17": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"lp_p18": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"lp_p19": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"lp_p20": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"lp_p21": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"lp_tutorial": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"fire_soul1": true,
+			"fire_soul2": true,
+			"fire_soul3": true,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"lr_a1_main": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"fire_soul1": true,
+			"fire_soul2": true,
+			"fire_soul3": true,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"lr_a1_perfect": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"lr_a1_race": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"lr_a1_rampage": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"fire_soul1": true,
+			"fire_soul2": true,
+			"fire_soul3": true,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"lr_a2_cage": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"fire_soul1": true,
+			"fire_soul2": true,
+			"fire_soul3": true,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"lr_a2_deathless": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"fire_soul1": true,
+			"fire_soul2": true,
+			"fire_soul3": true,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"lr_a2_perfect": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"lr_a2_ringless": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"lr_a3_pearless": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"lr_a3_rampage": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"fire_soul1": true,
+			"fire_soul2": true,
+			"fire_soul3": true,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"lr_a3_ring": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"lr_a3_time": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"fire_soul1": true,
+			"fire_soul2": true,
+			"fire_soul3": true,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"mods_default": {},
+		"np_a1_main": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"fire_soul1": true,
+			"fire_soul2": true,
+			"fire_soul3": true,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"np_a1_pearless": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"np_a1_race": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"fire_soul1": true,
+			"fire_soul2": true,
+			"fire_soul3": true,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"np_a1_ringless": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"np_a2_chain": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"np_a2_rampage": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"fire_soul1": true,
+			"fire_soul2": true,
+			"fire_soul3": true,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"np_a2_ring": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"np_a2_stealth": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"fire_soul1": true,
+			"fire_soul2": true,
+			"fire_soul3": true,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"np_a3_deathless": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"fire_soul1": true,
+			"fire_soul2": true,
+			"fire_soul3": true,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"np_a3_perfect": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"np_a3_ringless": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"fire_soul1": true,
+			"fire_soul2": true,
+			"fire_soul3": true,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"np_a3_time": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"np_boss": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"np_last": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"ps_a1_main": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"fire_soul1": true,
+			"fire_soul2": true,
+			"fire_soul3": true,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"ps_a1_pearless": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"ps_a1_race": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"fire_soul1": true,
+			"fire_soul2": true,
+			"fire_soul3": true,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"ps_a1_ring": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"ps_a2_chain": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"ps_a2_rampage": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"fire_soul1": true,
+			"fire_soul2": true,
+			"fire_soul3": true,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"ps_a2_ringless": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"fire_soul1": true,
+			"fire_soul2": true,
+			"fire_soul3": true,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"ps_a2_time": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"ps_a3_deathless": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"fire_soul1": true,
+			"fire_soul2": true,
+			"fire_soul3": true,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"ps_a3_perfect": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"ps_a3_ring": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"ps_a3_stealth": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"fire_soul1": true,
+			"fire_soul2": true,
+			"fire_soul3": true,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"ps_boss": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"sd_a1_main": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"fire_soul1": true,
+			"fire_soul2": true,
+			"fire_soul3": true,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"sd_a1_perfect": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"sd_a1_race": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"sd_a1_ringless": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"fire_soul1": true,
+			"fire_soul2": true,
+			"fire_soul3": true,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"sd_a2_deathless": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"fire_soul1": true,
+			"fire_soul2": true,
+			"fire_soul3": true,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"sd_a2_pearless": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"sd_a2_rampage": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"fire_soul1": true,
+			"fire_soul2": true,
+			"fire_soul3": true,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"sd_a2_time": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"sd_a3_bones": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"fire_soul1": true,
+			"fire_soul2": true,
+			"fire_soul3": true,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"sd_a3_chain": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"sd_a3_rampage": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"fire_soul1": true,
+			"fire_soul2": true,
+			"fire_soul3": true,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"sd_a3_ring": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"so_a1_deathless": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"fire_soul1": true,
+			"fire_soul2": true,
+			"fire_soul3": true,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"so_a1_main": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"fire_soul1": true,
+			"fire_soul2": true,
+			"fire_soul3": true,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"so_a1_pearless": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"so_a1_race": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"so_a2_deathless": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"fire_soul1": true,
+			"fire_soul2": true,
+			"fire_soul3": true,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"so_a2_jarless": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"fire_soul1": true,
+			"fire_soul2": true,
+			"fire_soul3": true,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"so_a2_perfect": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"so_a2_timed": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"so_a3_chain": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"so_a3_jar": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"fire_soul1": true,
+			"fire_soul2": true,
+			"fire_soul3": true,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"so_a3_rampage": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"so_a3_ring": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"fire_soul1": true,
+			"fire_soul2": true,
+			"fire_soul3": true,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		},
+		"so_boss": {
+			"best_time": 1.0,
+			"clear_status": 2.0,
+			"high_score": 999999.0,
+			"rank": 3.0,
+			"skilless_gold": true
+		}
+	},
+	"playTime": 359999,
+	"presetNames": [
+		"New Preset",
+		"New Preset",
+		"New Preset",
+		"New Preset",
+		"New Preset",
+		"New Preset",
+		"New Preset",
+		"New Preset",
+		"New Preset"
+	],
+	"presetSkillAugments": [
+		{
+			"RocketStart": 0,
+			"TractionUp": 0
+		},
+		{},
+		{},
+		{},
+		{},
+		{},
+		{},
+		{},
+		{}
+	],
+	"presetSkills": [
+		[
+			"QuickStart",
+			"RocketStart",
+			"RingSpawn",
+			"PearlRange",
+			"BackstepAttack",
+			"TractionUp",
+			"FreeRoam",
+			"StompBounce"
+		],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[]
+	],
+	"ringCount": 999999,
+	"selectedMusic": {},
+	"skippableCutscenes": [
+		"so_a1_sandfall_event",
+		"so_boss_intro",
+		"so_boss_defeat",
+		"dj_a1_river_event",
+		"lr_cage_mirror1",
+		"lr_cage_mirror2",
+		"lr_cage_mirror3",
+		"lr_cage_mirror4",
+		"ps_a1_cannon_event",
+		"ps_boss_intro",
+		"ps_boss_defeat",
+		"ef_boss_intro",
+		"ef_boss_defeat",
+		"np_a1_hall_event",
+		"np_boss_intro",
+		"np_boss_defeat",
+		"last_boss_intro",
+		"last_boss_defeat"
+	],
+	"stagesUnlocked": [
+		"dj_a1_deathless",
+		"dj_a1_main",
+		"dj_a1_perfect",
+		"dj_a1_ring",
+		"dj_a2_chain",
+		"dj_a2_race",
+		"dj_a2_rampage",
+		"dj_a2_stealth",
+		"dj_a3_dino_egg",
+		"dj_a3_majin_egg",
+		"dj_a3_pearless",
+		"dj_a3_ring",
+		"ef_a1_deathless",
+		"ef_a1_main",
+		"ef_a1_race",
+		"ef_a1_ringless",
+		"ef_a2_perfect",
+		"ef_a2_ringless",
+		"ef_a2_stealth",
+		"ef_a2_time",
+		"ef_a3_chain",
+		"ef_a3_perfect",
+		"ef_a3_rampage",
+		"ef_a3_ring",
+		"ef_boss",
+		"lp_a1_main",
+		"lp_p01",
+		"lp_p02",
+		"lp_p03",
+		"lp_p04",
+		"lp_p05",
+		"lp_p06",
+		"lp_p07",
+		"lp_p08",
+		"lp_p09",
+		"lp_p10",
+		"lp_p11",
+		"lp_p12",
+		"lp_p13",
+		"lp_p14",
+		"lp_p15",
+		"lp_p16",
+		"lp_p17",
+		"lp_p18",
+		"lp_p19",
+		"lp_p20",
+		"lp_p21",
+		"lp_tutorial",
+		"lr_a1_main",
+		"lr_a1_perfect",
+		"lr_a1_race",
+		"lr_a1_rampage",
+		"lr_a2_cage",
+		"lr_a2_deathless",
+		"lr_a2_perfect",
+		"lr_a2_ringless",
+		"lr_a3_pearless",
+		"lr_a3_rampage",
+		"lr_a3_ring",
+		"lr_a3_time",
+		"mods_default",
+		"np_a1_main",
+		"np_a1_pearless",
+		"np_a1_race",
+		"np_a1_ringless",
+		"np_a2_chain",
+		"np_a2_rampage",
+		"np_a2_ring",
+		"np_a2_stealth",
+		"np_a3_deathless",
+		"np_a3_perfect",
+		"np_a3_ringless",
+		"np_a3_time",
+		"np_boss",
+		"np_last",
+		"ps_a1_main",
+		"ps_a1_pearless",
+		"ps_a1_race",
+		"ps_a1_ring",
+		"ps_a2_chain",
+		"ps_a2_rampage",
+		"ps_a2_ringless",
+		"ps_a2_time",
+		"ps_a3_deathless",
+		"ps_a3_perfect",
+		"ps_a3_ring",
+		"ps_a3_stealth",
+		"ps_boss",
+		"sd_a1_main",
+		"sd_a1_perfect",
+		"sd_a1_race",
+		"sd_a1_ringless",
+		"sd_a2_deathless",
+		"sd_a2_pearless",
+		"sd_a2_rampage",
+		"sd_a2_time",
+		"sd_a3_bones",
+		"sd_a3_chain",
+		"sd_a3_rampage",
+		"sd_a3_ring",
+		"so_a1_deathless",
+		"so_a1_main",
+		"so_a1_pearless",
+		"so_a1_race",
+		"so_a2_deathless",
+		"so_a2_jarless",
+		"so_a2_perfect",
+		"so_a2_timed",
+		"so_a3_chain",
+		"so_a3_jar",
+		"so_a3_rampage",
+		"so_a3_ring",
+		"so_boss"
+	],
+	"viewedSkills": [
+		"Autorun",
+		"ChargeJump",
+		"VariableJumpHeight",
+		"FreeRoam",
+		"QuickStart",
+		"SlowTurn",
+		"QuickTurn",
+		"LockedSoulGauge",
+		"RankPreview",
+		"SpeedUp",
+		"TractionUp",
+		"TurnaroundUp",
+		"GrindUp",
+		"AllRounder",
+		"SlideAttack",
+		"SlideDefense",
+		"SlideExp",
+		"SlideDistance",
+		"StompDash",
+		"StompExp",
+		"StompAttack",
+		"StompBounce",
+		"AccelJumpAttack",
+		"SpinJump",
+		"ArmorJump",
+		"DoubleJump",
+		"BackstepAttack",
+		"LandDash",
+		"LandSoul",
+		"PearlRange",
+		"PearlRespawn",
+		"PearlDamage",
+		"RingLossConvert",
+		"RingRange",
+		"RingPearlConvert",
+		"RingSpawn",
+		"RingRespawn",
+		"RingDamage",
+		"RocketStart",
+		"DownCancel",
+		"FireSoulLockon",
+		"SplashJump",
+		"DriftExp",
+		"QuickStep",
+		"PerfectHomingAttack",
+		"GroundedHomingAttack",
+		"AirBoost",
+		"LightSpeedDash",
+		"LightSpeedAttack",
+		"InstantSpeedBreak",
+		"CrestWind",
+		"CrestFire",
+		"CrestDark",
+		"Darkspine"
+	],
+	"worldRingsCollected": [
+		1,
+		2,
+		3,
+		4,
+		5,
+		6,
+		7
+	],
+	"worldsUnlocked": [
+		0,
+		1,
+		2,
+		3,
+		4,
+		5,
+		6,
+		7,
+		8
+	]
+}

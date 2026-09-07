@@ -7,7 +7,7 @@ func _initialize() -> void:
 		quit(1)
 		return
 
-	var translation := load("res://locale/Locale.ko.translation") as Translation
+	var translation := load("res://mods/lang/korean/Locale.ko.translation") as Translation
 	var text_font := load("res://mods/lang/korean/LINESeedKR-Rg.fontdata") as Font
 	var menu_font := load("res://mods/lang/korean/Hakgyoansim_SangjangR.fontdata") as Font
 	var bonus_font := load("res://mods/lang/korean/KoreanBonus.fontdata") as Font

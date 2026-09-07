@@ -1,57 +1,77 @@
-# Project Reignition 한국어 기반 패치 v0.2
+# Project Reignition 한국어 모드
 
-Project Reignition v1.0.1에 한국어 번역을 안전하게 얹기 위한 기반 패치입니다. v0.2는 공식 v1.0.1 핫픽스 소스에 한국어 변경만 다시 이식해, 공식 버그 수정을 유지합니다.
+**한국어 모드 v0.3 · Project Reignition Windows v1.0.2 대응**
 
-현재 범위는 다음과 같습니다.
+공식 언어 모드 기능으로 한국어 번역과 글꼴을 제공합니다. 이제 **Korean.pck 하나만 설치**하면 됩니다. 예전 DLL 교체 설치기는 v1.0.1 이하용 레거시입니다.
 
-- 게임의 언어 모드가 실제 `.translation` 파일을 등록하도록 수정
-- Text Language 목록에 Korean 추가
-- 설명문·일반 문구는 LINE Seed KR Regular로 표시
-- 고전 책 느낌의 메뉴·옵션 글자는 학교안심 상장으로 표시
-- 일본어 원문을 기준으로 전체 2,321개 텍스트를 한국어로 번역
-- 저장/불러오기, 일시정지, 상태, 옵션, 프리셋, 타임 어택, 네트워크와 파티 모드의 시스템 UI를 한국어로 번역
-- 게임의 원래 영문 HUD 폰트·숫자 장식을 유지하고, 동적으로 바뀌는 한국어 메뉴에는 문구가 설정되는 즉시 화면 성격에 맞는 한국어 글꼴을 적용
-- 포즈 메뉴의 이미지형 영문 글자 장식은 학교안심 상장의 색·외곽선·그림자로 유사하게 재현
-- 선택·돌아가기·상태, 파이어 소울 획득 및 인게임 보너스 알림은 한글 전용 비트맵 글꼴 아틀라스로 검은 바깥선·붉은 테두리·붉은 안쪽 음영·밝은 본문을 원본처럼 한 번에 표시
-- 포즈·상태 화면은 별도의 한글 비트맵 글꼴 아틀라스로 원본의 베이지색 글자 면·황갈색 테두리·반투명 갈색 그림자를 재현
-- 장식 표기인 `NEW`와 스킬 화면의 `LEVEL`은 영문 원문을 유지하며, 파이어 소울 알림의 `O`는 원작의 파이어 소울 아이콘으로 표시
-- 한국어를 선택했을 때만 한국어 글꼴을 적용하며, 영어·일본어 등 다른 언어로 전환하면 게임의 원래 글꼴로 복원
-- 결과 화면과 EXP 관련 짧은 표기는 가독성과 레이아웃을 위해 영어 원문 유지
-- 그림으로 들어간 메인 메뉴 항목명과 로고는 영어 원본 유지
+## 다운로드
 
-## 설치
+- [한국어 모드 Korean.pck](https://github.com/nonunsaram/project-reignition-korean/releases/download/v0.3/Korean.pck)
+- [100% 세이브 — 선택 다운로드](https://github.com/nonunsaram/project-reignition-korean/releases/download/v0.3/Project-Reignition-100-percent-v1.0.2.zip)
+- [v0.3 배포 페이지](https://github.com/nonunsaram/project-reignition-korean/releases/tag/v0.3) · [SHA-256 확인값](https://github.com/nonunsaram/project-reignition-korean/releases/download/v0.3/SHA256SUMS.txt)
 
-1. GitHub Releases에서 `Project-Reignition-Korean-v0.2-v1.0.1.zip`을 내려받습니다. `Source code` ZIP이 아니라 이름에 `Korean`이 들어간 첨부 파일을 받아야 합니다.
-2. ZIP의 내용물을 새 폴더에 모두 압축 해제합니다. 압축 파일 안에서 `설치.bat`을 바로 실행하지 마세요.
-3. Project Reignition이 실행 중이라면 완전히 종료합니다.
-4. 압축을 푼 폴더의 `설치.bat`을 실행합니다.
-5. 설치기가 게임을 자동으로 찾지 못하면 `Project Reignition.exe`가 들어 있는 **게임 폴더**의 전체 경로를 입력합니다.
+GitHub의 `Source code` ZIP은 설치 파일이 아닙니다. 위의 `Korean.pck`를 받으세요. 100% 세이브는 모드 사용에 필수가 아닙니다.
 
-   예: `E:\Games\Project Reignition - Windows v1.0.1`
+## 설치 — 게임 v1.0.2
 
-   탐색기에서 `Project Reignition.exe`가 보이는 폴더를 연 뒤 주소 표시줄의 경로를 복사해 붙여넣으면 됩니다. 폴더를 설치기 창으로 끌어다 놓아도 됩니다. `Project Reignition.exe` 파일 자체가 아니라 그 파일이 들어 있는 폴더를 지정하세요.
+1. 게임을 완전히 종료합니다.
+2. 탐색기 주소 표시줄에 다음 경로를 붙여넣습니다.
 
-6. `한국어 패치 설치가 완료되었습니다.`라는 메시지가 나오면 게임을 실행합니다.
-7. `Options → Language → Text Language`를 `Korean`으로 변경합니다.
+   `%APPDATA%\Godot\app_userdata\Sonic and the Secret Rings Remake\mods\lang`
 
-설치기는 원본 DLL을 게임 폴더의 `ReignitionKR_Backup_v1.0.1`에 먼저 보관합니다. 설치 후 게임의 Options에서 Text Language를 Korean으로 선택할 수 있습니다.
+3. 이 폴더에 `Korean.pck`를 넣습니다. `mods` 또는 `lang` 폴더가 없으면 만드세요. 기존 `Korean.pck`는 다른 폴더에 백업한 뒤 교체하세요.
+4. 게임에서 `Options → Mods`의 **Language Mods**를 켜고 게임을 다시 시작합니다.
+5. `Options → Language → Text Language`에서 **한국어**를 선택합니다.
 
-### 설치 오류가 날 때
+`saveLocation.txt`로 사용자 데이터 위치를 바꿨다면 **그 위치의 `mods\lang`**에 넣어야 합니다. 기본 설치 위치는 게임 실행 파일 옆이 아닙니다. Godot 설치, 폰트 개별 설치, DLL·본편 PCK 교체는 필요하지 않습니다.
 
-- 게임 파일이 사용 중이라고 나오면 Project Reignition을 종료하고 다시 실행하세요.
-- 게임 폴더가 아니라고 나오면 그 폴더 안에 `Project Reignition.exe`와 `data_Sonic Remake Project_windows_x86_64` 폴더가 함께 있는지 확인하세요.
-- 지원하지 않는 게임 파일이라고 나오면 Project Reignition Windows v1.0.1 원본을 다시 준비하세요. v1.0.0용 한국어 패치나 다른 DLL 패치가 남아 있으면 먼저 제거하세요.
+한국어가 목록에 없으면 설치 경로, Language Mods 활성화 여부, 재시작 여부와 게임 버전을 확인하세요. `Korean.pck.pck` 등 파일 이름이 중복되지 않았는지도 확인하세요.
 
-## 제거
+### 이전 DLL 패치에서 전환
 
-게임을 종료한 뒤 `제거.bat`을 실행하세요. 설치할 때와 마찬가지로 게임 폴더 경로를 요구할 수 있습니다. 원본 DLL과 기존 한국어 PCK가 있었다면 함께 복원합니다. 백업 폴더는 안전을 위해 자동 삭제하지 않습니다.
+v0.1/v0.2의 `설치.bat`을 v1.0.2에 실행하지 마세요. **새 폴더에 원본 게임 v1.0.2를 준비한 뒤** 위 방식으로 설치하는 것이 가장 확실합니다. 기존 게임 폴더에 섞인 DLL이나 레거시 백업 DLL을 v1.0.2로 복사하지 마세요. 예전 게임에 패치를 제거하려면 해당 버전의 제거기를 그 예전 게임 폴더에만 사용하세요. 사용자 데이터의 세이브는 보존하세요.
 
-## 번역 작업
+### 제거
 
-`translation/Locale.ko.csv`는 탭으로 구분된 전체 번역표입니다. 일본어 원문을 우선하고 영어판은 오탈자·누락·큰 의미 차이를 확인하는 보조 자료로 사용했습니다.
+게임을 종료한 뒤 설치 위치의 `Korean.pck`만 빼면 됩니다. 세이브나 다른 모드 파일은 삭제하지 마세요.
 
-## 호환성
+## 100% 세이브 — 선택 사항
 
-Project Reignition Windows v1.0.1 전용입니다. 설치기는 원본 DLL의 SHA-256을 확인하며, 다른 버전에는 설치하지 않습니다. 게임이 나중에 다시 업데이트된 경우 제거기는 새 DLL을 구버전으로 덮어쓰지 않습니다.
+레벨 99, 어드벤처 111개 금메달, 파이어 소울 129개, 세계 링 7개, 스킬 54개 확인, 스페셜북 업적 30개, 타임 어택 해금을 설정한 **검수용 생성 세이브**입니다. 실제 플레이로 달성한 기록이 아니며 모든 게임 요소의 완전 달성을 보장하는 의미는 아닙니다.
 
-Project Reignition은 SEGA와 무관한 무료 팬 프로젝트입니다. 원작 및 관련 상표의 권리는 각 권리자에게 있습니다.
+한국어 모드와 별도 ZIP으로 배포하며 `saves/save00.dat`, `saves/shared.dat`, 적용 안내만 포함합니다. 개인 설정·게임 파일·개인 세이브 백업은 포함하지 않습니다. **기존 기록을 보존하는 분리 프로필 적용을 권장**합니다.
+
+→ [100% 세이브 적용·복원 방법](extras/100-percent/README.md)
+
+## 변경 사항과 검수 범위
+
+- v1.0.2 공식 언어 로더 사용. 게임 DLL과 본편 PCK를 수정하지 않습니다.
+- Froggy 관련 3문장을 **개구리 군**으로 교정했습니다.
+- 정상 재생성한 `.translation`을 사용하며, 별도 Translation 객체로 대사를 덮어쓰던 임시 코드는 없습니다.
+- 한국어 본문·자막·메뉴용 폰트와 비트맵 글꼴을 포함합니다. 한글 글꼴 및 언어 이름 표시를 보정하는 스크립트는 PCK 안에 포함됩니다.
+- 번역 CSV 2,413행과 실제 TranslationServer 결과 대조를 통과했습니다. 이 수에는 빈 번역 68행의 원문 키 반환 검사가 포함됩니다.
+- 실제 v1.0.2 실행과 화면 확인을 수행했습니다. 모든 스테이지·다른 모드 조합·모든 화면을 전수 검사한 것은 아닙니다.
+- 일부 실행 종료 시 객체 정리 경고가 기록되며, 모드를 끈 원본에서도 재현됐습니다.
+
+`Korean.pck`: **15,355,600바이트**
+
+SHA-256: `AF4E70DE3844933D10FEEF2B591B2DB59811886FF76DD344C90D48DD661804D2`
+
+## 버전 호환성과 레거시
+
+| 게임 버전 | 사용할 배포 | 설치 방식 |
+| --- | --- | --- |
+| v1.0.2 | [한국어 모드 v0.3](https://github.com/nonunsaram/project-reignition-korean/releases/tag/v0.3) | Korean.pck 단일 파일 |
+| v1.0.1 | [레거시 패치 v0.2](https://github.com/nonunsaram/project-reignition-korean/releases/tag/v0.2) | 해당 버전 전용 DLL 설치기 |
+| v1.0.0 | [레거시 패치 v0.1](https://github.com/nonunsaram/project-reignition-korean/releases/tag/v0.1) | 해당 버전 전용 DLL 설치기 |
+| v1.0.3 이후 | 미검증 | 업데이트 후 호환성 확인 필요 |
+
+향후 번역 키가 추가되면 번역 갱신이, 언어 로더·UI·폰트 경로가 변경되면 보조 코드 수정이 필요할 수 있습니다. 미래 버전 자동 호환은 보장하지 않습니다.
+
+이전 소스와 설치 안내는 [legacy/v0.2](legacy/v0.2/README.md)에 보존했습니다. 기존 태그와 릴리스도 유지합니다.
+
+## 개발 및 라이선스
+
+[빌드 방법](BUILDING.md) · [소스 구성](SOURCE_NOTES.md) · [타사 고지](THIRD_PARTY_NOTICES.md)
+
+번역 원본은 `translation/Locale.ko.csv`입니다. 게임 본편은 포함하지 않습니다. Project Reignition은 SEGA와 무관한 팬 프로젝트이며 관련 권리는 각 권리자에게 있습니다.

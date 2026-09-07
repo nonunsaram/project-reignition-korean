@@ -1,0 +1,27 @@
+extends Resource
+
+# Project Reignition v1.0.2 loads Locale.ko.translation itself.
+# This resource only installs Korean font fallbacks before the first UI scene is built.
+const BOOTSTRAP_PATH := "res://mods/lang/korean/KoreanFontWatcher.gd"
+const BOOTSTRAP_NAME := "KoreanLocalizationFontBootstrap"
+func _init() -> void:
+	if Engine.is_editor_hint():
+		return
+
+	var tree := Engine.get_main_loop() as SceneTree
+	if tree == null or tree.root.has_node(BOOTSTRAP_NAME):
+		return
+
+	var bootstrap_script := load(BOOTSTRAP_PATH) as Script
+	if bootstrap_script == null:
+		push_error("Could not load the Korean localization font bootstrap.")
+		return
+
+	# Constructing the helper registers all font fallbacks immediately. ModManager
+	# is still inside _EnterTree here, so attaching the helper itself must be deferred.
+	var bootstrap := bootstrap_script.new() as Node
+	if bootstrap == null:
+		push_error("Could not create the Korean localization font bootstrap.")
+		return
+	bootstrap.name = BOOTSTRAP_NAME
+	tree.root.add_child.call_deferred(bootstrap)

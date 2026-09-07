@@ -1,25 +1,13 @@
-# Source notes
+# 소스 구성
 
-Base project: <https://github.com/kumapauz/project-reignition>
+현재 대상은 Project Reignition Windows v1.0.2입니다. 공식 모드 로더가 번역을 등록하므로 게임 DLL·본편 PCK 수정은 없습니다.
 
-Base branch and version: `dev/v0.5.0` at commit `2d45af71b` (`Hotfix v1.0.1`), matching the public Windows v1.0.1 release and changelog.
+- `translation/Locale.ko.csv`: 현재 번역 원본. `korean-pack-project`의 사본과 동일하게 유지합니다.
+- `korean-pack-project/staging/text korean.tres`: 본편 LocalizationResource 형식으로 ko 등록.
+- `KoreanLocalization.gd.txt`: 폰트 처리기 생성. 별도 Translation 생성·등록 없음.
+- `KoreanFontController.gd.txt`: 한글 Label 폰트, 일시정지 스타일, 언어 이름 표시를 적용. PCK에서는 KoreanFontWatcher.gd로 포함.
+- `scripts`: 현재 CSV에서 한글 글리프를 수집하는 비트맵 아틀라스 생성기.
+- `extras/100-percent`: 선택 다운로드용 생성 검수 세이브 및 분리 적용 안내.
+- `legacy/v0.2`: 과거 v1.0.1 DLL 패치 소스·설치기·번역·빌드 자료. 현재 게임에 적용하지 않습니다. 원래 폴더 배치가 필요한 과거 빌드는 v0.2 태그를 체크아웃하세요.
 
-This package changes thirteen source files:
-
-- `Project/core/ModManager.cs`: registers `.translation` resources, preserves original bitmap fonts on Latin-only HUD labels, applies Korean fonts only to Hangul labels, and selects a pre-rendered Korean bitmap atlas for labels originally using `Bonus.fnt`.
-- `Project/interface/menu/Description.cs`: applies the localization font at the same moment a menu description changes, avoiding a visible system-font flash.
-- `Project/interface/gameplay/pause/PauseMenu.cs`: applies fonts immediately after dynamic pause-menu mission data is assigned.
-- `Project/interface/gameplay/hud/script/Bonus.cs`: applies the Korean styled font immediately whenever a dynamic in-game bonus label changes.
-- `Project/interface/menu/level select/script/StatusMenu.cs`: reapplies the Korean font after the next-story value changes from a placeholder to a localized area name.
-- `Project/interface/menu/level select/script/ReadyMenu.cs`: applies fonts immediately to dynamically assigned map and mission labels.
-- `Project/interface/menu/level select/script/LevelOption.cs`: applies fonts immediately to dynamically assigned mission and time-attack labels.
-- `Project/interface/menu/special book/script/SpecialBook.cs`: reapplies the Korean font after dynamically assigning the Special Book chapter label and name.
-- `Project/interface/transition/TransitionManager.cs`: applies LINE Seed immediately to dynamic loading and mission-description text.
-- `Project/resource/script/LocalizationResource.cs`: adds optional general, classic-menu, and decorated-bitmap Korean font properties.
-- `Project/interface/menu/options/script/Options.cs`: refreshes the text-language label from the selected locale, including mod languages.
-- `Project/video/EventPlayer.cs`: applies the active localization font directly to cutscene subtitles.
-- `Project/sound/script/SoundManager.cs`: reapplies the active localization font whenever gameplay dialog text changes.
-
-Copies of all modified files are included in `source/`. They are intended to make later review or submission to the Project Reignition developers straightforward.
-
-The Korean PCK is built separately from `Locale.ko.csv`, LINE Seed KR Regular, 학교안심 상장, two pre-rendered 838-glyph Korean BMFont atlases, the Korean localization resource, and their OFL notices. One atlas matches `Bonus.fnt`; the other matches `Skill Select.fnt` for pause and status screens. Their faces, rims, and shadows are baked into each glyph, so no delayed duplicate labels are used at runtime.
+향후 로더 및 LocalizationResource API, Label 이름/종류, 본편 폰트 경로, 번역 키가 변경되면 재검수 또는 수정이 필요합니다. v1.0.3 이후 호환은 미검증입니다.

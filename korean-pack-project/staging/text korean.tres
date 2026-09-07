@@ -1,16 +1,14 @@
-[gd_resource type="Resource" script_class="LocalizationResource" load_steps=6 format=3]
+[gd_resource type="Resource" script_class="LocalizationResource" load_steps=3 format=3]
 
-[ext_resource type="Script" path="res://resource/script/LocalizationResource.cs" id="1_script"]
-[ext_resource type="FontFile" path="res://mods/lang/korean/LINESeedKR-Rg.fontdata" id="2_font"]
-[ext_resource type="FontFile" path="res://mods/lang/korean/Hakgyoansim_SangjangR.fontdata" id="3_font"]
-[ext_resource type="FontFile" path="res://mods/lang/korean/KoreanBonus.fontdata" id="4_font"]
-[ext_resource type="FontFile" path="res://mods/lang/korean/KoreanSkillSelect.fontdata" id="5_font"]
+[ext_resource type="Script" path="res://resource/script/LocalizationResource.cs" id="1_locale"]
+[ext_resource type="Script" path="res://mods/lang/korean/KoreanLocalization.gd" id="2_installer"]
+
+[sub_resource type="Resource" id="Resource_font_installer"]
+script = ExtResource("2_installer")
 
 [resource]
-script = ExtResource("1_script")
+script = ExtResource("1_locale")
 LocaleId = "ko"
 LocaleType = 0
-TextFontFallback = ExtResource("2_font")
-MenuTextFontFallback = ExtResource("3_font")
-BonusFontFallback = ExtResource("4_font")
-SkillSelectFontFallback = ExtResource("5_font")
+metadata/font_installer = SubResource("Resource_font_installer")
+metadata/_custom_type_script = "res://resource/script/LocalizationResource.cs"

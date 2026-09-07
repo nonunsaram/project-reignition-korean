@@ -1,7 +1,6 @@
 extends SceneTree
 
 const TARGET_ROOT := "res://mods/lang/korean/"
-const TRANSLATION_TARGET := "res://locale/Locale.ko.translation"
 
 func _initialize() -> void:
 	var args := OS.get_cmdline_user_args()
@@ -30,14 +29,12 @@ func _initialize() -> void:
 		quit(3)
 		return
 
-	_add(packer, TRANSLATION_TARGET, translation_source)
+	_add(packer, TARGET_ROOT + "Locale.ko.translation", translation_source)
 	_add(packer, TARGET_ROOT + "LINESeedKR-Rg.fontdata", text_font_source)
 	_add(packer, TARGET_ROOT + "Hakgyoansim_SangjangR.fontdata", menu_font_source)
 	_add(packer, TARGET_ROOT + "KoreanBonus.fontdata", bonus_font_source)
 	_add(packer, TARGET_ROOT + "KoreanSkillSelect.fontdata", skill_select_font_source)
 	_add(packer, TARGET_ROOT + "text korean.tres", project_root.path_join("staging/text korean.tres"))
-	_add(packer, TARGET_ROOT + "KoreanLocalization.gd", project_root.path_join("staging/KoreanLocalization.gd.txt"))
-	_add(packer, TARGET_ROOT + "KoreanFontWatcher.gd", project_root.path_join("staging/KoreanFontController.gd.txt"))
 	_add(packer, TARGET_ROOT + "LINE-SEED-OFL-1.1.txt", project_root.path_join("staging/LINE-SEED-OFL-1.1.txt"))
 	_add(packer, TARGET_ROOT + "SCHOOL-SAFETY-CERTIFICATE-OFL-1.1.txt", project_root.path_join("staging/SCHOOL-SAFETY-CERTIFICATE-OFL-1.1.txt"))
 	error = packer.flush()

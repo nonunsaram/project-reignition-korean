@@ -2,7 +2,7 @@
 
 ## Project Reignition
 
-The patch targets Project Reignition Windows v1.0.1. Its source and fan-game license are available from the original project:
+The current mod targets Project Reignition Windows v1.0.2. The v1.0.1 DLL patch is archived under legacy/v0.2. Its source and fan-game license are available from the original project:
 
 <https://github.com/kumapauz/project-reignition>
 

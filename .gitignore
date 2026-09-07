@@ -17,4 +17,6 @@ korean-pack-project/KoreanBonus.fnt
 korean-pack-project/KoreanSkillSelect.fnt
 release/
 .DS_Store
-
+**/.godot/
+**/__pycache__/
+*.zip
