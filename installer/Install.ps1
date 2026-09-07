@@ -84,7 +84,7 @@ if ((Get-FileHash -Algorithm SHA256 -LiteralPath $installedPack).Hash -ne $expec
 }
 
 @{
-    InstallerVersion = 'v0.3.1'
+    InstallerVersion = 'v0.3'
     DataRoot = $dataRoot
     PackPath = $installedPack
     PackHash = $expectedPackHash

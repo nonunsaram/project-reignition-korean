@@ -1,15 +1,15 @@
 # Project Reignition 한국어 모드
 
-**한국어 모드 v0.3.1 · Project Reignition Windows v1.0.2 대응**
+**한국어 모드 v0.3 · Project Reignition Windows v1.0.2 대응**
 
 공식 언어 모드 기능으로 한국어 번역과 글꼴을 제공합니다. 압축을 풀고 **설치.bat을 더블클릭**하면 됩니다. 수동 설치도 `Korean.pck` 하나만 복사하면 됩니다. 예전 DLL 교체 설치기는 v1.0.1 이하용 레거시입니다.
 
 ## 다운로드
 
-- [간편 설치 ZIP — 권장](https://github.com/nonunsaram/project-reignition-korean/releases/download/v0.3.1/Project-Reignition-Korean-v0.3.1-v1.0.2.zip)
-- [한국어 모드 Korean.pck — 수동 설치](https://github.com/nonunsaram/project-reignition-korean/releases/download/v0.3.1/Korean.pck)
-- [100% 세이브 — 선택 다운로드](https://github.com/nonunsaram/project-reignition-korean/releases/download/v0.3.1/Project-Reignition-100-percent-v1.0.2.zip)
-- [v0.3.1 배포 페이지](https://github.com/nonunsaram/project-reignition-korean/releases/tag/v0.3.1) · [SHA-256 확인값](https://github.com/nonunsaram/project-reignition-korean/releases/download/v0.3.1/SHA256SUMS.txt)
+- [간편 설치 ZIP — 권장](https://github.com/nonunsaram/project-reignition-korean/releases/download/v0.3/Project-Reignition-Korean-v0.3-v1.0.2.zip)
+- [한국어 모드 Korean.pck — 수동 설치](https://github.com/nonunsaram/project-reignition-korean/releases/download/v0.3/Korean.pck)
+- [100% 세이브 — 선택 다운로드](https://github.com/nonunsaram/project-reignition-korean/releases/download/v0.3/Project-Reignition-100-percent-v1.0.2.zip)
+- [v0.3 배포 페이지](https://github.com/nonunsaram/project-reignition-korean/releases/tag/v0.3) · [SHA-256 확인값](https://github.com/nonunsaram/project-reignition-korean/releases/download/v0.3/SHA256SUMS.txt)
 
 GitHub의 `Source code` ZIP은 설치 파일이 아닙니다. 파일명에 `Project-Reignition-Korean`이 들어간 간편 설치 ZIP을 받으세요. 100% 세이브는 모드 사용에 필수가 아닙니다.
 
@@ -73,7 +73,7 @@ SHA-256: `AF4E70DE3844933D10FEEF2B591B2DB59811886FF76DD344C90D48DD661804D2`
 
 | 게임 버전 | 사용할 배포 | 설치 방식 |
 | --- | --- | --- |
-| v1.0.2 | [한국어 모드 v0.3.1](https://github.com/nonunsaram/project-reignition-korean/releases/tag/v0.3.1) | 설치.bat 또는 Korean.pck 수동 설치 |
+| v1.0.2 | [한국어 모드 v0.3](https://github.com/nonunsaram/project-reignition-korean/releases/tag/v0.3) | 설치.bat 또는 Korean.pck 수동 설치 |
 | v1.0.1 | [레거시 패치 v0.2](https://github.com/nonunsaram/project-reignition-korean/releases/tag/v0.2) | 해당 버전 전용 DLL 설치기 |
 | v1.0.0 | [레거시 패치 v0.1](https://github.com/nonunsaram/project-reignition-korean/releases/tag/v0.1) | 해당 버전 전용 DLL 설치기 |
 | v1.0.3 이후 | 미검증 | 업데이트 후 호환성 확인 필요 |
