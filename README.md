@@ -1,18 +1,30 @@
 # Project Reignition 한국어 모드
 
-**한국어 모드 v0.3 · Project Reignition Windows v1.0.2 대응**
+**한국어 모드 v0.3.1 · Project Reignition Windows v1.0.2 대응**
 
-공식 언어 모드 기능으로 한국어 번역과 글꼴을 제공합니다. 이제 **Korean.pck 하나만 설치**하면 됩니다. 예전 DLL 교체 설치기는 v1.0.1 이하용 레거시입니다.
+공식 언어 모드 기능으로 한국어 번역과 글꼴을 제공합니다. 압축을 풀고 **설치.bat을 더블클릭**하면 됩니다. 수동 설치도 `Korean.pck` 하나만 복사하면 됩니다. 예전 DLL 교체 설치기는 v1.0.1 이하용 레거시입니다.
 
 ## 다운로드
 
-- [한국어 모드 Korean.pck](https://github.com/nonunsaram/project-reignition-korean/releases/download/v0.3/Korean.pck)
-- [100% 세이브 — 선택 다운로드](https://github.com/nonunsaram/project-reignition-korean/releases/download/v0.3/Project-Reignition-100-percent-v1.0.2.zip)
-- [v0.3 배포 페이지](https://github.com/nonunsaram/project-reignition-korean/releases/tag/v0.3) · [SHA-256 확인값](https://github.com/nonunsaram/project-reignition-korean/releases/download/v0.3/SHA256SUMS.txt)
+- [간편 설치 ZIP — 권장](https://github.com/nonunsaram/project-reignition-korean/releases/download/v0.3.1/Project-Reignition-Korean-v0.3.1-v1.0.2.zip)
+- [한국어 모드 Korean.pck — 수동 설치](https://github.com/nonunsaram/project-reignition-korean/releases/download/v0.3.1/Korean.pck)
+- [100% 세이브 — 선택 다운로드](https://github.com/nonunsaram/project-reignition-korean/releases/download/v0.3.1/Project-Reignition-100-percent-v1.0.2.zip)
+- [v0.3.1 배포 페이지](https://github.com/nonunsaram/project-reignition-korean/releases/tag/v0.3.1) · [SHA-256 확인값](https://github.com/nonunsaram/project-reignition-korean/releases/download/v0.3.1/SHA256SUMS.txt)
 
-GitHub의 `Source code` ZIP은 설치 파일이 아닙니다. 위의 `Korean.pck`를 받으세요. 100% 세이브는 모드 사용에 필수가 아닙니다.
+GitHub의 `Source code` ZIP은 설치 파일이 아닙니다. 파일명에 `Project-Reignition-Korean`이 들어간 간편 설치 ZIP을 받으세요. 100% 세이브는 모드 사용에 필수가 아닙니다.
 
-## 설치 — 게임 v1.0.2
+## 간편 설치 — 게임 v1.0.2
+
+1. 간편 설치 ZIP을 새 폴더에 모두 압축 해제합니다. ZIP 안에서 바로 실행하지 마세요.
+2. 게임을 완전히 종료하고 `설치.bat`을 더블클릭합니다.
+3. 완료 메시지가 나오면 게임에서 `Options → Mods`의 **Language Mods**를 켜고 재시작합니다.
+4. `Options → Language → Text Language`에서 **한국어**를 선택합니다.
+
+기본 사용자 데이터 경로가 아닌 `saveLocation.txt`를 사용하는 경우 `Project Reignition.exe`가 있는 **게임 폴더를 `설치.bat` 위로 끌어다 놓으세요.** 설치기가 해당 설정의 위치를 읽습니다. 제거할 때도 같은 게임 폴더를 `제거.bat` 위로 끌어다 놓으면 됩니다.
+
+설치기는 기존 `Korean.pck`가 다를 경우 사용자 데이터 폴더의 `ReignitionKorean_Backup_v0.3`에 백업합니다. `제거.bat`은 설치한 파일이 이후 바뀌지 않았을 때만 제거하고 이전 파일을 복원합니다. 게임 DLL·본편 PCK·세이브는 수정하지 않습니다.
+
+## 수동 설치
 
 1. 게임을 완전히 종료합니다.
 2. 탐색기 주소 표시줄에 다음 경로를 붙여넣습니다.
@@ -61,7 +73,7 @@ SHA-256: `AF4E70DE3844933D10FEEF2B591B2DB59811886FF76DD344C90D48DD661804D2`
 
 | 게임 버전 | 사용할 배포 | 설치 방식 |
 | --- | --- | --- |
-| v1.0.2 | [한국어 모드 v0.3](https://github.com/nonunsaram/project-reignition-korean/releases/tag/v0.3) | Korean.pck 단일 파일 |
+| v1.0.2 | [한국어 모드 v0.3.1](https://github.com/nonunsaram/project-reignition-korean/releases/tag/v0.3.1) | 설치.bat 또는 Korean.pck 수동 설치 |
 | v1.0.1 | [레거시 패치 v0.2](https://github.com/nonunsaram/project-reignition-korean/releases/tag/v0.2) | 해당 버전 전용 DLL 설치기 |
 | v1.0.0 | [레거시 패치 v0.1](https://github.com/nonunsaram/project-reignition-korean/releases/tag/v0.1) | 해당 버전 전용 DLL 설치기 |
 | v1.0.3 이후 | 미검증 | 업데이트 후 호환성 확인 필요 |
